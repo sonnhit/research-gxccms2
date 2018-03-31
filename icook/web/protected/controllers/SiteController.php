@@ -19,4 +19,5 @@ class SiteController extends FeController
 		Yii::app()->user->logout();
 		$this->redirect(Yii::app()->homeUrl);
 	}
+
 }

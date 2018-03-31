@@ -52,7 +52,7 @@ class Comment extends CActiveRecord
 		// NOTE: you should only define rules for those attributes that
 		// will receive user inputs.
 		return array(
-			array('comment_author, comment_author_email , comment_title ', 'required',                            
+			array('comment_author, comment_author_email , comment_title ', 'required',
              ),
 			array('comment_karma', 'numerical', 'integerOnly'=>true),
 			array('object_id, comment_author_IP, comment_approved, comment_type, comment_parent, userid comment_date, comment_date_gmt, comment_agent , comment_modified_content', 'safe'),
@@ -71,7 +71,7 @@ class Comment extends CActiveRecord
 		// NOTE: you may need to adjust the relation name and the related
 		// class name for the relations automatically generated below.
 		return array(
-			      'object' => array(self::BELONGS_TO, 'Object', 'object_id'),			
+			      'object' => array(self::BELONGS_TO, 'Object', 'object_id'),
 		);
 	}
 
@@ -131,21 +131,21 @@ class Comment extends CActiveRecord
 		$criteria->compare('comment_modified_content',$this->comment_modified_content,true);
 
 		$criteria->order = "comment_date DESC";
-		
+
 		$sort = new CSort;
 		$sort->attributes = array(
 				'comment_id',
 		);
-		$sort->defaultOrder = 'comment_id DESC';		
-		
+		$sort->defaultOrder = 'comment_id DESC';
+
 		$criteria->with=array('object');
-		
-		
+
+
 		return new CActiveDataProvider($this, array(
 			'criteria'=>$criteria,
 		));
 	}
-	
+
 
 	protected function beforeSave()
 	{
@@ -159,7 +159,7 @@ class Comment extends CActiveRecord
 				$this->comment_karma=0;
 				$this->comment_type='comment';
 				$this->comment_parent=0;
-	
+
 				if(!user()->isGuest){
 					$this->userid= user()->id;
 				} else {
@@ -173,7 +173,7 @@ class Comment extends CActiveRecord
 		else
 			return false;
 	}
-	
+
 	public static function convertCommentState($data)
 	{
 		if($data->comment_approved==Comment::STATUS_APPROVED){
@@ -181,7 +181,7 @@ class Comment extends CActiveRecord
 		} else {
 			return bu().'/images/disabled.png';
 		}
-	
-	}		
-	
+
+	}
+
 }

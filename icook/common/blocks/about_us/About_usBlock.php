@@ -17,7 +17,6 @@ class About_usBlock extends CWidget
     public $page=null;
     public $layout_asset='';
 
-
     //Content list attribute
     public $content_list;
 	public $display_type;

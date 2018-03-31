@@ -11,7 +11,6 @@ class PageController extends FeController
 
 	public function actionRender()
 	{
-		
 		$slug=isset($_GET['slug'])? plaintext($_GET['slug']) : false;
 		if($slug){
 			parent::renderPageSlug($slug);

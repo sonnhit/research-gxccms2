@@ -4,6 +4,7 @@
     $link = $data->getObjectLink();
     $temp = strstr( $data->object_content, 'src="http:');
     $url = substr( $temp,  5, 46);
+    
   ?>
   <div class="blog-entry">
       <div class="entry-cover">

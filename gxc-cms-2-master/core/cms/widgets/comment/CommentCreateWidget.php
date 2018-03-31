@@ -2,12 +2,12 @@
 class CommentCreateWidget extends CWidget
 {
 	public $visible=true;
-	
+
 	public function init()
 	{
-	
+
 	}
-	
+
 	public function run()
 	{
 		if($this->visible)
@@ -15,11 +15,10 @@ class CommentCreateWidget extends CWidget
 			$this->renderContent();
 		}
 	}
-	
+
 	protected function renderContent()
 	{
 		$model = new Comment;
-		
 		if(isset($_POST['Comment']))
 		{
 			$model->attributes = $_POST['Comment'];
@@ -27,8 +26,12 @@ class CommentCreateWidget extends CWidget
 			{
 				user()->setFlash('success',t('cms','Created Successfully!'));
 			}
+			else
+			{
+				user()->setFlash('fail',t('cms','Created Fail!'));
+			}
 		}
-		
+
 		$this->render('cmswidgets.views.comment.comment_create_widget',array('model'=>$model));
 	}
 }

@@ -216,7 +216,7 @@ class Environment {
                        'gii'=>array(
                                'class'=>'system.gii.GiiModule',
                                'password'=>'123456',
-                               'ipFilters'=>array('172.16.0.235'),
+                               'ipFilters'=>array('192.168.1.8'),
                                'newFileMode'=>0666,
                                'newDirMode'=>0777,
                                'generatorPaths'=>array('cms.gii',),
