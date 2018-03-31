@@ -1,1388 +1,1134 @@
-2018/03/30 17:41:04 [trace] [system.CModule] Loading "log" application component
+2018/03/31 09:06:42 [trace] [system.CModule] Loading "log" application component
 in /var/www/icook.vn/icook/backend/index.php (20)
-2018/03/30 17:41:04 [trace] [system.CModule] Loading "request" application component
+2018/03/31 09:06:42 [trace] [system.CModule] Loading "request" application component
 in /var/www/icook.vn/gxc-cms-2-master/core/cms/extensions/yii-debug-toolbar/YiiDebugToolbarRoute.php (112)
 in /var/www/icook.vn/icook/backend/index.php (20)
-2018/03/30 17:41:04 [trace] [system.CModule] Loading "urlManager" application component
+2018/03/31 09:06:42 [trace] [system.CModule] Loading "urlManager" application component
 in /var/www/icook.vn/gxc-cms-2-master/core/cms/components/HttpRequest.php (66)
 in /var/www/icook.vn/gxc-cms-2-master/core/cms/components/HttpRequest.php (13)
 in /var/www/icook.vn/gxc-cms-2-master/core/cms/extensions/yii-debug-toolbar/YiiDebugToolbarRoute.php (112)
-2018/03/30 17:41:04 [trace] [system.CModule] Loading "messages" application component
+2018/03/31 09:06:42 [trace] [system.CModule] Loading "session" application component
+in /var/www/icook.vn/gxc-cms-2-master/core/cms/components/HttpRequest.php (47)
+in /var/www/icook.vn/icook/backend/index.php (20)
+2018/03/31 09:06:42 [trace] [system.CModule] Loading "db" application component
+in /var/www/icook.vn/gxc-cms-2-master/core/cms/components/HttpRequest.php (47)
+in /var/www/icook.vn/icook/backend/index.php (20)
+2018/03/31 09:06:42 [trace] [system.db.CDbConnection] Opening DB connection
+in /var/www/icook.vn/gxc-cms-2-master/core/cms/components/HttpRequest.php (47)
+in /var/www/icook.vn/icook/backend/index.php (20)
+2018/03/31 09:06:42 [trace] [system.db.CDbCommand] Querying SQL: SELECT `data`
+FROM `gxc_session`
+WHERE expire>:expire AND id=:id. Bound with :expire=1522462002, :id='q5kohbm28kviciqngil21icpu6'
+in /var/www/icook.vn/gxc-cms-2-master/core/cms/components/HttpRequest.php (47)
+in /var/www/icook.vn/icook/backend/index.php (20)
+2018/03/31 09:06:42 [trace] [system.CModule] Loading "messages" application component
 in /var/www/icook.vn/gxc-cms-2-master/core/cms/globals.php (83)
 in /var/www/icook.vn/icook/backend/protected/controllers/PageController.php (17)
 in /var/www/icook.vn/icook/backend/index.php (20)
-2018/03/30 17:41:04 [trace] [system.web.filters.CFilterChain] Running filter PageController.filterrights()
+2018/03/31 09:06:42 [trace] [system.web.filters.CFilterChain] Running filter PageController.filterrights()
 in /var/www/icook.vn/icook/backend/index.php (20)
-2018/03/30 17:41:04 [trace] [system.CModule] Loading "user" application component
+2018/03/31 09:06:42 [trace] [system.CModule] Loading "user" application component
 in /var/www/icook.vn/gxc-cms-2-master/core/cms/modules/rights/components/RightsFilter.php (24)
 in /var/www/icook.vn/gxc-cms-2-master/core/cms/modules/rights/components/RController.php (39)
 in /var/www/icook.vn/icook/backend/index.php (20)
-2018/03/30 17:41:04 [trace] [system.CModule] Loading "session" application component
+2018/03/31 09:06:42 [trace] [system.CModule] Loading "securityManager" application component
 in /var/www/icook.vn/gxc-cms-2-master/core/cms/modules/rights/components/RightsFilter.php (24)
 in /var/www/icook.vn/gxc-cms-2-master/core/cms/modules/rights/components/RController.php (39)
 in /var/www/icook.vn/icook/backend/index.php (20)
-2018/03/30 17:41:04 [trace] [system.CModule] Loading "db" application component
+2018/03/31 09:06:42 [trace] [system.CModule] Loading "statePersister" application component
 in /var/www/icook.vn/gxc-cms-2-master/core/cms/modules/rights/components/RightsFilter.php (24)
 in /var/www/icook.vn/gxc-cms-2-master/core/cms/modules/rights/components/RController.php (39)
 in /var/www/icook.vn/icook/backend/index.php (20)
-2018/03/30 17:41:04 [trace] [system.db.CDbConnection] Opening DB connection
+2018/03/31 09:06:42 [trace] [system.CModule] Loading "cache" application component
 in /var/www/icook.vn/gxc-cms-2-master/core/cms/modules/rights/components/RightsFilter.php (24)
 in /var/www/icook.vn/gxc-cms-2-master/core/cms/modules/rights/components/RController.php (39)
 in /var/www/icook.vn/icook/backend/index.php (20)
-2018/03/30 17:41:04 [trace] [system.db.CDbCommand] Querying SQL: SELECT `data`
-FROM `gxc_session`
-WHERE expire>:expire AND id=:id. Bound with :expire=1522406464, :id='5p6mbtlme1tuk3bqgdmd4otrh4'
+2018/03/31 09:06:42 [trace] [system.caching.CFileCache] Serving "Yii.CStatePersister./var/www/icook.vn/icook/backend/protected/runtime/state.bin" from cache
 in /var/www/icook.vn/gxc-cms-2-master/core/cms/modules/rights/components/RightsFilter.php (24)
 in /var/www/icook.vn/gxc-cms-2-master/core/cms/modules/rights/components/RController.php (39)
 in /var/www/icook.vn/icook/backend/index.php (20)
-2018/03/30 17:41:04 [trace] [system.CModule] Loading "securityManager" application component
-in /var/www/icook.vn/gxc-cms-2-master/core/cms/modules/rights/components/RightsFilter.php (24)
-in /var/www/icook.vn/gxc-cms-2-master/core/cms/modules/rights/components/RController.php (39)
-in /var/www/icook.vn/icook/backend/index.php (20)
-2018/03/30 17:41:04 [trace] [system.CModule] Loading "statePersister" application component
-in /var/www/icook.vn/gxc-cms-2-master/core/cms/modules/rights/components/RightsFilter.php (24)
-in /var/www/icook.vn/gxc-cms-2-master/core/cms/modules/rights/components/RController.php (39)
-in /var/www/icook.vn/icook/backend/index.php (20)
-2018/03/30 17:41:04 [trace] [system.CModule] Loading "cache" application component
-in /var/www/icook.vn/gxc-cms-2-master/core/cms/modules/rights/components/RightsFilter.php (24)
-in /var/www/icook.vn/gxc-cms-2-master/core/cms/modules/rights/components/RController.php (39)
-in /var/www/icook.vn/icook/backend/index.php (20)
-2018/03/30 17:41:04 [trace] [system.caching.CFileCache] Serving "Yii.CStatePersister./var/www/icook.vn/icook/backend/protected/runtime/state.bin" from cache
-in /var/www/icook.vn/gxc-cms-2-master/core/cms/modules/rights/components/RightsFilter.php (24)
-in /var/www/icook.vn/gxc-cms-2-master/core/cms/modules/rights/components/RController.php (39)
-in /var/www/icook.vn/icook/backend/index.php (20)
-2018/03/30 17:41:04 [trace] [system.CModule] Loading "widgetFactory" application component
-in /var/www/icook.vn/icook/backend/protected/views/page/page_admin.php (5)
-in /var/www/icook.vn/icook/backend/protected/controllers/PageController.php (40)
-in /var/www/icook.vn/gxc-cms-2-master/core/cms/modules/rights/components/RController.php (39)
-2018/03/30 17:41:04 [trace] [system.caching.CFileCache] Serving "yii:dbschemamysql:host=localhost;dbname=icook:root:{{page}}" from cache
-in /var/www/icook.vn/gxc-cms-2-master/core/cms/widgets/ModelManageWidget.php (35)
-in /var/www/icook.vn/gxc-cms-2-master/core/cms/widgets/ModelManageWidget.php (26)
-in /var/www/icook.vn/icook/backend/protected/views/page/page_admin.php (5)
-2018/03/30 17:41:04 [trace] [system.CModule] Loading "settings" application component
-in /var/www/icook.vn/gxc-cms-2-master/core/cms/widgets/views/page/page_manage_widget.php (12)
-in /var/www/icook.vn/gxc-cms-2-master/core/cms/widgets/ModelManageWidget.php (39)
-in /var/www/icook.vn/gxc-cms-2-master/core/cms/widgets/ModelManageWidget.php (26)
-2018/03/30 17:41:04 [trace] [system.caching.CFileCache] Serving "system_global_website_settings" from cache
-in /var/www/icook.vn/gxc-cms-2-master/core/cms/extensions/settings/CmsSettings.php (243)
-in /var/www/icook.vn/gxc-cms-2-master/core/cms/extensions/settings/CmsSettings.php (96)
-in /var/www/icook.vn/gxc-cms-2-master/core/cms/widgets/views/page/page_manage_widget.php (12)
-2018/03/30 17:41:04 [trace] [system.caching.CFileCache] Serving "__cache_registry_global_website_settings" from cache
-in /var/www/icook.vn/gxc-cms-2-master/core/cms/extensions/settings/CmsSettings.php (170)
-in /var/www/icook.vn/gxc-cms-2-master/core/cms/extensions/settings/CmsSettings.php (189)
-in /var/www/icook.vn/gxc-cms-2-master/core/cms/extensions/settings/CmsSettings.php (245)
-2018/03/30 17:41:04 [trace] [system.caching.CFileCache] Serving "gxchelpers-available-languages-false" from cache
-in /var/www/icook.vn/gxc-cms-2-master/core/cms/components/GxcHelpers.php (436)
-in /var/www/icook.vn/gxc-cms-2-master/core/cms/widgets/views/page/page_manage_widget.php (36)
-in /var/www/icook.vn/gxc-cms-2-master/core/cms/widgets/ModelManageWidget.php (39)
-2018/03/30 17:41:04 [trace] [system.db.ar.CActiveRecord] Page.count()
-in /var/www/icook.vn/gxc-cms-2-master/core/cms/widgets/views/page/page_manage_widget.php (2)
-in /var/www/icook.vn/gxc-cms-2-master/core/cms/widgets/ModelManageWidget.php (39)
-in /var/www/icook.vn/gxc-cms-2-master/core/cms/widgets/ModelManageWidget.php (26)
-2018/03/30 17:41:04 [trace] [system.db.CDbCommand] Querying SQL: SELECT COUNT(*) FROM `gxc_page` `t`
-in /var/www/icook.vn/gxc-cms-2-master/core/cms/widgets/views/page/page_manage_widget.php (2)
-in /var/www/icook.vn/gxc-cms-2-master/core/cms/widgets/ModelManageWidget.php (39)
-in /var/www/icook.vn/gxc-cms-2-master/core/cms/widgets/ModelManageWidget.php (26)
-2018/03/30 17:41:04 [trace] [system.db.ar.CActiveRecord] Page.findAll()
-in /var/www/icook.vn/gxc-cms-2-master/core/cms/widgets/views/page/page_manage_widget.php (2)
-in /var/www/icook.vn/gxc-cms-2-master/core/cms/widgets/ModelManageWidget.php (39)
-in /var/www/icook.vn/gxc-cms-2-master/core/cms/widgets/ModelManageWidget.php (26)
-2018/03/30 17:41:04 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `gxc_page` `t` ORDER BY page_id DESC LIMIT 10
-in /var/www/icook.vn/gxc-cms-2-master/core/cms/widgets/views/page/page_manage_widget.php (2)
-in /var/www/icook.vn/gxc-cms-2-master/core/cms/widgets/ModelManageWidget.php (39)
-in /var/www/icook.vn/gxc-cms-2-master/core/cms/widgets/ModelManageWidget.php (26)
-2018/03/30 17:41:04 [trace] [system.CModule] Loading "assetManager" application component
-in /var/www/icook.vn/gxc-cms-2-master/core/cms/widgets/views/page/page_manage_widget.php (2)
-in /var/www/icook.vn/gxc-cms-2-master/core/cms/widgets/ModelManageWidget.php (39)
-in /var/www/icook.vn/gxc-cms-2-master/core/cms/widgets/ModelManageWidget.php (26)
-2018/03/30 17:41:04 [trace] [system.CModule] Loading "clientScript" application component
-in /var/www/icook.vn/gxc-cms-2-master/core/cms/widgets/views/page/page_manage_widget.php (2)
-in /var/www/icook.vn/gxc-cms-2-master/core/cms/widgets/ModelManageWidget.php (39)
-in /var/www/icook.vn/gxc-cms-2-master/core/cms/widgets/ModelManageWidget.php (26)
-2018/03/30 17:41:04 [trace] [system.CModule] Loading "coreMessages" application component
-in /var/www/icook.vn/gxc-cms-2-master/core/cms/widgets/views/page/page_manage_widget.php (2)
-in /var/www/icook.vn/gxc-cms-2-master/core/cms/widgets/ModelManageWidget.php (39)
-in /var/www/icook.vn/gxc-cms-2-master/core/cms/widgets/ModelManageWidget.php (26)
-2018/03/30 17:41:04 [trace] [system.CModule] Loading "format" application component
-in /var/www/icook.vn/gxc-cms-2-master/core/cms/widgets/views/page/page_manage_widget.php (2)
-in /var/www/icook.vn/gxc-cms-2-master/core/cms/widgets/ModelManageWidget.php (39)
-in /var/www/icook.vn/gxc-cms-2-master/core/cms/widgets/ModelManageWidget.php (26)
-2018/03/30 17:41:04 [trace] [system.caching.CFileCache] Serving "gxchelpers-available-languages-false" from cache
-in /var/www/icook.vn/gxc-cms-2-master/core/cms/components/GxcHelpers.php (436)
-in /var/www/icook.vn/gxc-cms-2-master/core/cms/components/GxcHelpers.php (525)
-in /var/www/icook.vn/gxc-cms-2-master/core/cms/widgets/views/page/page_manage_widget.php (2)
-2018/03/30 17:41:04 [trace] [system.caching.CFileCache] Serving "gxchelpers-available-languages-false" from cache
-in /var/www/icook.vn/gxc-cms-2-master/core/cms/components/GxcHelpers.php (436)
-in /var/www/icook.vn/gxc-cms-2-master/core/cms/components/GxcHelpers.php (525)
-in /var/www/icook.vn/gxc-cms-2-master/core/cms/widgets/views/page/page_manage_widget.php (2)
-2018/03/30 17:41:04 [trace] [system.caching.CFileCache] Serving "gxchelpers-available-languages-false" from cache
-in /var/www/icook.vn/gxc-cms-2-master/core/cms/components/GxcHelpers.php (436)
-in /var/www/icook.vn/gxc-cms-2-master/core/cms/components/GxcHelpers.php (525)
-in /var/www/icook.vn/gxc-cms-2-master/core/cms/widgets/views/page/page_manage_widget.php (2)
-2018/03/30 17:41:04 [trace] [system.caching.CFileCache] Serving "gxchelpers-available-languages-false" from cache
-in /var/www/icook.vn/gxc-cms-2-master/core/cms/components/GxcHelpers.php (436)
-in /var/www/icook.vn/gxc-cms-2-master/core/cms/components/GxcHelpers.php (525)
-in /var/www/icook.vn/gxc-cms-2-master/core/cms/widgets/views/page/page_manage_widget.php (2)
-2018/03/30 17:41:06 [trace] [system.CModule] Loading "log" application component
-in /var/www/icook.vn/icook/backend/index.php (20)
-2018/03/30 17:41:06 [trace] [system.CModule] Loading "request" application component
-in /var/www/icook.vn/gxc-cms-2-master/core/cms/extensions/yii-debug-toolbar/YiiDebugToolbarRoute.php (112)
-in /var/www/icook.vn/icook/backend/index.php (20)
-2018/03/30 17:41:06 [trace] [system.CModule] Loading "urlManager" application component
-in /var/www/icook.vn/gxc-cms-2-master/core/cms/components/HttpRequest.php (66)
-in /var/www/icook.vn/gxc-cms-2-master/core/cms/components/HttpRequest.php (13)
-in /var/www/icook.vn/gxc-cms-2-master/core/cms/extensions/yii-debug-toolbar/YiiDebugToolbarRoute.php (112)
-2018/03/30 17:41:06 [trace] [system.CModule] Loading "messages" application component
-in /var/www/icook.vn/gxc-cms-2-master/core/cms/globals.php (83)
-in /var/www/icook.vn/icook/backend/protected/controllers/PageController.php (17)
-in /var/www/icook.vn/icook/backend/index.php (20)
-2018/03/30 17:41:06 [trace] [system.web.filters.CFilterChain] Running filter PageController.filterrights()
-in /var/www/icook.vn/icook/backend/index.php (20)
-2018/03/30 17:41:06 [trace] [system.CModule] Loading "user" application component
-in /var/www/icook.vn/gxc-cms-2-master/core/cms/modules/rights/components/RightsFilter.php (24)
-in /var/www/icook.vn/gxc-cms-2-master/core/cms/modules/rights/components/RController.php (39)
-in /var/www/icook.vn/icook/backend/index.php (20)
-2018/03/30 17:41:06 [trace] [system.CModule] Loading "session" application component
-in /var/www/icook.vn/gxc-cms-2-master/core/cms/modules/rights/components/RightsFilter.php (24)
-in /var/www/icook.vn/gxc-cms-2-master/core/cms/modules/rights/components/RController.php (39)
-in /var/www/icook.vn/icook/backend/index.php (20)
-2018/03/30 17:41:06 [trace] [system.CModule] Loading "db" application component
-in /var/www/icook.vn/gxc-cms-2-master/core/cms/modules/rights/components/RightsFilter.php (24)
-in /var/www/icook.vn/gxc-cms-2-master/core/cms/modules/rights/components/RController.php (39)
-in /var/www/icook.vn/icook/backend/index.php (20)
-2018/03/30 17:41:06 [trace] [system.db.CDbConnection] Opening DB connection
-in /var/www/icook.vn/gxc-cms-2-master/core/cms/modules/rights/components/RightsFilter.php (24)
-in /var/www/icook.vn/gxc-cms-2-master/core/cms/modules/rights/components/RController.php (39)
-in /var/www/icook.vn/icook/backend/index.php (20)
-2018/03/30 17:41:06 [trace] [system.db.CDbCommand] Querying SQL: SELECT `data`
-FROM `gxc_session`
-WHERE expire>:expire AND id=:id. Bound with :expire=1522406466, :id='5p6mbtlme1tuk3bqgdmd4otrh4'
-in /var/www/icook.vn/gxc-cms-2-master/core/cms/modules/rights/components/RightsFilter.php (24)
-in /var/www/icook.vn/gxc-cms-2-master/core/cms/modules/rights/components/RController.php (39)
-in /var/www/icook.vn/icook/backend/index.php (20)
-2018/03/30 17:41:06 [trace] [system.CModule] Loading "securityManager" application component
-in /var/www/icook.vn/gxc-cms-2-master/core/cms/modules/rights/components/RightsFilter.php (24)
-in /var/www/icook.vn/gxc-cms-2-master/core/cms/modules/rights/components/RController.php (39)
-in /var/www/icook.vn/icook/backend/index.php (20)
-2018/03/30 17:41:06 [trace] [system.CModule] Loading "statePersister" application component
-in /var/www/icook.vn/gxc-cms-2-master/core/cms/modules/rights/components/RightsFilter.php (24)
-in /var/www/icook.vn/gxc-cms-2-master/core/cms/modules/rights/components/RController.php (39)
-in /var/www/icook.vn/icook/backend/index.php (20)
-2018/03/30 17:41:06 [trace] [system.CModule] Loading "cache" application component
-in /var/www/icook.vn/gxc-cms-2-master/core/cms/modules/rights/components/RightsFilter.php (24)
-in /var/www/icook.vn/gxc-cms-2-master/core/cms/modules/rights/components/RController.php (39)
-in /var/www/icook.vn/icook/backend/index.php (20)
-2018/03/30 17:41:06 [trace] [system.caching.CFileCache] Serving "Yii.CStatePersister./var/www/icook.vn/icook/backend/protected/runtime/state.bin" from cache
-in /var/www/icook.vn/gxc-cms-2-master/core/cms/modules/rights/components/RightsFilter.php (24)
-in /var/www/icook.vn/gxc-cms-2-master/core/cms/modules/rights/components/RController.php (39)
-in /var/www/icook.vn/icook/backend/index.php (20)
-2018/03/30 17:41:06 [trace] [system.CModule] Loading "widgetFactory" application component
-in /var/www/icook.vn/icook/backend/protected/views/page/page_view.php (3)
-in /var/www/icook.vn/icook/backend/protected/controllers/PageController.php (56)
-in /var/www/icook.vn/gxc-cms-2-master/core/cms/modules/rights/components/RController.php (39)
-2018/03/30 17:41:06 [trace] [system.caching.CFileCache] Serving "yii:dbschemamysql:host=localhost;dbname=icook:root:{{page}}" from cache
-in /var/www/icook.vn/gxc-cms-2-master/core/cms/models/page/Page.php (24)
-in /var/www/icook.vn/gxc-cms-2-master/core/cms/components/GxcHelpers.php (16)
-in /var/www/icook.vn/gxc-cms-2-master/core/cms/widgets/ModelViewWidget.php (35)
-2018/03/30 17:41:06 [trace] [system.db.ar.CActiveRecord] Page.findByPk()
-in /var/www/icook.vn/gxc-cms-2-master/core/cms/components/GxcHelpers.php (16)
-in /var/www/icook.vn/gxc-cms-2-master/core/cms/widgets/ModelViewWidget.php (35)
-in /var/www/icook.vn/gxc-cms-2-master/core/cms/widgets/ModelViewWidget.php (26)
-2018/03/30 17:41:06 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `gxc_page` `t` WHERE `t`.`page_id`='7' LIMIT 1
-in /var/www/icook.vn/gxc-cms-2-master/core/cms/components/GxcHelpers.php (16)
-in /var/www/icook.vn/gxc-cms-2-master/core/cms/widgets/ModelViewWidget.php (35)
-in /var/www/icook.vn/gxc-cms-2-master/core/cms/widgets/ModelViewWidget.php (26)
-2018/03/30 17:41:06 [trace] [system.caching.CFileCache] Serving "gxchelpers-available-languages-false" from cache
-in /var/www/icook.vn/gxc-cms-2-master/core/cms/components/GxcHelpers.php (436)
-in /var/www/icook.vn/gxc-cms-2-master/core/cms/components/GxcHelpers.php (525)
-in /var/www/icook.vn/gxc-cms-2-master/core/cms/widgets/views/page/page_view_widget.php (19)
-2018/03/30 17:41:06 [trace] [system.CModule] Loading "coreMessages" application component
-in /var/www/icook.vn/gxc-cms-2-master/core/cms/widgets/views/page/page_view_widget.php (19)
-in /var/www/icook.vn/gxc-cms-2-master/core/cms/widgets/ModelViewWidget.php (36)
-in /var/www/icook.vn/gxc-cms-2-master/core/cms/widgets/ModelViewWidget.php (26)
-2018/03/30 17:41:06 [trace] [system.CModule] Loading "assetManager" application component
-in /var/www/icook.vn/gxc-cms-2-master/core/cms/widgets/views/page/page_view_widget.php (19)
-in /var/www/icook.vn/gxc-cms-2-master/core/cms/widgets/ModelViewWidget.php (36)
-in /var/www/icook.vn/gxc-cms-2-master/core/cms/widgets/ModelViewWidget.php (26)
-2018/03/30 17:41:06 [trace] [system.CModule] Loading "clientScript" application component
-in /var/www/icook.vn/gxc-cms-2-master/core/cms/widgets/views/page/page_view_widget.php (19)
-in /var/www/icook.vn/gxc-cms-2-master/core/cms/widgets/ModelViewWidget.php (36)
-in /var/www/icook.vn/gxc-cms-2-master/core/cms/widgets/ModelViewWidget.php (26)
-2018/03/30 17:41:06 [trace] [system.CModule] Loading "format" application component
-in /var/www/icook.vn/gxc-cms-2-master/core/cms/widgets/views/page/page_view_widget.php (19)
-in /var/www/icook.vn/gxc-cms-2-master/core/cms/widgets/ModelViewWidget.php (36)
-in /var/www/icook.vn/gxc-cms-2-master/core/cms/widgets/ModelViewWidget.php (26)
-2018/03/30 17:41:07 [trace] [system.CModule] Loading "log" application component
-in /var/www/icook.vn/icook/backend/index.php (20)
-2018/03/30 17:41:07 [trace] [system.CModule] Loading "request" application component
-in /var/www/icook.vn/gxc-cms-2-master/core/cms/extensions/yii-debug-toolbar/YiiDebugToolbarRoute.php (112)
-in /var/www/icook.vn/icook/backend/index.php (20)
-2018/03/30 17:41:07 [trace] [system.CModule] Loading "urlManager" application component
-in /var/www/icook.vn/gxc-cms-2-master/core/cms/components/HttpRequest.php (66)
-in /var/www/icook.vn/gxc-cms-2-master/core/cms/components/HttpRequest.php (13)
-in /var/www/icook.vn/gxc-cms-2-master/core/cms/extensions/yii-debug-toolbar/YiiDebugToolbarRoute.php (112)
-2018/03/30 17:41:07 [trace] [system.CModule] Loading "messages" application component
-in /var/www/icook.vn/gxc-cms-2-master/core/cms/globals.php (83)
-in /var/www/icook.vn/icook/backend/protected/controllers/PageController.php (17)
-in /var/www/icook.vn/icook/backend/index.php (20)
-2018/03/30 17:41:07 [trace] [system.web.filters.CFilterChain] Running filter PageController.filterrights()
-in /var/www/icook.vn/icook/backend/index.php (20)
-2018/03/30 17:41:07 [trace] [system.CModule] Loading "user" application component
-in /var/www/icook.vn/gxc-cms-2-master/core/cms/modules/rights/components/RightsFilter.php (24)
-in /var/www/icook.vn/gxc-cms-2-master/core/cms/modules/rights/components/RController.php (39)
-in /var/www/icook.vn/icook/backend/index.php (20)
-2018/03/30 17:41:07 [trace] [system.CModule] Loading "session" application component
-in /var/www/icook.vn/gxc-cms-2-master/core/cms/modules/rights/components/RightsFilter.php (24)
-in /var/www/icook.vn/gxc-cms-2-master/core/cms/modules/rights/components/RController.php (39)
-in /var/www/icook.vn/icook/backend/index.php (20)
-2018/03/30 17:41:07 [trace] [system.CModule] Loading "db" application component
-in /var/www/icook.vn/gxc-cms-2-master/core/cms/modules/rights/components/RightsFilter.php (24)
-in /var/www/icook.vn/gxc-cms-2-master/core/cms/modules/rights/components/RController.php (39)
-in /var/www/icook.vn/icook/backend/index.php (20)
-2018/03/30 17:41:07 [trace] [system.db.CDbConnection] Opening DB connection
-in /var/www/icook.vn/gxc-cms-2-master/core/cms/modules/rights/components/RightsFilter.php (24)
-in /var/www/icook.vn/gxc-cms-2-master/core/cms/modules/rights/components/RController.php (39)
-in /var/www/icook.vn/icook/backend/index.php (20)
-2018/03/30 17:41:07 [trace] [system.db.CDbCommand] Querying SQL: SELECT `data`
-FROM `gxc_session`
-WHERE expire>:expire AND id=:id. Bound with :expire=1522406467, :id='5p6mbtlme1tuk3bqgdmd4otrh4'
-in /var/www/icook.vn/gxc-cms-2-master/core/cms/modules/rights/components/RightsFilter.php (24)
-in /var/www/icook.vn/gxc-cms-2-master/core/cms/modules/rights/components/RController.php (39)
-in /var/www/icook.vn/icook/backend/index.php (20)
-2018/03/30 17:41:07 [trace] [system.CModule] Loading "securityManager" application component
-in /var/www/icook.vn/gxc-cms-2-master/core/cms/modules/rights/components/RightsFilter.php (24)
-in /var/www/icook.vn/gxc-cms-2-master/core/cms/modules/rights/components/RController.php (39)
-in /var/www/icook.vn/icook/backend/index.php (20)
-2018/03/30 17:41:07 [trace] [system.CModule] Loading "statePersister" application component
-in /var/www/icook.vn/gxc-cms-2-master/core/cms/modules/rights/components/RightsFilter.php (24)
-in /var/www/icook.vn/gxc-cms-2-master/core/cms/modules/rights/components/RController.php (39)
-in /var/www/icook.vn/icook/backend/index.php (20)
-2018/03/30 17:41:07 [trace] [system.CModule] Loading "cache" application component
-in /var/www/icook.vn/gxc-cms-2-master/core/cms/modules/rights/components/RightsFilter.php (24)
-in /var/www/icook.vn/gxc-cms-2-master/core/cms/modules/rights/components/RController.php (39)
-in /var/www/icook.vn/icook/backend/index.php (20)
-2018/03/30 17:41:07 [trace] [system.caching.CFileCache] Serving "Yii.CStatePersister./var/www/icook.vn/icook/backend/protected/runtime/state.bin" from cache
-in /var/www/icook.vn/gxc-cms-2-master/core/cms/modules/rights/components/RightsFilter.php (24)
-in /var/www/icook.vn/gxc-cms-2-master/core/cms/modules/rights/components/RController.php (39)
-in /var/www/icook.vn/icook/backend/index.php (20)
-2018/03/30 17:41:07 [trace] [system.CModule] Loading "widgetFactory" application component
-in /var/www/icook.vn/icook/backend/protected/views/page/page_update.php (12)
-in /var/www/icook.vn/icook/backend/protected/controllers/PageController.php (72)
-in /var/www/icook.vn/gxc-cms-2-master/core/cms/modules/rights/components/RController.php (39)
-2018/03/30 17:41:07 [trace] [system.caching.CFileCache] Serving "yii:dbschemamysql:host=localhost;dbname=icook:root:{{page}}" from cache
-in /var/www/icook.vn/gxc-cms-2-master/core/cms/models/page/Page.php (24)
-in /var/www/icook.vn/gxc-cms-2-master/core/cms/components/GxcHelpers.php (16)
-in /var/www/icook.vn/gxc-cms-2-master/core/cms/widgets/page/PageUpdateWidget.php (37)
-2018/03/30 17:41:07 [trace] [system.db.ar.CActiveRecord] Page.findByPk()
-in /var/www/icook.vn/gxc-cms-2-master/core/cms/components/GxcHelpers.php (16)
-in /var/www/icook.vn/gxc-cms-2-master/core/cms/widgets/page/PageUpdateWidget.php (37)
-in /var/www/icook.vn/gxc-cms-2-master/core/cms/widgets/page/PageUpdateWidget.php (30)
-2018/03/30 17:41:07 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `gxc_page` `t` WHERE `t`.`page_id`='7' LIMIT 1
-in /var/www/icook.vn/gxc-cms-2-master/core/cms/components/GxcHelpers.php (16)
-in /var/www/icook.vn/gxc-cms-2-master/core/cms/widgets/page/PageUpdateWidget.php (37)
-in /var/www/icook.vn/gxc-cms-2-master/core/cms/widgets/page/PageUpdateWidget.php (30)
-2018/03/30 17:41:07 [trace] [system.caching.CFileCache] Serving "yii:dbschemamysql:host=localhost;dbname=icook:root:{{page_block}}" from cache
-in /var/www/icook.vn/gxc-cms-2-master/core/cms/models/page/PageBlock.php (20)
-in /var/www/icook.vn/gxc-cms-2-master/core/cms/widgets/page/PageUpdateWidget.php (61)
-in /var/www/icook.vn/gxc-cms-2-master/core/cms/widgets/page/PageUpdateWidget.php (30)
-2018/03/30 17:41:07 [trace] [system.db.ar.CActiveRecord] PageBlock.findAll()
-in /var/www/icook.vn/gxc-cms-2-master/core/cms/widgets/page/PageUpdateWidget.php (65)
-in /var/www/icook.vn/gxc-cms-2-master/core/cms/widgets/page/PageUpdateWidget.php (30)
-in /var/www/icook.vn/icook/backend/protected/views/page/page_update.php (12)
-2018/03/30 17:41:07 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `gxc_page_block` `t` WHERE page_id = :pid ORDER BY region ASC, block_order ASC. Bound with :pid='7'
-in /var/www/icook.vn/gxc-cms-2-master/core/cms/widgets/page/PageUpdateWidget.php (65)
-in /var/www/icook.vn/gxc-cms-2-master/core/cms/widgets/page/PageUpdateWidget.php (30)
-in /var/www/icook.vn/icook/backend/protected/views/page/page_update.php (12)
-2018/03/30 17:41:07 [trace] [system.CModule] Loading "coreMessages" application component
-in /var/www/icook.vn/gxc-cms-2-master/core/cms/widgets/views/page/page_form_widget.php (10)
-in /var/www/icook.vn/gxc-cms-2-master/core/cms/widgets/page/PageUpdateWidget.php (108)
-in /var/www/icook.vn/gxc-cms-2-master/core/cms/widgets/page/PageUpdateWidget.php (30)
-2018/03/30 17:41:07 [trace] [system.db.ar.CActiveRecord] Page.findAll()
-in /var/www/icook.vn/gxc-cms-2-master/core/cms/models/page/Page.php (150)
-in /var/www/icook.vn/gxc-cms-2-master/core/cms/widgets/views/page/page_form_widget.php (102)
-in /var/www/icook.vn/gxc-cms-2-master/core/cms/widgets/page/PageUpdateWidget.php (108)
-2018/03/30 17:41:07 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `gxc_page` `t` WHERE status = :status and page_id <> :pid. Bound with :status=1, :pid='7'
-in /var/www/icook.vn/gxc-cms-2-master/core/cms/models/page/Page.php (150)
-in /var/www/icook.vn/gxc-cms-2-master/core/cms/widgets/views/page/page_form_widget.php (102)
-in /var/www/icook.vn/gxc-cms-2-master/core/cms/widgets/page/PageUpdateWidget.php (108)
-2018/03/30 17:41:07 [trace] [system.CModule] Loading "clientScript" application component
-in /var/www/icook.vn/gxc-cms-2-master/core/cms/widgets/views/page/page_form_widget.php (113)
-in /var/www/icook.vn/gxc-cms-2-master/core/cms/widgets/page/PageUpdateWidget.php (108)
-in /var/www/icook.vn/gxc-cms-2-master/core/cms/widgets/page/PageUpdateWidget.php (30)
-2018/03/30 17:41:07 [trace] [system.CModule] Loading "assetManager" application component
-in /var/www/icook.vn/gxc-cms-2-master/core/cms/widgets/views/page/page_form_widget.php (113)
-in /var/www/icook.vn/gxc-cms-2-master/core/cms/widgets/page/PageUpdateWidget.php (108)
-in /var/www/icook.vn/gxc-cms-2-master/core/cms/widgets/page/PageUpdateWidget.php (30)
-2018/03/30 17:41:07 [trace] [system.caching.CFileCache] Serving "gxchelpers-available-layouts" from cache
-in /var/www/icook.vn/gxc-cms-2-master/core/cms/components/GxcHelpers.php (72)
-in /var/www/icook.vn/gxc-cms-2-master/core/cms/widgets/views/page/page_form_widget.php (130)
-in /var/www/icook.vn/gxc-cms-2-master/core/cms/widgets/page/PageUpdateWidget.php (108)
-2018/03/30 17:41:07 [trace] [system.caching.CFileCache] Serving "gxchelpers-apps" from cache
-in /var/www/icook.vn/gxc-cms-2-master/core/cms/components/GxcHelpers.php (181)
-in /var/www/icook.vn/gxc-cms-2-master/core/cms/widgets/views/page/page_form_widget.php (154)
-in /var/www/icook.vn/gxc-cms-2-master/core/cms/widgets/page/PageUpdateWidget.php (108)
-2018/03/30 17:41:07 [trace] [system.caching.CFileCache] Serving "yii:dbschemamysql:host=localhost;dbname=icook:root:{{block}}" from cache
-in /var/www/icook.vn/gxc-cms-2-master/core/cms/models/page/Block.php (24)
-in /var/www/icook.vn/gxc-cms-2-master/core/cms/widgets/views/page/page_form_widget.php (509)
-in /var/www/icook.vn/gxc-cms-2-master/core/cms/widgets/page/PageUpdateWidget.php (108)
-2018/03/30 17:41:07 [trace] [system.db.ar.CActiveRecord] Block.findByPk()
-in /var/www/icook.vn/gxc-cms-2-master/core/cms/widgets/views/page/page_form_widget.php (509)
-in /var/www/icook.vn/gxc-cms-2-master/core/cms/widgets/page/PageUpdateWidget.php (108)
-in /var/www/icook.vn/gxc-cms-2-master/core/cms/widgets/page/PageUpdateWidget.php (30)
-2018/03/30 17:41:07 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `gxc_block` `t` WHERE `t`.`block_id`=39 LIMIT 1
-in /var/www/icook.vn/gxc-cms-2-master/core/cms/widgets/views/page/page_form_widget.php (509)
-in /var/www/icook.vn/gxc-cms-2-master/core/cms/widgets/page/PageUpdateWidget.php (108)
-in /var/www/icook.vn/gxc-cms-2-master/core/cms/widgets/page/PageUpdateWidget.php (30)
-2018/03/30 17:41:07 [trace] [system.db.ar.CActiveRecord] Block.findByPk()
-in /var/www/icook.vn/gxc-cms-2-master/core/cms/widgets/views/page/page_form_widget.php (509)
-in /var/www/icook.vn/gxc-cms-2-master/core/cms/widgets/page/PageUpdateWidget.php (108)
-in /var/www/icook.vn/gxc-cms-2-master/core/cms/widgets/page/PageUpdateWidget.php (30)
-2018/03/30 17:41:07 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `gxc_block` `t` WHERE `t`.`block_id`=60 LIMIT 1
-in /var/www/icook.vn/gxc-cms-2-master/core/cms/widgets/views/page/page_form_widget.php (509)
-in /var/www/icook.vn/gxc-cms-2-master/core/cms/widgets/page/PageUpdateWidget.php (108)
-in /var/www/icook.vn/gxc-cms-2-master/core/cms/widgets/page/PageUpdateWidget.php (30)
-2018/03/30 17:41:07 [trace] [system.CModule] Loading "log" application component
-in /var/www/icook.vn/icook/backend/index.php (20)
-2018/03/30 17:41:07 [trace] [system.CModule] Loading "request" application component
-in /var/www/icook.vn/gxc-cms-2-master/core/cms/extensions/yii-debug-toolbar/YiiDebugToolbarRoute.php (112)
-in /var/www/icook.vn/icook/backend/index.php (20)
-2018/03/30 17:41:07 [trace] [system.CModule] Loading "urlManager" application component
-in /var/www/icook.vn/gxc-cms-2-master/core/cms/components/HttpRequest.php (66)
-in /var/www/icook.vn/gxc-cms-2-master/core/cms/components/HttpRequest.php (13)
-in /var/www/icook.vn/gxc-cms-2-master/core/cms/extensions/yii-debug-toolbar/YiiDebugToolbarRoute.php (112)
-2018/03/30 17:41:07 [trace] [system.CModule] Loading "session" application component
-in /var/www/icook.vn/gxc-cms-2-master/core/cms/components/HttpRequest.php (47)
-in /var/www/icook.vn/icook/backend/index.php (20)
-2018/03/30 17:41:07 [trace] [system.CModule] Loading "db" application component
-in /var/www/icook.vn/gxc-cms-2-master/core/cms/components/HttpRequest.php (47)
-in /var/www/icook.vn/icook/backend/index.php (20)
-2018/03/30 17:41:07 [trace] [system.db.CDbConnection] Opening DB connection
-in /var/www/icook.vn/gxc-cms-2-master/core/cms/components/HttpRequest.php (47)
-in /var/www/icook.vn/icook/backend/index.php (20)
-2018/03/30 17:41:07 [trace] [system.db.CDbCommand] Querying SQL: SELECT `data`
-FROM `gxc_session`
-WHERE expire>:expire AND id=:id. Bound with :expire=1522406467, :id='5p6mbtlme1tuk3bqgdmd4otrh4'
-in /var/www/icook.vn/gxc-cms-2-master/core/cms/components/HttpRequest.php (47)
-in /var/www/icook.vn/icook/backend/index.php (20)
-2018/03/30 17:41:07 [trace] [system.CModule] Loading "messages" application component
-in /var/www/icook.vn/gxc-cms-2-master/core/cms/globals.php (83)
-in /var/www/icook.vn/icook/backend/protected/controllers/PageController.php (17)
-in /var/www/icook.vn/icook/backend/index.php (20)
-2018/03/30 17:41:07 [trace] [system.web.filters.CFilterChain] Running filter PageController.filterrights()
-in /var/www/icook.vn/icook/backend/index.php (20)
-2018/03/30 17:41:07 [trace] [system.CModule] Loading "user" application component
-in /var/www/icook.vn/gxc-cms-2-master/core/cms/modules/rights/components/RightsFilter.php (24)
-in /var/www/icook.vn/gxc-cms-2-master/core/cms/modules/rights/components/RController.php (39)
-in /var/www/icook.vn/icook/backend/index.php (20)
-2018/03/30 17:41:07 [trace] [system.CModule] Loading "securityManager" application component
-in /var/www/icook.vn/gxc-cms-2-master/core/cms/modules/rights/components/RightsFilter.php (24)
-in /var/www/icook.vn/gxc-cms-2-master/core/cms/modules/rights/components/RController.php (39)
-in /var/www/icook.vn/icook/backend/index.php (20)
-2018/03/30 17:41:07 [trace] [system.CModule] Loading "statePersister" application component
-in /var/www/icook.vn/gxc-cms-2-master/core/cms/modules/rights/components/RightsFilter.php (24)
-in /var/www/icook.vn/gxc-cms-2-master/core/cms/modules/rights/components/RController.php (39)
-in /var/www/icook.vn/icook/backend/index.php (20)
-2018/03/30 17:41:07 [trace] [system.CModule] Loading "cache" application component
-in /var/www/icook.vn/gxc-cms-2-master/core/cms/modules/rights/components/RightsFilter.php (24)
-in /var/www/icook.vn/gxc-cms-2-master/core/cms/modules/rights/components/RController.php (39)
-in /var/www/icook.vn/icook/backend/index.php (20)
-2018/03/30 17:41:07 [trace] [system.caching.CFileCache] Serving "Yii.CStatePersister./var/www/icook.vn/icook/backend/protected/runtime/state.bin" from cache
-in /var/www/icook.vn/gxc-cms-2-master/core/cms/modules/rights/components/RightsFilter.php (24)
-in /var/www/icook.vn/gxc-cms-2-master/core/cms/modules/rights/components/RController.php (39)
-in /var/www/icook.vn/icook/backend/index.php (20)
-2018/03/30 17:41:07 [trace] [system.caching.CFileCache] Serving "gxchelpers-available-layouts-false" from cache
+2018/03/31 09:06:42 [trace] [system.caching.CFileCache] Serving "gxchelpers-available-layouts-false" from cache
 in /var/www/icook.vn/gxc-cms-2-master/core/cms/components/GxcHelpers.php (72)
 in /var/www/icook.vn/gxc-cms-2-master/core/cms/models/page/Page.php (183)
 in /var/www/icook.vn/icook/backend/protected/controllers/PageController.php (88)
-2018/03/30 17:41:07 [trace] [system.CModule] Loading "log" application component
+2018/03/31 09:06:42 [trace] [system.CModule] Loading "log" application component
 in /var/www/icook.vn/icook/backend/index.php (20)
-2018/03/30 17:41:07 [trace] [system.CModule] Loading "request" application component
+2018/03/31 09:06:42 [trace] [system.CModule] Loading "request" application component
 in /var/www/icook.vn/gxc-cms-2-master/core/cms/extensions/yii-debug-toolbar/YiiDebugToolbarRoute.php (112)
 in /var/www/icook.vn/icook/backend/index.php (20)
-2018/03/30 17:41:07 [trace] [system.CModule] Loading "urlManager" application component
+2018/03/31 09:06:42 [trace] [system.CModule] Loading "urlManager" application component
 in /var/www/icook.vn/gxc-cms-2-master/core/cms/components/HttpRequest.php (66)
 in /var/www/icook.vn/gxc-cms-2-master/core/cms/components/HttpRequest.php (13)
 in /var/www/icook.vn/gxc-cms-2-master/core/cms/extensions/yii-debug-toolbar/YiiDebugToolbarRoute.php (112)
-2018/03/30 17:41:07 [trace] [system.CModule] Loading "messages" application component
+2018/03/31 09:06:42 [trace] [system.CModule] Loading "messages" application component
 in /var/www/icook.vn/gxc-cms-2-master/core/cms/globals.php (83)
 in /var/www/icook.vn/icook/backend/protected/controllers/BlockController.php (17)
 in /var/www/icook.vn/icook/backend/index.php (20)
-2018/03/30 17:41:07 [trace] [system.web.filters.CFilterChain] Running filter BlockController.filterrights()
+2018/03/31 09:06:42 [trace] [system.web.filters.CFilterChain] Running filter BlockController.filterrights()
 in /var/www/icook.vn/icook/backend/index.php (20)
-2018/03/30 17:41:07 [trace] [system.CModule] Loading "user" application component
+2018/03/31 09:06:42 [trace] [system.CModule] Loading "user" application component
 in /var/www/icook.vn/gxc-cms-2-master/core/cms/modules/rights/components/RightsFilter.php (24)
 in /var/www/icook.vn/gxc-cms-2-master/core/cms/modules/rights/components/RController.php (39)
 in /var/www/icook.vn/icook/backend/index.php (20)
-2018/03/30 17:41:07 [trace] [system.CModule] Loading "session" application component
+2018/03/31 09:06:42 [trace] [system.CModule] Loading "session" application component
 in /var/www/icook.vn/gxc-cms-2-master/core/cms/modules/rights/components/RightsFilter.php (24)
 in /var/www/icook.vn/gxc-cms-2-master/core/cms/modules/rights/components/RController.php (39)
 in /var/www/icook.vn/icook/backend/index.php (20)
-2018/03/30 17:41:07 [trace] [system.CModule] Loading "db" application component
+2018/03/31 09:06:42 [trace] [system.CModule] Loading "db" application component
 in /var/www/icook.vn/gxc-cms-2-master/core/cms/modules/rights/components/RightsFilter.php (24)
 in /var/www/icook.vn/gxc-cms-2-master/core/cms/modules/rights/components/RController.php (39)
 in /var/www/icook.vn/icook/backend/index.php (20)
-2018/03/30 17:41:07 [trace] [system.db.CDbConnection] Opening DB connection
+2018/03/31 09:06:42 [trace] [system.db.CDbConnection] Opening DB connection
 in /var/www/icook.vn/gxc-cms-2-master/core/cms/modules/rights/components/RightsFilter.php (24)
 in /var/www/icook.vn/gxc-cms-2-master/core/cms/modules/rights/components/RController.php (39)
 in /var/www/icook.vn/icook/backend/index.php (20)
-2018/03/30 17:41:07 [trace] [system.db.CDbCommand] Querying SQL: SELECT `data`
+2018/03/31 09:06:42 [trace] [system.db.CDbCommand] Querying SQL: SELECT `data`
 FROM `gxc_session`
-WHERE expire>:expire AND id=:id. Bound with :expire=1522406467, :id='5p6mbtlme1tuk3bqgdmd4otrh4'
+WHERE expire>:expire AND id=:id. Bound with :expire=1522462002, :id='q5kohbm28kviciqngil21icpu6'
 in /var/www/icook.vn/gxc-cms-2-master/core/cms/modules/rights/components/RightsFilter.php (24)
 in /var/www/icook.vn/gxc-cms-2-master/core/cms/modules/rights/components/RController.php (39)
 in /var/www/icook.vn/icook/backend/index.php (20)
-2018/03/30 17:41:07 [trace] [system.CModule] Loading "securityManager" application component
+2018/03/31 09:06:42 [trace] [system.CModule] Loading "securityManager" application component
 in /var/www/icook.vn/gxc-cms-2-master/core/cms/modules/rights/components/RightsFilter.php (24)
 in /var/www/icook.vn/gxc-cms-2-master/core/cms/modules/rights/components/RController.php (39)
 in /var/www/icook.vn/icook/backend/index.php (20)
-2018/03/30 17:41:07 [trace] [system.CModule] Loading "statePersister" application component
+2018/03/31 09:06:42 [trace] [system.CModule] Loading "statePersister" application component
 in /var/www/icook.vn/gxc-cms-2-master/core/cms/modules/rights/components/RightsFilter.php (24)
 in /var/www/icook.vn/gxc-cms-2-master/core/cms/modules/rights/components/RController.php (39)
 in /var/www/icook.vn/icook/backend/index.php (20)
-2018/03/30 17:41:07 [trace] [system.CModule] Loading "cache" application component
+2018/03/31 09:06:42 [trace] [system.CModule] Loading "cache" application component
 in /var/www/icook.vn/gxc-cms-2-master/core/cms/modules/rights/components/RightsFilter.php (24)
 in /var/www/icook.vn/gxc-cms-2-master/core/cms/modules/rights/components/RController.php (39)
 in /var/www/icook.vn/icook/backend/index.php (20)
-2018/03/30 17:41:07 [trace] [system.caching.CFileCache] Serving "Yii.CStatePersister./var/www/icook.vn/icook/backend/protected/runtime/state.bin" from cache
+2018/03/31 09:06:42 [trace] [system.caching.CFileCache] Serving "Yii.CStatePersister./var/www/icook.vn/icook/backend/protected/runtime/state.bin" from cache
 in /var/www/icook.vn/gxc-cms-2-master/core/cms/modules/rights/components/RightsFilter.php (24)
 in /var/www/icook.vn/gxc-cms-2-master/core/cms/modules/rights/components/RController.php (39)
 in /var/www/icook.vn/icook/backend/index.php (20)
-2018/03/30 17:41:07 [trace] [system.CModule] Loading "widgetFactory" application component
+2018/03/31 09:06:42 [trace] [system.CModule] Loading "widgetFactory" application component
 in /var/www/icook.vn/icook/backend/protected/views/block/block_suggest.php (1)
 in /var/www/icook.vn/icook/backend/protected/controllers/BlockController.php (88)
 in /var/www/icook.vn/gxc-cms-2-master/core/cms/modules/rights/components/RController.php (39)
-2018/03/30 17:41:07 [trace] [system.CModule] Loading "clientScript" application component
+2018/03/31 09:06:42 [trace] [system.CModule] Loading "clientScript" application component
 in /var/www/icook.vn/gxc-cms-2-master/core/cms/widgets/views/block/block_suggest_widget.php (6)
 in /var/www/icook.vn/gxc-cms-2-master/core/cms/widgets/page/BlockSuggestWidget.php (34)
 in /var/www/icook.vn/gxc-cms-2-master/core/cms/widgets/page/BlockSuggestWidget.php (26)
-2018/03/30 17:41:07 [trace] [system.CModule] Loading "assetManager" application component
+2018/03/31 09:06:42 [trace] [system.CModule] Loading "assetManager" application component
 in /var/www/icook.vn/gxc-cms-2-master/core/cms/widgets/views/block/block_suggest_widget.php (6)
 in /var/www/icook.vn/gxc-cms-2-master/core/cms/widgets/page/BlockSuggestWidget.php (34)
 in /var/www/icook.vn/gxc-cms-2-master/core/cms/widgets/page/BlockSuggestWidget.php (26)
-2018/03/30 17:41:07 [trace] [system.CModule] Loading "log" application component
+2018/03/31 09:06:42 [trace] [system.CModule] Loading "log" application component
 in /var/www/icook.vn/icook/backend/index.php (20)
-2018/03/30 17:41:07 [trace] [system.CModule] Loading "request" application component
+2018/03/31 09:06:42 [trace] [system.CModule] Loading "request" application component
 in /var/www/icook.vn/gxc-cms-2-master/core/cms/extensions/yii-debug-toolbar/YiiDebugToolbarRoute.php (112)
 in /var/www/icook.vn/icook/backend/index.php (20)
-2018/03/30 17:41:07 [trace] [system.CModule] Loading "urlManager" application component
+2018/03/31 09:06:42 [trace] [system.CModule] Loading "urlManager" application component
 in /var/www/icook.vn/gxc-cms-2-master/core/cms/components/HttpRequest.php (66)
 in /var/www/icook.vn/gxc-cms-2-master/core/cms/components/HttpRequest.php (13)
 in /var/www/icook.vn/gxc-cms-2-master/core/cms/extensions/yii-debug-toolbar/YiiDebugToolbarRoute.php (112)
-2018/03/30 17:41:07 [trace] [system.CModule] Loading "messages" application component
+2018/03/31 09:06:42 [trace] [system.CModule] Loading "messages" application component
 in /var/www/icook.vn/gxc-cms-2-master/core/cms/globals.php (83)
 in /var/www/icook.vn/icook/backend/protected/controllers/BlockController.php (17)
 in /var/www/icook.vn/icook/backend/index.php (20)
-2018/03/30 17:41:07 [trace] [system.web.filters.CFilterChain] Running filter BlockController.filterrights()
+2018/03/31 09:06:42 [trace] [system.web.filters.CFilterChain] Running filter BlockController.filterrights()
 in /var/www/icook.vn/icook/backend/index.php (20)
-2018/03/30 17:41:07 [trace] [system.CModule] Loading "user" application component
+2018/03/31 09:06:42 [trace] [system.CModule] Loading "user" application component
 in /var/www/icook.vn/gxc-cms-2-master/core/cms/modules/rights/components/RightsFilter.php (24)
 in /var/www/icook.vn/gxc-cms-2-master/core/cms/modules/rights/components/RController.php (39)
 in /var/www/icook.vn/icook/backend/index.php (20)
-2018/03/30 17:41:07 [trace] [system.CModule] Loading "session" application component
+2018/03/31 09:06:42 [trace] [system.CModule] Loading "session" application component
 in /var/www/icook.vn/gxc-cms-2-master/core/cms/modules/rights/components/RightsFilter.php (24)
 in /var/www/icook.vn/gxc-cms-2-master/core/cms/modules/rights/components/RController.php (39)
 in /var/www/icook.vn/icook/backend/index.php (20)
-2018/03/30 17:41:07 [trace] [system.CModule] Loading "db" application component
+2018/03/31 09:06:42 [trace] [system.CModule] Loading "db" application component
 in /var/www/icook.vn/gxc-cms-2-master/core/cms/modules/rights/components/RightsFilter.php (24)
 in /var/www/icook.vn/gxc-cms-2-master/core/cms/modules/rights/components/RController.php (39)
 in /var/www/icook.vn/icook/backend/index.php (20)
-2018/03/30 17:41:07 [trace] [system.db.CDbConnection] Opening DB connection
+2018/03/31 09:06:42 [trace] [system.db.CDbConnection] Opening DB connection
 in /var/www/icook.vn/gxc-cms-2-master/core/cms/modules/rights/components/RightsFilter.php (24)
 in /var/www/icook.vn/gxc-cms-2-master/core/cms/modules/rights/components/RController.php (39)
 in /var/www/icook.vn/icook/backend/index.php (20)
-2018/03/30 17:41:07 [trace] [system.db.CDbCommand] Querying SQL: SELECT `data`
+2018/03/31 09:06:42 [trace] [system.db.CDbCommand] Querying SQL: SELECT `data`
 FROM `gxc_session`
-WHERE expire>:expire AND id=:id. Bound with :expire=1522406467, :id='5p6mbtlme1tuk3bqgdmd4otrh4'
+WHERE expire>:expire AND id=:id. Bound with :expire=1522462002, :id='q5kohbm28kviciqngil21icpu6'
 in /var/www/icook.vn/gxc-cms-2-master/core/cms/modules/rights/components/RightsFilter.php (24)
 in /var/www/icook.vn/gxc-cms-2-master/core/cms/modules/rights/components/RController.php (39)
 in /var/www/icook.vn/icook/backend/index.php (20)
-2018/03/30 17:41:07 [trace] [system.CModule] Loading "securityManager" application component
+2018/03/31 09:06:42 [trace] [system.CModule] Loading "securityManager" application component
 in /var/www/icook.vn/gxc-cms-2-master/core/cms/modules/rights/components/RightsFilter.php (24)
 in /var/www/icook.vn/gxc-cms-2-master/core/cms/modules/rights/components/RController.php (39)
 in /var/www/icook.vn/icook/backend/index.php (20)
-2018/03/30 17:41:07 [trace] [system.CModule] Loading "statePersister" application component
+2018/03/31 09:06:42 [trace] [system.CModule] Loading "statePersister" application component
 in /var/www/icook.vn/gxc-cms-2-master/core/cms/modules/rights/components/RightsFilter.php (24)
 in /var/www/icook.vn/gxc-cms-2-master/core/cms/modules/rights/components/RController.php (39)
 in /var/www/icook.vn/icook/backend/index.php (20)
-2018/03/30 17:41:07 [trace] [system.CModule] Loading "cache" application component
+2018/03/31 09:06:42 [trace] [system.CModule] Loading "cache" application component
 in /var/www/icook.vn/gxc-cms-2-master/core/cms/modules/rights/components/RightsFilter.php (24)
 in /var/www/icook.vn/gxc-cms-2-master/core/cms/modules/rights/components/RController.php (39)
 in /var/www/icook.vn/icook/backend/index.php (20)
-2018/03/30 17:41:07 [trace] [system.caching.CFileCache] Serving "Yii.CStatePersister./var/www/icook.vn/icook/backend/protected/runtime/state.bin" from cache
+2018/03/31 09:06:42 [trace] [system.caching.CFileCache] Serving "Yii.CStatePersister./var/www/icook.vn/icook/backend/protected/runtime/state.bin" from cache
 in /var/www/icook.vn/gxc-cms-2-master/core/cms/modules/rights/components/RightsFilter.php (24)
 in /var/www/icook.vn/gxc-cms-2-master/core/cms/modules/rights/components/RController.php (39)
 in /var/www/icook.vn/icook/backend/index.php (20)
-2018/03/30 17:41:07 [trace] [system.CModule] Loading "widgetFactory" application component
+2018/03/31 09:06:42 [trace] [system.CModule] Loading "widgetFactory" application component
 in /var/www/icook.vn/icook/backend/protected/views/block/block_suggest.php (1)
 in /var/www/icook.vn/icook/backend/protected/controllers/BlockController.php (88)
 in /var/www/icook.vn/gxc-cms-2-master/core/cms/modules/rights/components/RController.php (39)
-2018/03/30 17:41:07 [trace] [system.CModule] Loading "clientScript" application component
+2018/03/31 09:06:42 [trace] [system.CModule] Loading "clientScript" application component
 in /var/www/icook.vn/gxc-cms-2-master/core/cms/widgets/views/block/block_suggest_widget.php (6)
 in /var/www/icook.vn/gxc-cms-2-master/core/cms/widgets/page/BlockSuggestWidget.php (34)
 in /var/www/icook.vn/gxc-cms-2-master/core/cms/widgets/page/BlockSuggestWidget.php (26)
-2018/03/30 17:41:07 [trace] [system.CModule] Loading "assetManager" application component
+2018/03/31 09:06:42 [trace] [system.CModule] Loading "assetManager" application component
 in /var/www/icook.vn/gxc-cms-2-master/core/cms/widgets/views/block/block_suggest_widget.php (6)
 in /var/www/icook.vn/gxc-cms-2-master/core/cms/widgets/page/BlockSuggestWidget.php (34)
 in /var/www/icook.vn/gxc-cms-2-master/core/cms/widgets/page/BlockSuggestWidget.php (26)
-2018/03/30 17:41:34 [trace] [system.CModule] Loading "log" application component
+2018/03/31 09:06:42 [trace] [system.CModule] Loading "log" application component
 in /var/www/icook.vn/icook/backend/index.php (20)
-2018/03/30 17:41:34 [trace] [system.CModule] Loading "request" application component
+2018/03/31 09:06:42 [trace] [system.CModule] Loading "request" application component
 in /var/www/icook.vn/gxc-cms-2-master/core/cms/extensions/yii-debug-toolbar/YiiDebugToolbarRoute.php (112)
 in /var/www/icook.vn/icook/backend/index.php (20)
-2018/03/30 17:41:34 [trace] [system.CModule] Loading "urlManager" application component
+2018/03/31 09:06:42 [trace] [system.CModule] Loading "urlManager" application component
 in /var/www/icook.vn/gxc-cms-2-master/core/cms/components/HttpRequest.php (66)
 in /var/www/icook.vn/gxc-cms-2-master/core/cms/components/HttpRequest.php (13)
 in /var/www/icook.vn/gxc-cms-2-master/core/cms/extensions/yii-debug-toolbar/YiiDebugToolbarRoute.php (112)
-2018/03/30 17:41:34 [trace] [system.base.CModule] Loading "gii" module
-in /var/www/icook.vn/icook/backend/index.php (20)
-2018/03/30 17:41:34 [trace] [system.CModule] Loading "user" application component
-in /var/www/icook.vn/icook/backend/index.php (20)
-2018/03/30 17:41:34 [trace] [system.CModule] Loading "session" application component
-in /var/www/icook.vn/icook/backend/index.php (20)
-2018/03/30 17:41:34 [trace] [system.CModule] Loading "db" application component
-in /var/www/icook.vn/icook/backend/index.php (20)
-2018/03/30 17:41:34 [trace] [system.db.CDbConnection] Opening DB connection
-in /var/www/icook.vn/icook/backend/index.php (20)
-2018/03/30 17:41:34 [trace] [system.db.CDbCommand] Querying SQL: SELECT `data`
-FROM `gxc_session`
-WHERE expire>:expire AND id=:id. Bound with :expire=1522406494, :id='5p6mbtlme1tuk3bqgdmd4otrh4'
-in /var/www/icook.vn/icook/backend/index.php (20)
-2018/03/30 17:41:34 [trace] [system.CModule] Loading "widgetFactory" application component
-in /var/www/icook.vn/gxc-cms-2-master/core/cms/gii/block/views/index.php (2)
-in /var/www/icook.vn/icook/backend/index.php (20)
-2018/03/30 17:41:34 [trace] [system.CModule] Loading "clientScript" application component
-in /var/www/icook.vn/gxc-cms-2-master/core/cms/gii/block/views/index.php (13)
-in /var/www/icook.vn/icook/backend/index.php (20)
-2018/03/30 17:41:34 [trace] [system.CModule] Loading "assetManager" application component
-in /var/www/icook.vn/icook/backend/index.php (20)
-2018/03/30 17:41:34 [trace] [system.CModule] Loading "coreMessages" application component
-in /var/www/icook.vn/icook/backend/index.php (20)
-2018/03/30 17:42:07 [trace] [system.CModule] Loading "log" application component
-in /var/www/icook.vn/icook/backend/index.php (20)
-2018/03/30 17:42:07 [trace] [system.CModule] Loading "request" application component
-in /var/www/icook.vn/gxc-cms-2-master/core/cms/extensions/yii-debug-toolbar/YiiDebugToolbarRoute.php (112)
-in /var/www/icook.vn/icook/backend/index.php (20)
-2018/03/30 17:42:07 [trace] [system.CModule] Loading "urlManager" application component
-in /var/www/icook.vn/gxc-cms-2-master/core/cms/components/HttpRequest.php (66)
-in /var/www/icook.vn/gxc-cms-2-master/core/cms/components/HttpRequest.php (13)
-in /var/www/icook.vn/gxc-cms-2-master/core/cms/extensions/yii-debug-toolbar/YiiDebugToolbarRoute.php (112)
-2018/03/30 17:42:07 [trace] [system.CModule] Loading "session" application component
-in /var/www/icook.vn/gxc-cms-2-master/core/cms/components/HttpRequest.php (47)
-in /var/www/icook.vn/icook/backend/index.php (20)
-2018/03/30 17:42:07 [trace] [system.CModule] Loading "db" application component
-in /var/www/icook.vn/gxc-cms-2-master/core/cms/components/HttpRequest.php (47)
-in /var/www/icook.vn/icook/backend/index.php (20)
-2018/03/30 17:42:07 [trace] [system.db.CDbConnection] Opening DB connection
-in /var/www/icook.vn/gxc-cms-2-master/core/cms/components/HttpRequest.php (47)
-in /var/www/icook.vn/icook/backend/index.php (20)
-2018/03/30 17:42:07 [trace] [system.db.CDbCommand] Querying SQL: SELECT `data`
-FROM `gxc_session`
-WHERE expire>:expire AND id=:id. Bound with :expire=1522406527, :id='5p6mbtlme1tuk3bqgdmd4otrh4'
-in /var/www/icook.vn/gxc-cms-2-master/core/cms/components/HttpRequest.php (47)
-in /var/www/icook.vn/icook/backend/index.php (20)
-2018/03/30 17:42:07 [trace] [system.base.CModule] Loading "gii" module
-in /var/www/icook.vn/icook/backend/index.php (20)
-2018/03/30 17:42:07 [trace] [system.CModule] Loading "user" application component
-in /var/www/icook.vn/icook/backend/index.php (20)
-2018/03/30 17:42:07 [trace] [system.CModule] Loading "widgetFactory" application component
-in /var/www/icook.vn/gxc-cms-2-master/core/cms/gii/block/views/index.php (2)
-in /var/www/icook.vn/icook/backend/index.php (20)
-2018/03/30 17:42:07 [trace] [system.CModule] Loading "clientScript" application component
-in /var/www/icook.vn/gxc-cms-2-master/core/cms/gii/block/views/index.php (13)
-in /var/www/icook.vn/icook/backend/index.php (20)
-2018/03/30 17:42:07 [trace] [system.CModule] Loading "assetManager" application component
-in /var/www/icook.vn/icook/backend/index.php (20)
-2018/03/30 17:42:07 [trace] [system.CModule] Loading "coreMessages" application component
-in /var/www/icook.vn/icook/backend/index.php (20)
-2018/03/30 17:42:18 [trace] [system.CModule] Loading "log" application component
-in /var/www/icook.vn/icook/backend/index.php (20)
-2018/03/30 17:42:18 [trace] [system.CModule] Loading "request" application component
-in /var/www/icook.vn/gxc-cms-2-master/core/cms/extensions/yii-debug-toolbar/YiiDebugToolbarRoute.php (112)
-in /var/www/icook.vn/icook/backend/index.php (20)
-2018/03/30 17:42:18 [trace] [system.CModule] Loading "urlManager" application component
-in /var/www/icook.vn/gxc-cms-2-master/core/cms/components/HttpRequest.php (66)
-in /var/www/icook.vn/gxc-cms-2-master/core/cms/components/HttpRequest.php (13)
-in /var/www/icook.vn/gxc-cms-2-master/core/cms/extensions/yii-debug-toolbar/YiiDebugToolbarRoute.php (112)
-2018/03/30 17:42:18 [trace] [system.CModule] Loading "session" application component
-in /var/www/icook.vn/gxc-cms-2-master/core/cms/components/HttpRequest.php (47)
-in /var/www/icook.vn/icook/backend/index.php (20)
-2018/03/30 17:42:18 [trace] [system.CModule] Loading "db" application component
-in /var/www/icook.vn/gxc-cms-2-master/core/cms/components/HttpRequest.php (47)
-in /var/www/icook.vn/icook/backend/index.php (20)
-2018/03/30 17:42:18 [trace] [system.db.CDbConnection] Opening DB connection
-in /var/www/icook.vn/gxc-cms-2-master/core/cms/components/HttpRequest.php (47)
-in /var/www/icook.vn/icook/backend/index.php (20)
-2018/03/30 17:42:18 [trace] [system.db.CDbCommand] Querying SQL: SELECT `data`
-FROM `gxc_session`
-WHERE expire>:expire AND id=:id. Bound with :expire=1522406538, :id='5p6mbtlme1tuk3bqgdmd4otrh4'
-in /var/www/icook.vn/gxc-cms-2-master/core/cms/components/HttpRequest.php (47)
-in /var/www/icook.vn/icook/backend/index.php (20)
-2018/03/30 17:42:18 [trace] [system.base.CModule] Loading "gii" module
-in /var/www/icook.vn/icook/backend/index.php (20)
-2018/03/30 17:42:18 [trace] [system.CModule] Loading "user" application component
-in /var/www/icook.vn/icook/backend/index.php (20)
-2018/03/30 17:42:18 [trace] [system.CModule] Loading "widgetFactory" application component
-in /var/www/icook.vn/gxc-cms-2-master/core/cms/gii/block/views/index.php (2)
-in /var/www/icook.vn/icook/backend/index.php (20)
-2018/03/30 17:42:18 [trace] [system.CModule] Loading "clientScript" application component
-in /var/www/icook.vn/gxc-cms-2-master/core/cms/gii/block/views/index.php (13)
-in /var/www/icook.vn/icook/backend/index.php (20)
-2018/03/30 17:42:18 [trace] [system.CModule] Loading "assetManager" application component
-in /var/www/icook.vn/icook/backend/index.php (20)
-2018/03/30 17:42:18 [trace] [system.CModule] Loading "coreMessages" application component
-in /var/www/icook.vn/icook/backend/index.php (20)
-2018/03/30 17:51:12 [trace] [system.CModule] Loading "log" application component
-in /var/www/icook.vn/icook/backend/index.php (20)
-2018/03/30 17:51:12 [trace] [system.CModule] Loading "request" application component
-in /var/www/icook.vn/gxc-cms-2-master/core/cms/extensions/yii-debug-toolbar/YiiDebugToolbarRoute.php (112)
-in /var/www/icook.vn/icook/backend/index.php (20)
-2018/03/30 17:51:12 [trace] [system.CModule] Loading "urlManager" application component
-in /var/www/icook.vn/gxc-cms-2-master/core/cms/components/HttpRequest.php (66)
-in /var/www/icook.vn/gxc-cms-2-master/core/cms/components/HttpRequest.php (13)
-in /var/www/icook.vn/gxc-cms-2-master/core/cms/extensions/yii-debug-toolbar/YiiDebugToolbarRoute.php (112)
-2018/03/30 17:51:12 [trace] [system.base.CModule] Loading "cache" module
-in /var/www/icook.vn/icook/backend/index.php (20)
-2018/03/30 17:51:12 [trace] [system.CModule] Loading "user" application component
-in /var/www/icook.vn/gxc-cms-2-master/core/cms/modules/cache/CacheModule.php (68)
-in /var/www/icook.vn/icook/backend/index.php (20)
-2018/03/30 17:51:12 [trace] [system.CModule] Loading "session" application component
-in /var/www/icook.vn/gxc-cms-2-master/core/cms/modules/cache/CacheModule.php (68)
-in /var/www/icook.vn/icook/backend/index.php (20)
-2018/03/30 17:51:12 [trace] [system.CModule] Loading "db" application component
-in /var/www/icook.vn/gxc-cms-2-master/core/cms/modules/cache/CacheModule.php (68)
-in /var/www/icook.vn/icook/backend/index.php (20)
-2018/03/30 17:51:12 [trace] [system.db.CDbConnection] Opening DB connection
-in /var/www/icook.vn/gxc-cms-2-master/core/cms/modules/cache/CacheModule.php (68)
-in /var/www/icook.vn/icook/backend/index.php (20)
-2018/03/30 17:51:12 [trace] [system.db.CDbCommand] Querying SQL: SELECT `data`
-FROM `gxc_session`
-WHERE expire>:expire AND id=:id. Bound with :expire=1522407072, :id='5p6mbtlme1tuk3bqgdmd4otrh4'
-in /var/www/icook.vn/gxc-cms-2-master/core/cms/modules/cache/CacheModule.php (68)
-in /var/www/icook.vn/icook/backend/index.php (20)
-2018/03/30 17:51:12 [trace] [system.CModule] Loading "messages" application component
-in /var/www/icook.vn/gxc-cms-2-master/core/cms/globals.php (83)
-in /var/www/icook.vn/gxc-cms-2-master/core/cms/modules/cache/views/default/index.php (1)
-in /var/www/icook.vn/gxc-cms-2-master/core/cms/modules/cache/controllers/DefaultController.php (16)
-2018/03/30 17:51:12 [trace] [system.CModule] Loading "cache" application component
-in /var/www/icook.vn/gxc-cms-2-master/core/cms/modules/cache/views/default/index.php (8)
-in /var/www/icook.vn/gxc-cms-2-master/core/cms/modules/cache/controllers/DefaultController.php (16)
-in /var/www/icook.vn/icook/backend/index.php (20)
-2018/03/30 17:51:12 [trace] [system.CModule] Loading "assetManager" application component
-in /var/www/icook.vn/gxc-cms-2-master/core/cms/components/GxcHelpers.php (217)
-in /var/www/icook.vn/gxc-cms-2-master/core/cms/modules/cache/views/layouts/main.php (5)
-in /var/www/icook.vn/gxc-cms-2-master/core/cms/modules/cache/controllers/DefaultController.php (16)
-2018/03/30 17:51:12 [trace] [system.CModule] Loading "clientScript" application component
-in /var/www/icook.vn/gxc-cms-2-master/core/cms/modules/cache/controllers/DefaultController.php (16)
-in /var/www/icook.vn/icook/backend/index.php (20)
-2018/03/30 17:51:12 [trace] [system.CModule] Loading "log" application component
-in /var/www/icook.vn/icook/backend/index.php (20)
-2018/03/30 17:51:12 [trace] [system.CModule] Loading "request" application component
-in /var/www/icook.vn/gxc-cms-2-master/core/cms/extensions/yii-debug-toolbar/YiiDebugToolbarRoute.php (112)
-in /var/www/icook.vn/icook/backend/index.php (20)
-2018/03/30 17:51:12 [trace] [system.CModule] Loading "urlManager" application component
-in /var/www/icook.vn/gxc-cms-2-master/core/cms/components/HttpRequest.php (66)
-in /var/www/icook.vn/gxc-cms-2-master/core/cms/components/HttpRequest.php (13)
-in /var/www/icook.vn/gxc-cms-2-master/core/cms/extensions/yii-debug-toolbar/YiiDebugToolbarRoute.php (112)
-2018/03/30 17:51:12 [trace] [system.base.CModule] Loading "cache" module
-in /var/www/icook.vn/icook/backend/index.php (20)
-2018/03/30 17:51:12 [trace] [system.CModule] Loading "user" application component
-in /var/www/icook.vn/gxc-cms-2-master/core/cms/modules/cache/CacheModule.php (68)
-in /var/www/icook.vn/icook/backend/index.php (20)
-2018/03/30 17:51:12 [trace] [system.CModule] Loading "session" application component
-in /var/www/icook.vn/gxc-cms-2-master/core/cms/modules/cache/CacheModule.php (68)
-in /var/www/icook.vn/icook/backend/index.php (20)
-2018/03/30 17:51:12 [trace] [system.CModule] Loading "db" application component
-in /var/www/icook.vn/gxc-cms-2-master/core/cms/modules/cache/CacheModule.php (68)
-in /var/www/icook.vn/icook/backend/index.php (20)
-2018/03/30 17:51:12 [trace] [system.db.CDbConnection] Opening DB connection
-in /var/www/icook.vn/gxc-cms-2-master/core/cms/modules/cache/CacheModule.php (68)
-in /var/www/icook.vn/icook/backend/index.php (20)
-2018/03/30 17:51:12 [trace] [system.db.CDbCommand] Querying SQL: SELECT `data`
-FROM `gxc_session`
-WHERE expire>:expire AND id=:id. Bound with :expire=1522407072, :id='5p6mbtlme1tuk3bqgdmd4otrh4'
-in /var/www/icook.vn/gxc-cms-2-master/core/cms/modules/cache/CacheModule.php (68)
-in /var/www/icook.vn/icook/backend/index.php (20)
-2018/03/30 17:51:12 [trace] [system.CModule] Loading "messages" application component
-in /var/www/icook.vn/gxc-cms-2-master/core/cms/globals.php (83)
-in /var/www/icook.vn/gxc-cms-2-master/core/cms/modules/cache/views/default/index.php (1)
-in /var/www/icook.vn/gxc-cms-2-master/core/cms/modules/cache/controllers/DefaultController.php (16)
-2018/03/30 17:51:12 [trace] [system.CModule] Loading "cache" application component
-in /var/www/icook.vn/gxc-cms-2-master/core/cms/modules/cache/views/default/index.php (8)
-in /var/www/icook.vn/gxc-cms-2-master/core/cms/modules/cache/controllers/DefaultController.php (16)
-in /var/www/icook.vn/icook/backend/index.php (20)
-2018/03/30 17:51:12 [trace] [system.CModule] Loading "assetManager" application component
-in /var/www/icook.vn/gxc-cms-2-master/core/cms/components/GxcHelpers.php (217)
-in /var/www/icook.vn/gxc-cms-2-master/core/cms/modules/cache/views/layouts/main.php (5)
-in /var/www/icook.vn/gxc-cms-2-master/core/cms/modules/cache/controllers/DefaultController.php (16)
-2018/03/30 17:51:12 [trace] [system.CModule] Loading "clientScript" application component
-in /var/www/icook.vn/gxc-cms-2-master/core/cms/modules/cache/controllers/DefaultController.php (16)
-in /var/www/icook.vn/icook/backend/index.php (20)
-2018/03/30 17:51:14 [trace] [system.CModule] Loading "log" application component
-in /var/www/icook.vn/icook/backend/index.php (20)
-2018/03/30 17:51:14 [trace] [system.CModule] Loading "request" application component
-in /var/www/icook.vn/gxc-cms-2-master/core/cms/extensions/yii-debug-toolbar/YiiDebugToolbarRoute.php (112)
-in /var/www/icook.vn/icook/backend/index.php (20)
-2018/03/30 17:51:14 [trace] [system.CModule] Loading "urlManager" application component
-in /var/www/icook.vn/gxc-cms-2-master/core/cms/components/HttpRequest.php (66)
-in /var/www/icook.vn/gxc-cms-2-master/core/cms/components/HttpRequest.php (13)
-in /var/www/icook.vn/gxc-cms-2-master/core/cms/extensions/yii-debug-toolbar/YiiDebugToolbarRoute.php (112)
-2018/03/30 17:51:14 [trace] [system.base.CModule] Loading "cache" module
-in /var/www/icook.vn/icook/backend/index.php (20)
-2018/03/30 17:51:14 [trace] [system.CModule] Loading "user" application component
-in /var/www/icook.vn/gxc-cms-2-master/core/cms/modules/cache/CacheModule.php (68)
-in /var/www/icook.vn/icook/backend/index.php (20)
-2018/03/30 17:51:14 [trace] [system.CModule] Loading "session" application component
-in /var/www/icook.vn/gxc-cms-2-master/core/cms/modules/cache/CacheModule.php (68)
-in /var/www/icook.vn/icook/backend/index.php (20)
-2018/03/30 17:51:14 [trace] [system.CModule] Loading "db" application component
-in /var/www/icook.vn/gxc-cms-2-master/core/cms/modules/cache/CacheModule.php (68)
-in /var/www/icook.vn/icook/backend/index.php (20)
-2018/03/30 17:51:14 [trace] [system.db.CDbConnection] Opening DB connection
-in /var/www/icook.vn/gxc-cms-2-master/core/cms/modules/cache/CacheModule.php (68)
-in /var/www/icook.vn/icook/backend/index.php (20)
-2018/03/30 17:51:14 [trace] [system.db.CDbCommand] Querying SQL: SELECT `data`
-FROM `gxc_session`
-WHERE expire>:expire AND id=:id. Bound with :expire=1522407074, :id='5p6mbtlme1tuk3bqgdmd4otrh4'
-in /var/www/icook.vn/gxc-cms-2-master/core/cms/modules/cache/CacheModule.php (68)
-in /var/www/icook.vn/icook/backend/index.php (20)
-2018/03/30 17:51:14 [trace] [system.CModule] Loading "cache" application component
-in /var/www/icook.vn/gxc-cms-2-master/core/cms/modules/cache/controllers/DefaultController.php (63)
-in /var/www/icook.vn/icook/backend/index.php (20)
-2018/03/30 17:51:14 [trace] [system.caching.CFileCache] Flushing cache
-in /var/www/icook.vn/gxc-cms-2-master/core/cms/modules/cache/controllers/DefaultController.php (68)
-in /var/www/icook.vn/icook/backend/index.php (20)
-2018/03/30 17:51:14 [trace] [system.CModule] Loading "messages" application component
-in /var/www/icook.vn/gxc-cms-2-master/core/cms/globals.php (83)
-in /var/www/icook.vn/gxc-cms-2-master/core/cms/modules/cache/controllers/DefaultController.php (70)
-in /var/www/icook.vn/icook/backend/index.php (20)
-2018/03/30 17:51:14 [trace] [system.CModule] Loading "log" application component
-in /var/www/icook.vn/icook/backend/index.php (20)
-2018/03/30 17:51:14 [trace] [system.CModule] Loading "request" application component
-in /var/www/icook.vn/gxc-cms-2-master/core/cms/extensions/yii-debug-toolbar/YiiDebugToolbarRoute.php (112)
-in /var/www/icook.vn/icook/backend/index.php (20)
-2018/03/30 17:51:14 [trace] [system.CModule] Loading "urlManager" application component
-in /var/www/icook.vn/gxc-cms-2-master/core/cms/components/HttpRequest.php (66)
-in /var/www/icook.vn/gxc-cms-2-master/core/cms/components/HttpRequest.php (13)
-in /var/www/icook.vn/gxc-cms-2-master/core/cms/extensions/yii-debug-toolbar/YiiDebugToolbarRoute.php (112)
-2018/03/30 17:51:14 [trace] [system.base.CModule] Loading "cache" module
-in /var/www/icook.vn/icook/backend/index.php (20)
-2018/03/30 17:51:14 [trace] [system.CModule] Loading "user" application component
-in /var/www/icook.vn/gxc-cms-2-master/core/cms/modules/cache/CacheModule.php (68)
-in /var/www/icook.vn/icook/backend/index.php (20)
-2018/03/30 17:51:14 [trace] [system.CModule] Loading "session" application component
-in /var/www/icook.vn/gxc-cms-2-master/core/cms/modules/cache/CacheModule.php (68)
-in /var/www/icook.vn/icook/backend/index.php (20)
-2018/03/30 17:51:14 [trace] [system.CModule] Loading "db" application component
-in /var/www/icook.vn/gxc-cms-2-master/core/cms/modules/cache/CacheModule.php (68)
-in /var/www/icook.vn/icook/backend/index.php (20)
-2018/03/30 17:51:14 [trace] [system.db.CDbConnection] Opening DB connection
-in /var/www/icook.vn/gxc-cms-2-master/core/cms/modules/cache/CacheModule.php (68)
-in /var/www/icook.vn/icook/backend/index.php (20)
-2018/03/30 17:51:14 [trace] [system.db.CDbCommand] Querying SQL: SELECT `data`
-FROM `gxc_session`
-WHERE expire>:expire AND id=:id. Bound with :expire=1522407074, :id='5p6mbtlme1tuk3bqgdmd4otrh4'
-in /var/www/icook.vn/gxc-cms-2-master/core/cms/modules/cache/CacheModule.php (68)
-in /var/www/icook.vn/icook/backend/index.php (20)
-2018/03/30 17:51:14 [trace] [system.CModule] Loading "messages" application component
-in /var/www/icook.vn/gxc-cms-2-master/core/cms/globals.php (83)
-in /var/www/icook.vn/gxc-cms-2-master/core/cms/modules/cache/views/default/index.php (1)
-in /var/www/icook.vn/gxc-cms-2-master/core/cms/modules/cache/controllers/DefaultController.php (16)
-2018/03/30 17:51:14 [trace] [system.CModule] Loading "cache" application component
-in /var/www/icook.vn/gxc-cms-2-master/core/cms/modules/cache/views/default/index.php (8)
-in /var/www/icook.vn/gxc-cms-2-master/core/cms/modules/cache/controllers/DefaultController.php (16)
-in /var/www/icook.vn/icook/backend/index.php (20)
-2018/03/30 17:51:14 [trace] [system.CModule] Loading "assetManager" application component
-in /var/www/icook.vn/gxc-cms-2-master/core/cms/components/GxcHelpers.php (217)
-in /var/www/icook.vn/gxc-cms-2-master/core/cms/modules/cache/views/layouts/main.php (5)
-in /var/www/icook.vn/gxc-cms-2-master/core/cms/modules/cache/controllers/DefaultController.php (16)
-2018/03/30 17:51:14 [trace] [system.CModule] Loading "clientScript" application component
-in /var/www/icook.vn/gxc-cms-2-master/core/cms/modules/cache/controllers/DefaultController.php (16)
-in /var/www/icook.vn/icook/backend/index.php (20)
-2018/03/30 17:51:15 [trace] [system.CModule] Loading "log" application component
-in /var/www/icook.vn/icook/backend/index.php (20)
-2018/03/30 17:51:15 [trace] [system.CModule] Loading "request" application component
-in /var/www/icook.vn/gxc-cms-2-master/core/cms/extensions/yii-debug-toolbar/YiiDebugToolbarRoute.php (112)
-in /var/www/icook.vn/icook/backend/index.php (20)
-2018/03/30 17:51:15 [trace] [system.CModule] Loading "urlManager" application component
-in /var/www/icook.vn/gxc-cms-2-master/core/cms/components/HttpRequest.php (66)
-in /var/www/icook.vn/gxc-cms-2-master/core/cms/components/HttpRequest.php (13)
-in /var/www/icook.vn/gxc-cms-2-master/core/cms/extensions/yii-debug-toolbar/YiiDebugToolbarRoute.php (112)
-2018/03/30 17:51:15 [trace] [system.base.CModule] Loading "cache" module
-in /var/www/icook.vn/icook/backend/index.php (20)
-2018/03/30 17:51:15 [trace] [system.CModule] Loading "user" application component
-in /var/www/icook.vn/gxc-cms-2-master/core/cms/modules/cache/CacheModule.php (68)
-in /var/www/icook.vn/icook/backend/index.php (20)
-2018/03/30 17:51:15 [trace] [system.CModule] Loading "session" application component
-in /var/www/icook.vn/gxc-cms-2-master/core/cms/modules/cache/CacheModule.php (68)
-in /var/www/icook.vn/icook/backend/index.php (20)
-2018/03/30 17:51:15 [trace] [system.CModule] Loading "db" application component
-in /var/www/icook.vn/gxc-cms-2-master/core/cms/modules/cache/CacheModule.php (68)
-in /var/www/icook.vn/icook/backend/index.php (20)
-2018/03/30 17:51:15 [trace] [system.db.CDbConnection] Opening DB connection
-in /var/www/icook.vn/gxc-cms-2-master/core/cms/modules/cache/CacheModule.php (68)
-in /var/www/icook.vn/icook/backend/index.php (20)
-2018/03/30 17:51:15 [trace] [system.db.CDbCommand] Querying SQL: SELECT `data`
-FROM `gxc_session`
-WHERE expire>:expire AND id=:id. Bound with :expire=1522407075, :id='5p6mbtlme1tuk3bqgdmd4otrh4'
-in /var/www/icook.vn/gxc-cms-2-master/core/cms/modules/cache/CacheModule.php (68)
-in /var/www/icook.vn/icook/backend/index.php (20)
-2018/03/30 17:51:15 [trace] [system.CModule] Loading "messages" application component
-in /var/www/icook.vn/gxc-cms-2-master/core/cms/globals.php (83)
-in /var/www/icook.vn/gxc-cms-2-master/core/cms/modules/cache/controllers/DefaultController.php (84)
-in /var/www/icook.vn/icook/backend/index.php (20)
-2018/03/30 17:51:15 [trace] [system.CModule] Loading "log" application component
-in /var/www/icook.vn/icook/backend/index.php (20)
-2018/03/30 17:51:15 [trace] [system.CModule] Loading "request" application component
-in /var/www/icook.vn/gxc-cms-2-master/core/cms/extensions/yii-debug-toolbar/YiiDebugToolbarRoute.php (112)
-in /var/www/icook.vn/icook/backend/index.php (20)
-2018/03/30 17:51:15 [trace] [system.CModule] Loading "urlManager" application component
-in /var/www/icook.vn/gxc-cms-2-master/core/cms/components/HttpRequest.php (66)
-in /var/www/icook.vn/gxc-cms-2-master/core/cms/components/HttpRequest.php (13)
-in /var/www/icook.vn/gxc-cms-2-master/core/cms/extensions/yii-debug-toolbar/YiiDebugToolbarRoute.php (112)
-2018/03/30 17:51:15 [trace] [system.base.CModule] Loading "cache" module
-in /var/www/icook.vn/icook/backend/index.php (20)
-2018/03/30 17:51:15 [trace] [system.CModule] Loading "user" application component
-in /var/www/icook.vn/gxc-cms-2-master/core/cms/modules/cache/CacheModule.php (68)
-in /var/www/icook.vn/icook/backend/index.php (20)
-2018/03/30 17:51:15 [trace] [system.CModule] Loading "session" application component
-in /var/www/icook.vn/gxc-cms-2-master/core/cms/modules/cache/CacheModule.php (68)
-in /var/www/icook.vn/icook/backend/index.php (20)
-2018/03/30 17:51:15 [trace] [system.CModule] Loading "db" application component
-in /var/www/icook.vn/gxc-cms-2-master/core/cms/modules/cache/CacheModule.php (68)
-in /var/www/icook.vn/icook/backend/index.php (20)
-2018/03/30 17:51:15 [trace] [system.db.CDbConnection] Opening DB connection
-in /var/www/icook.vn/gxc-cms-2-master/core/cms/modules/cache/CacheModule.php (68)
-in /var/www/icook.vn/icook/backend/index.php (20)
-2018/03/30 17:51:15 [trace] [system.db.CDbCommand] Querying SQL: SELECT `data`
-FROM `gxc_session`
-WHERE expire>:expire AND id=:id. Bound with :expire=1522407075, :id='5p6mbtlme1tuk3bqgdmd4otrh4'
-in /var/www/icook.vn/gxc-cms-2-master/core/cms/modules/cache/CacheModule.php (68)
-in /var/www/icook.vn/icook/backend/index.php (20)
-2018/03/30 17:51:15 [trace] [system.CModule] Loading "messages" application component
-in /var/www/icook.vn/gxc-cms-2-master/core/cms/globals.php (83)
-in /var/www/icook.vn/gxc-cms-2-master/core/cms/modules/cache/views/default/index.php (1)
-in /var/www/icook.vn/gxc-cms-2-master/core/cms/modules/cache/controllers/DefaultController.php (16)
-2018/03/30 17:51:15 [trace] [system.CModule] Loading "cache" application component
-in /var/www/icook.vn/gxc-cms-2-master/core/cms/modules/cache/views/default/index.php (8)
-in /var/www/icook.vn/gxc-cms-2-master/core/cms/modules/cache/controllers/DefaultController.php (16)
-in /var/www/icook.vn/icook/backend/index.php (20)
-2018/03/30 17:51:15 [trace] [system.CModule] Loading "assetManager" application component
-in /var/www/icook.vn/gxc-cms-2-master/core/cms/components/GxcHelpers.php (217)
-in /var/www/icook.vn/gxc-cms-2-master/core/cms/modules/cache/views/layouts/main.php (5)
-in /var/www/icook.vn/gxc-cms-2-master/core/cms/modules/cache/controllers/DefaultController.php (16)
-2018/03/30 17:51:15 [trace] [system.CModule] Loading "clientScript" application component
-in /var/www/icook.vn/gxc-cms-2-master/core/cms/modules/cache/controllers/DefaultController.php (16)
-in /var/www/icook.vn/icook/backend/index.php (20)
-2018/03/30 17:51:16 [trace] [system.CModule] Loading "log" application component
-in /var/www/icook.vn/icook/backend/index.php (20)
-2018/03/30 17:51:16 [trace] [system.CModule] Loading "request" application component
-in /var/www/icook.vn/gxc-cms-2-master/core/cms/extensions/yii-debug-toolbar/YiiDebugToolbarRoute.php (112)
-in /var/www/icook.vn/icook/backend/index.php (20)
-2018/03/30 17:51:16 [trace] [system.CModule] Loading "urlManager" application component
-in /var/www/icook.vn/gxc-cms-2-master/core/cms/components/HttpRequest.php (66)
-in /var/www/icook.vn/gxc-cms-2-master/core/cms/components/HttpRequest.php (13)
-in /var/www/icook.vn/gxc-cms-2-master/core/cms/extensions/yii-debug-toolbar/YiiDebugToolbarRoute.php (112)
-2018/03/30 17:51:16 [trace] [system.base.CModule] Loading "cache" module
-in /var/www/icook.vn/icook/backend/index.php (20)
-2018/03/30 17:51:16 [trace] [system.CModule] Loading "user" application component
-in /var/www/icook.vn/gxc-cms-2-master/core/cms/modules/cache/CacheModule.php (68)
-in /var/www/icook.vn/icook/backend/index.php (20)
-2018/03/30 17:51:16 [trace] [system.CModule] Loading "session" application component
-in /var/www/icook.vn/gxc-cms-2-master/core/cms/modules/cache/CacheModule.php (68)
-in /var/www/icook.vn/icook/backend/index.php (20)
-2018/03/30 17:51:16 [trace] [system.CModule] Loading "db" application component
-in /var/www/icook.vn/gxc-cms-2-master/core/cms/modules/cache/CacheModule.php (68)
-in /var/www/icook.vn/icook/backend/index.php (20)
-2018/03/30 17:51:16 [trace] [system.db.CDbConnection] Opening DB connection
-in /var/www/icook.vn/gxc-cms-2-master/core/cms/modules/cache/CacheModule.php (68)
-in /var/www/icook.vn/icook/backend/index.php (20)
-2018/03/30 17:51:16 [trace] [system.db.CDbCommand] Querying SQL: SELECT `data`
-FROM `gxc_session`
-WHERE expire>:expire AND id=:id. Bound with :expire=1522407076, :id='5p6mbtlme1tuk3bqgdmd4otrh4'
-in /var/www/icook.vn/gxc-cms-2-master/core/cms/modules/cache/CacheModule.php (68)
-in /var/www/icook.vn/icook/backend/index.php (20)
-2018/03/30 17:51:16 [trace] [system.CModule] Loading "cache" application component
-in /var/www/icook.vn/gxc-cms-2-master/core/cms/modules/cache/controllers/DefaultController.php (63)
-in /var/www/icook.vn/icook/backend/index.php (20)
-2018/03/30 17:51:16 [trace] [system.caching.CFileCache] Flushing cache
-in /var/www/icook.vn/gxc-cms-2-master/core/cms/modules/cache/controllers/DefaultController.php (68)
-in /var/www/icook.vn/icook/backend/index.php (20)
-2018/03/30 17:51:16 [trace] [system.CModule] Loading "messages" application component
-in /var/www/icook.vn/gxc-cms-2-master/core/cms/globals.php (83)
-in /var/www/icook.vn/gxc-cms-2-master/core/cms/modules/cache/controllers/DefaultController.php (70)
-in /var/www/icook.vn/icook/backend/index.php (20)
-2018/03/30 17:51:16 [trace] [system.CModule] Loading "log" application component
-in /var/www/icook.vn/icook/backend/index.php (20)
-2018/03/30 17:51:16 [trace] [system.CModule] Loading "request" application component
-in /var/www/icook.vn/gxc-cms-2-master/core/cms/extensions/yii-debug-toolbar/YiiDebugToolbarRoute.php (112)
-in /var/www/icook.vn/icook/backend/index.php (20)
-2018/03/30 17:51:16 [trace] [system.CModule] Loading "urlManager" application component
-in /var/www/icook.vn/gxc-cms-2-master/core/cms/components/HttpRequest.php (66)
-in /var/www/icook.vn/gxc-cms-2-master/core/cms/components/HttpRequest.php (13)
-in /var/www/icook.vn/gxc-cms-2-master/core/cms/extensions/yii-debug-toolbar/YiiDebugToolbarRoute.php (112)
-2018/03/30 17:51:16 [trace] [system.base.CModule] Loading "cache" module
-in /var/www/icook.vn/icook/backend/index.php (20)
-2018/03/30 17:51:16 [trace] [system.CModule] Loading "user" application component
-in /var/www/icook.vn/gxc-cms-2-master/core/cms/modules/cache/CacheModule.php (68)
-in /var/www/icook.vn/icook/backend/index.php (20)
-2018/03/30 17:51:16 [trace] [system.CModule] Loading "session" application component
-in /var/www/icook.vn/gxc-cms-2-master/core/cms/modules/cache/CacheModule.php (68)
-in /var/www/icook.vn/icook/backend/index.php (20)
-2018/03/30 17:51:16 [trace] [system.CModule] Loading "db" application component
-in /var/www/icook.vn/gxc-cms-2-master/core/cms/modules/cache/CacheModule.php (68)
-in /var/www/icook.vn/icook/backend/index.php (20)
-2018/03/30 17:51:16 [trace] [system.db.CDbConnection] Opening DB connection
-in /var/www/icook.vn/gxc-cms-2-master/core/cms/modules/cache/CacheModule.php (68)
-in /var/www/icook.vn/icook/backend/index.php (20)
-2018/03/30 17:51:16 [trace] [system.db.CDbCommand] Querying SQL: SELECT `data`
-FROM `gxc_session`
-WHERE expire>:expire AND id=:id. Bound with :expire=1522407076, :id='5p6mbtlme1tuk3bqgdmd4otrh4'
-in /var/www/icook.vn/gxc-cms-2-master/core/cms/modules/cache/CacheModule.php (68)
-in /var/www/icook.vn/icook/backend/index.php (20)
-2018/03/30 17:51:16 [trace] [system.CModule] Loading "messages" application component
-in /var/www/icook.vn/gxc-cms-2-master/core/cms/globals.php (83)
-in /var/www/icook.vn/gxc-cms-2-master/core/cms/modules/cache/views/default/index.php (1)
-in /var/www/icook.vn/gxc-cms-2-master/core/cms/modules/cache/controllers/DefaultController.php (16)
-2018/03/30 17:51:16 [trace] [system.CModule] Loading "cache" application component
-in /var/www/icook.vn/gxc-cms-2-master/core/cms/modules/cache/views/default/index.php (8)
-in /var/www/icook.vn/gxc-cms-2-master/core/cms/modules/cache/controllers/DefaultController.php (16)
-in /var/www/icook.vn/icook/backend/index.php (20)
-2018/03/30 17:51:16 [trace] [system.CModule] Loading "assetManager" application component
-in /var/www/icook.vn/gxc-cms-2-master/core/cms/components/GxcHelpers.php (217)
-in /var/www/icook.vn/gxc-cms-2-master/core/cms/modules/cache/views/layouts/main.php (5)
-in /var/www/icook.vn/gxc-cms-2-master/core/cms/modules/cache/controllers/DefaultController.php (16)
-2018/03/30 17:51:16 [trace] [system.CModule] Loading "clientScript" application component
-in /var/www/icook.vn/gxc-cms-2-master/core/cms/modules/cache/controllers/DefaultController.php (16)
-in /var/www/icook.vn/icook/backend/index.php (20)
-2018/03/30 17:51:16 [trace] [system.CModule] Loading "log" application component
-in /var/www/icook.vn/icook/backend/index.php (20)
-2018/03/30 17:51:16 [trace] [system.CModule] Loading "request" application component
-in /var/www/icook.vn/gxc-cms-2-master/core/cms/extensions/yii-debug-toolbar/YiiDebugToolbarRoute.php (112)
-in /var/www/icook.vn/icook/backend/index.php (20)
-2018/03/30 17:51:16 [trace] [system.CModule] Loading "urlManager" application component
-in /var/www/icook.vn/gxc-cms-2-master/core/cms/components/HttpRequest.php (66)
-in /var/www/icook.vn/gxc-cms-2-master/core/cms/components/HttpRequest.php (13)
-in /var/www/icook.vn/gxc-cms-2-master/core/cms/extensions/yii-debug-toolbar/YiiDebugToolbarRoute.php (112)
-2018/03/30 17:51:16 [trace] [system.base.CModule] Loading "cache" module
-in /var/www/icook.vn/icook/backend/index.php (20)
-2018/03/30 17:51:16 [trace] [system.CModule] Loading "user" application component
-in /var/www/icook.vn/gxc-cms-2-master/core/cms/modules/cache/CacheModule.php (68)
-in /var/www/icook.vn/icook/backend/index.php (20)
-2018/03/30 17:51:16 [trace] [system.CModule] Loading "session" application component
-in /var/www/icook.vn/gxc-cms-2-master/core/cms/modules/cache/CacheModule.php (68)
-in /var/www/icook.vn/icook/backend/index.php (20)
-2018/03/30 17:51:16 [trace] [system.CModule] Loading "db" application component
-in /var/www/icook.vn/gxc-cms-2-master/core/cms/modules/cache/CacheModule.php (68)
-in /var/www/icook.vn/icook/backend/index.php (20)
-2018/03/30 17:51:16 [trace] [system.db.CDbConnection] Opening DB connection
-in /var/www/icook.vn/gxc-cms-2-master/core/cms/modules/cache/CacheModule.php (68)
-in /var/www/icook.vn/icook/backend/index.php (20)
-2018/03/30 17:51:16 [trace] [system.db.CDbCommand] Querying SQL: SELECT `data`
-FROM `gxc_session`
-WHERE expire>:expire AND id=:id. Bound with :expire=1522407076, :id='5p6mbtlme1tuk3bqgdmd4otrh4'
-in /var/www/icook.vn/gxc-cms-2-master/core/cms/modules/cache/CacheModule.php (68)
-in /var/www/icook.vn/icook/backend/index.php (20)
-2018/03/30 17:51:16 [trace] [system.CModule] Loading "log" application component
-in /var/www/icook.vn/icook/backend/index.php (20)
-2018/03/30 17:51:16 [trace] [system.CModule] Loading "request" application component
-in /var/www/icook.vn/gxc-cms-2-master/core/cms/extensions/yii-debug-toolbar/YiiDebugToolbarRoute.php (112)
-in /var/www/icook.vn/icook/backend/index.php (20)
-2018/03/30 17:51:16 [trace] [system.CModule] Loading "urlManager" application component
-in /var/www/icook.vn/gxc-cms-2-master/core/cms/components/HttpRequest.php (66)
-in /var/www/icook.vn/gxc-cms-2-master/core/cms/components/HttpRequest.php (13)
-in /var/www/icook.vn/gxc-cms-2-master/core/cms/extensions/yii-debug-toolbar/YiiDebugToolbarRoute.php (112)
-2018/03/30 17:51:16 [trace] [system.base.CModule] Loading "cache" module
-in /var/www/icook.vn/icook/backend/index.php (20)
-2018/03/30 17:51:16 [trace] [system.CModule] Loading "user" application component
-in /var/www/icook.vn/gxc-cms-2-master/core/cms/modules/cache/CacheModule.php (68)
-in /var/www/icook.vn/icook/backend/index.php (20)
-2018/03/30 17:51:16 [trace] [system.CModule] Loading "session" application component
-in /var/www/icook.vn/gxc-cms-2-master/core/cms/modules/cache/CacheModule.php (68)
-in /var/www/icook.vn/icook/backend/index.php (20)
-2018/03/30 17:51:16 [trace] [system.CModule] Loading "db" application component
-in /var/www/icook.vn/gxc-cms-2-master/core/cms/modules/cache/CacheModule.php (68)
-in /var/www/icook.vn/icook/backend/index.php (20)
-2018/03/30 17:51:16 [trace] [system.db.CDbConnection] Opening DB connection
-in /var/www/icook.vn/gxc-cms-2-master/core/cms/modules/cache/CacheModule.php (68)
-in /var/www/icook.vn/icook/backend/index.php (20)
-2018/03/30 17:51:16 [trace] [system.db.CDbCommand] Querying SQL: SELECT `data`
-FROM `gxc_session`
-WHERE expire>:expire AND id=:id. Bound with :expire=1522407076, :id='5p6mbtlme1tuk3bqgdmd4otrh4'
-in /var/www/icook.vn/gxc-cms-2-master/core/cms/modules/cache/CacheModule.php (68)
-in /var/www/icook.vn/icook/backend/index.php (20)
-2018/03/30 17:51:16 [trace] [system.CModule] Loading "log" application component
-in /var/www/icook.vn/icook/backend/index.php (20)
-2018/03/30 17:51:16 [trace] [system.CModule] Loading "request" application component
-in /var/www/icook.vn/gxc-cms-2-master/core/cms/extensions/yii-debug-toolbar/YiiDebugToolbarRoute.php (112)
-in /var/www/icook.vn/icook/backend/index.php (20)
-2018/03/30 17:51:16 [trace] [system.CModule] Loading "urlManager" application component
-in /var/www/icook.vn/gxc-cms-2-master/core/cms/components/HttpRequest.php (66)
-in /var/www/icook.vn/gxc-cms-2-master/core/cms/components/HttpRequest.php (13)
-in /var/www/icook.vn/gxc-cms-2-master/core/cms/extensions/yii-debug-toolbar/YiiDebugToolbarRoute.php (112)
-2018/03/30 17:51:16 [trace] [system.base.CModule] Loading "cache" module
-in /var/www/icook.vn/icook/backend/index.php (20)
-2018/03/30 17:51:16 [trace] [system.CModule] Loading "user" application component
-in /var/www/icook.vn/gxc-cms-2-master/core/cms/modules/cache/CacheModule.php (68)
-in /var/www/icook.vn/icook/backend/index.php (20)
-2018/03/30 17:51:16 [trace] [system.CModule] Loading "session" application component
-in /var/www/icook.vn/gxc-cms-2-master/core/cms/modules/cache/CacheModule.php (68)
-in /var/www/icook.vn/icook/backend/index.php (20)
-2018/03/30 17:51:16 [trace] [system.CModule] Loading "db" application component
-in /var/www/icook.vn/gxc-cms-2-master/core/cms/modules/cache/CacheModule.php (68)
-in /var/www/icook.vn/icook/backend/index.php (20)
-2018/03/30 17:51:16 [trace] [system.db.CDbConnection] Opening DB connection
-in /var/www/icook.vn/gxc-cms-2-master/core/cms/modules/cache/CacheModule.php (68)
-in /var/www/icook.vn/icook/backend/index.php (20)
-2018/03/30 17:51:16 [trace] [system.db.CDbCommand] Querying SQL: SELECT `data`
-FROM `gxc_session`
-WHERE expire>:expire AND id=:id. Bound with :expire=1522407076, :id='5p6mbtlme1tuk3bqgdmd4otrh4'
-in /var/www/icook.vn/gxc-cms-2-master/core/cms/modules/cache/CacheModule.php (68)
-in /var/www/icook.vn/icook/backend/index.php (20)
-2018/03/30 17:51:16 [trace] [system.CModule] Loading "messages" application component
-in /var/www/icook.vn/gxc-cms-2-master/core/cms/globals.php (83)
-in /var/www/icook.vn/gxc-cms-2-master/core/cms/modules/cache/views/default/login.php (1)
-in /var/www/icook.vn/gxc-cms-2-master/core/cms/modules/cache/controllers/DefaultController.php (47)
-2018/03/30 17:51:16 [trace] [system.CModule] Loading "widgetFactory" application component
-in /var/www/icook.vn/gxc-cms-2-master/core/cms/modules/cache/views/default/login.php (3)
-in /var/www/icook.vn/gxc-cms-2-master/core/cms/modules/cache/controllers/DefaultController.php (47)
-in /var/www/icook.vn/icook/backend/index.php (20)
-2018/03/30 17:51:16 [trace] [system.CModule] Loading "clientScript" application component
-in /var/www/icook.vn/gxc-cms-2-master/core/cms/modules/cache/views/default/login.php (11)
-in /var/www/icook.vn/gxc-cms-2-master/core/cms/modules/cache/controllers/DefaultController.php (47)
-in /var/www/icook.vn/icook/backend/index.php (20)
-2018/03/30 17:51:16 [trace] [system.CModule] Loading "assetManager" application component
-in /var/www/icook.vn/gxc-cms-2-master/core/cms/components/GxcHelpers.php (217)
-in /var/www/icook.vn/gxc-cms-2-master/core/cms/modules/cache/views/layouts/main.php (5)
-in /var/www/icook.vn/gxc-cms-2-master/core/cms/modules/cache/controllers/DefaultController.php (47)
-2018/03/30 17:51:19 [trace] [system.CModule] Loading "log" application component
-in /var/www/icook.vn/icook/backend/index.php (20)
-2018/03/30 17:51:19 [trace] [system.CModule] Loading "request" application component
-in /var/www/icook.vn/gxc-cms-2-master/core/cms/extensions/yii-debug-toolbar/YiiDebugToolbarRoute.php (112)
-in /var/www/icook.vn/icook/backend/index.php (20)
-2018/03/30 17:51:19 [trace] [system.CModule] Loading "urlManager" application component
-in /var/www/icook.vn/gxc-cms-2-master/core/cms/components/HttpRequest.php (66)
-in /var/www/icook.vn/gxc-cms-2-master/core/cms/components/HttpRequest.php (13)
-in /var/www/icook.vn/gxc-cms-2-master/core/cms/extensions/yii-debug-toolbar/YiiDebugToolbarRoute.php (112)
-2018/03/30 17:51:19 [trace] [system.web.filters.CFilterChain] Running filter SiteController.filterrights()
-in /var/www/icook.vn/icook/backend/index.php (20)
-2018/03/30 17:51:19 [trace] [system.CModule] Loading "user" application component
-in /var/www/icook.vn/gxc-cms-2-master/core/cms/modules/rights/components/RightsFilter.php (24)
-in /var/www/icook.vn/gxc-cms-2-master/core/cms/modules/rights/components/RController.php (39)
-in /var/www/icook.vn/icook/backend/index.php (20)
-2018/03/30 17:51:19 [trace] [system.CModule] Loading "session" application component
-in /var/www/icook.vn/gxc-cms-2-master/core/cms/modules/rights/components/RightsFilter.php (24)
-in /var/www/icook.vn/gxc-cms-2-master/core/cms/modules/rights/components/RController.php (39)
-in /var/www/icook.vn/icook/backend/index.php (20)
-2018/03/30 17:51:19 [trace] [system.CModule] Loading "db" application component
-in /var/www/icook.vn/gxc-cms-2-master/core/cms/modules/rights/components/RightsFilter.php (24)
-in /var/www/icook.vn/gxc-cms-2-master/core/cms/modules/rights/components/RController.php (39)
-in /var/www/icook.vn/icook/backend/index.php (20)
-2018/03/30 17:51:19 [trace] [system.db.CDbConnection] Opening DB connection
-in /var/www/icook.vn/gxc-cms-2-master/core/cms/modules/rights/components/RightsFilter.php (24)
-in /var/www/icook.vn/gxc-cms-2-master/core/cms/modules/rights/components/RController.php (39)
-in /var/www/icook.vn/icook/backend/index.php (20)
-2018/03/30 17:51:19 [trace] [system.db.CDbCommand] Querying SQL: SELECT `data`
-FROM `gxc_session`
-WHERE expire>:expire AND id=:id. Bound with :expire=1522407079, :id='5p6mbtlme1tuk3bqgdmd4otrh4'
-in /var/www/icook.vn/gxc-cms-2-master/core/cms/modules/rights/components/RightsFilter.php (24)
-in /var/www/icook.vn/gxc-cms-2-master/core/cms/modules/rights/components/RController.php (39)
-in /var/www/icook.vn/icook/backend/index.php (20)
-2018/03/30 17:51:19 [trace] [system.CModule] Loading "securityManager" application component
-in /var/www/icook.vn/gxc-cms-2-master/core/cms/modules/rights/components/RightsFilter.php (24)
-in /var/www/icook.vn/gxc-cms-2-master/core/cms/modules/rights/components/RController.php (39)
-in /var/www/icook.vn/icook/backend/index.php (20)
-2018/03/30 17:51:19 [trace] [system.CModule] Loading "statePersister" application component
-in /var/www/icook.vn/gxc-cms-2-master/core/cms/modules/rights/components/RightsFilter.php (24)
-in /var/www/icook.vn/gxc-cms-2-master/core/cms/modules/rights/components/RController.php (39)
-in /var/www/icook.vn/icook/backend/index.php (20)
-2018/03/30 17:51:19 [trace] [system.CModule] Loading "cache" application component
-in /var/www/icook.vn/gxc-cms-2-master/core/cms/modules/rights/components/RightsFilter.php (24)
-in /var/www/icook.vn/gxc-cms-2-master/core/cms/modules/rights/components/RController.php (39)
-in /var/www/icook.vn/icook/backend/index.php (20)
-2018/03/30 17:51:19 [trace] [system.caching.CFileCache] Saving "Yii.CStatePersister./var/www/icook.vn/icook/backend/protected/runtime/state.bin" to cache
-in /var/www/icook.vn/gxc-cms-2-master/core/cms/modules/rights/components/RightsFilter.php (24)
-in /var/www/icook.vn/gxc-cms-2-master/core/cms/modules/rights/components/RController.php (39)
-in /var/www/icook.vn/icook/backend/index.php (20)
-2018/03/30 17:51:19 [trace] [system.CModule] Loading "messages" application component
-in /var/www/icook.vn/gxc-cms-2-master/core/cms/globals.php (83)
-in /var/www/icook.vn/icook/backend/protected/views/site/index.php (4)
-in /var/www/icook.vn/icook/backend/protected/controllers/SiteController.php (7)
-2018/03/30 17:51:19 [trace] [system.caching.CFileCache] Saving "gxchelpers-content-types-false" to cache
-in /var/www/icook.vn/gxc-cms-2-master/core/cms/components/GxcHelpers.php (240)
-in /var/www/icook.vn/icook/backend/protected/views/site/index.php (6)
-in /var/www/icook.vn/icook/backend/protected/controllers/SiteController.php (7)
-2018/03/30 17:51:19 [trace] [system.CModule] Loading "assetManager" application component
-in /var/www/icook.vn/icook/backend/protected/views/site/index.php (13)
-in /var/www/icook.vn/icook/backend/protected/controllers/SiteController.php (7)
-in /var/www/icook.vn/gxc-cms-2-master/core/cms/modules/rights/components/RController.php (39)
-2018/03/30 17:51:19 [trace] [system.CModule] Loading "clientScript" application component
-in /var/www/icook.vn/icook/backend/protected/views/layouts/header.php (5)
-in /var/www/icook.vn/icook/backend/protected/views/layouts/main.php (5)
-in /var/www/icook.vn/icook/backend/protected/controllers/SiteController.php (7)
-2018/03/30 17:51:19 [trace] [system.CModule] Loading "widgetFactory" application component
-in /var/www/icook.vn/icook/backend/protected/views/layouts/menu.php (221)
-in /var/www/icook.vn/icook/backend/protected/views/layouts/main.php (35)
-in /var/www/icook.vn/icook/backend/protected/controllers/SiteController.php (7)
-2018/03/30 17:51:28 [trace] [system.CModule] Loading "log" application component
-in /var/www/icook.vn/icook/backend/index.php (20)
-2018/03/30 17:51:28 [trace] [system.CModule] Loading "request" application component
-in /var/www/icook.vn/gxc-cms-2-master/core/cms/extensions/yii-debug-toolbar/YiiDebugToolbarRoute.php (112)
-in /var/www/icook.vn/icook/backend/index.php (20)
-2018/03/30 17:51:28 [trace] [system.CModule] Loading "urlManager" application component
-in /var/www/icook.vn/gxc-cms-2-master/core/cms/components/HttpRequest.php (66)
-in /var/www/icook.vn/gxc-cms-2-master/core/cms/components/HttpRequest.php (13)
-in /var/www/icook.vn/gxc-cms-2-master/core/cms/extensions/yii-debug-toolbar/YiiDebugToolbarRoute.php (112)
-2018/03/30 17:51:28 [trace] [system.CModule] Loading "messages" application component
+2018/03/31 09:06:42 [trace] [system.CModule] Loading "messages" application component
 in /var/www/icook.vn/gxc-cms-2-master/core/cms/globals.php (83)
 in /var/www/icook.vn/icook/backend/protected/controllers/BlockController.php (17)
 in /var/www/icook.vn/icook/backend/index.php (20)
-2018/03/30 17:51:28 [trace] [system.web.filters.CFilterChain] Running filter BlockController.filterrights()
+2018/03/31 09:06:42 [trace] [system.web.filters.CFilterChain] Running filter BlockController.filterrights()
 in /var/www/icook.vn/icook/backend/index.php (20)
-2018/03/30 17:51:28 [trace] [system.CModule] Loading "user" application component
+2018/03/31 09:06:42 [trace] [system.CModule] Loading "user" application component
 in /var/www/icook.vn/gxc-cms-2-master/core/cms/modules/rights/components/RightsFilter.php (24)
 in /var/www/icook.vn/gxc-cms-2-master/core/cms/modules/rights/components/RController.php (39)
 in /var/www/icook.vn/icook/backend/index.php (20)
-2018/03/30 17:51:28 [trace] [system.CModule] Loading "session" application component
+2018/03/31 09:06:42 [trace] [system.CModule] Loading "session" application component
 in /var/www/icook.vn/gxc-cms-2-master/core/cms/modules/rights/components/RightsFilter.php (24)
 in /var/www/icook.vn/gxc-cms-2-master/core/cms/modules/rights/components/RController.php (39)
 in /var/www/icook.vn/icook/backend/index.php (20)
-2018/03/30 17:51:28 [trace] [system.CModule] Loading "db" application component
+2018/03/31 09:06:42 [trace] [system.CModule] Loading "db" application component
 in /var/www/icook.vn/gxc-cms-2-master/core/cms/modules/rights/components/RightsFilter.php (24)
 in /var/www/icook.vn/gxc-cms-2-master/core/cms/modules/rights/components/RController.php (39)
 in /var/www/icook.vn/icook/backend/index.php (20)
-2018/03/30 17:51:28 [trace] [system.db.CDbConnection] Opening DB connection
+2018/03/31 09:06:42 [trace] [system.db.CDbConnection] Opening DB connection
 in /var/www/icook.vn/gxc-cms-2-master/core/cms/modules/rights/components/RightsFilter.php (24)
 in /var/www/icook.vn/gxc-cms-2-master/core/cms/modules/rights/components/RController.php (39)
 in /var/www/icook.vn/icook/backend/index.php (20)
-2018/03/30 17:51:28 [trace] [system.db.CDbCommand] Querying SQL: SELECT `data`
+2018/03/31 09:06:42 [trace] [system.db.CDbCommand] Querying SQL: SELECT `data`
 FROM `gxc_session`
-WHERE expire>:expire AND id=:id. Bound with :expire=1522407088, :id='5p6mbtlme1tuk3bqgdmd4otrh4'
+WHERE expire>:expire AND id=:id. Bound with :expire=1522462002, :id='q5kohbm28kviciqngil21icpu6'
 in /var/www/icook.vn/gxc-cms-2-master/core/cms/modules/rights/components/RightsFilter.php (24)
 in /var/www/icook.vn/gxc-cms-2-master/core/cms/modules/rights/components/RController.php (39)
 in /var/www/icook.vn/icook/backend/index.php (20)
-2018/03/30 17:51:28 [trace] [system.CModule] Loading "securityManager" application component
+2018/03/31 09:06:42 [trace] [system.CModule] Loading "securityManager" application component
 in /var/www/icook.vn/gxc-cms-2-master/core/cms/modules/rights/components/RightsFilter.php (24)
 in /var/www/icook.vn/gxc-cms-2-master/core/cms/modules/rights/components/RController.php (39)
 in /var/www/icook.vn/icook/backend/index.php (20)
-2018/03/30 17:51:28 [trace] [system.CModule] Loading "statePersister" application component
+2018/03/31 09:06:42 [trace] [system.CModule] Loading "statePersister" application component
 in /var/www/icook.vn/gxc-cms-2-master/core/cms/modules/rights/components/RightsFilter.php (24)
 in /var/www/icook.vn/gxc-cms-2-master/core/cms/modules/rights/components/RController.php (39)
 in /var/www/icook.vn/icook/backend/index.php (20)
-2018/03/30 17:51:28 [trace] [system.CModule] Loading "cache" application component
+2018/03/31 09:06:42 [trace] [system.CModule] Loading "cache" application component
 in /var/www/icook.vn/gxc-cms-2-master/core/cms/modules/rights/components/RightsFilter.php (24)
 in /var/www/icook.vn/gxc-cms-2-master/core/cms/modules/rights/components/RController.php (39)
 in /var/www/icook.vn/icook/backend/index.php (20)
-2018/03/30 17:51:28 [trace] [system.caching.CFileCache] Serving "Yii.CStatePersister./var/www/icook.vn/icook/backend/protected/runtime/state.bin" from cache
+2018/03/31 09:06:42 [trace] [system.caching.CFileCache] Serving "Yii.CStatePersister./var/www/icook.vn/icook/backend/protected/runtime/state.bin" from cache
 in /var/www/icook.vn/gxc-cms-2-master/core/cms/modules/rights/components/RightsFilter.php (24)
 in /var/www/icook.vn/gxc-cms-2-master/core/cms/modules/rights/components/RController.php (39)
 in /var/www/icook.vn/icook/backend/index.php (20)
-2018/03/30 17:51:28 [trace] [system.CModule] Loading "widgetFactory" application component
-in /var/www/icook.vn/icook/backend/protected/views/block/block_create.php (5)
-in /var/www/icook.vn/icook/backend/protected/controllers/BlockController.php (29)
+2018/03/31 09:06:42 [trace] [system.CModule] Loading "widgetFactory" application component
+in /var/www/icook.vn/icook/backend/protected/views/block/block_suggest.php (1)
+in /var/www/icook.vn/icook/backend/protected/controllers/BlockController.php (88)
 in /var/www/icook.vn/gxc-cms-2-master/core/cms/modules/rights/components/RController.php (39)
-2018/03/30 17:51:28 [trace] [system.db.CDbCommand] Querying SQL: SHOW FULL COLUMNS FROM `gxc_block`
-in /var/www/icook.vn/gxc-cms-2-master/core/cms/widgets/page/BlockCreateWidget.php (34)
-in /var/www/icook.vn/gxc-cms-2-master/core/cms/widgets/page/BlockCreateWidget.php (28)
-in /var/www/icook.vn/icook/backend/protected/views/block/block_create.php (5)
-2018/03/30 17:51:28 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `gxc_block`
-in /var/www/icook.vn/gxc-cms-2-master/core/cms/widgets/page/BlockCreateWidget.php (34)
-in /var/www/icook.vn/gxc-cms-2-master/core/cms/widgets/page/BlockCreateWidget.php (28)
-in /var/www/icook.vn/icook/backend/protected/views/block/block_create.php (5)
-2018/03/30 17:51:28 [trace] [system.caching.CFileCache] Saving "yii:dbschemamysql:host=localhost;dbname=icook:root:{{block}}" to cache
-in /var/www/icook.vn/gxc-cms-2-master/core/cms/widgets/page/BlockCreateWidget.php (34)
-in /var/www/icook.vn/gxc-cms-2-master/core/cms/widgets/page/BlockCreateWidget.php (28)
-in /var/www/icook.vn/icook/backend/protected/views/block/block_create.php (5)
-2018/03/30 17:51:28 [trace] [system.caching.CFileCache] Saving "gxchelpers-available-blocks" to cache
-in /var/www/icook.vn/gxc-cms-2-master/core/cms/components/GxcHelpers.php (146)
-in /var/www/icook.vn/gxc-cms-2-master/core/cms/widgets/views/block/block_start_widget.php (10)
-in /var/www/icook.vn/gxc-cms-2-master/core/cms/widgets/page/BlockCreateWidget.php (98)
-2018/03/30 17:51:28 [trace] [system.CModule] Loading "clientScript" application component
-in /var/www/icook.vn/gxc-cms-2-master/core/cms/widgets/views/block/block_start_widget.php (31)
-in /var/www/icook.vn/gxc-cms-2-master/core/cms/widgets/page/BlockCreateWidget.php (98)
-in /var/www/icook.vn/gxc-cms-2-master/core/cms/widgets/page/BlockCreateWidget.php (28)
-2018/03/30 17:51:28 [trace] [system.CModule] Loading "assetManager" application component
-in /var/www/icook.vn/icook/backend/protected/views/layouts/header.php (6)
-in /var/www/icook.vn/icook/backend/protected/views/layouts/main.php (5)
-in /var/www/icook.vn/icook/backend/protected/controllers/BlockController.php (29)
-2018/03/30 17:51:31 [trace] [system.CModule] Loading "log" application component
+2018/03/31 09:06:42 [trace] [system.CModule] Loading "clientScript" application component
+in /var/www/icook.vn/gxc-cms-2-master/core/cms/widgets/views/block/block_suggest_widget.php (6)
+in /var/www/icook.vn/gxc-cms-2-master/core/cms/widgets/page/BlockSuggestWidget.php (34)
+in /var/www/icook.vn/gxc-cms-2-master/core/cms/widgets/page/BlockSuggestWidget.php (26)
+2018/03/31 09:06:42 [trace] [system.CModule] Loading "assetManager" application component
+in /var/www/icook.vn/gxc-cms-2-master/core/cms/widgets/views/block/block_suggest_widget.php (6)
+in /var/www/icook.vn/gxc-cms-2-master/core/cms/widgets/page/BlockSuggestWidget.php (34)
+in /var/www/icook.vn/gxc-cms-2-master/core/cms/widgets/page/BlockSuggestWidget.php (26)
+2018/03/31 09:20:10 [trace] [system.CModule] Loading "log" application component
 in /var/www/icook.vn/icook/backend/index.php (20)
-2018/03/30 17:51:31 [trace] [system.CModule] Loading "request" application component
+2018/03/31 09:20:10 [trace] [system.CModule] Loading "request" application component
 in /var/www/icook.vn/gxc-cms-2-master/core/cms/extensions/yii-debug-toolbar/YiiDebugToolbarRoute.php (112)
 in /var/www/icook.vn/icook/backend/index.php (20)
-2018/03/30 17:51:31 [trace] [system.CModule] Loading "urlManager" application component
+2018/03/31 09:20:10 [trace] [system.CModule] Loading "urlManager" application component
 in /var/www/icook.vn/gxc-cms-2-master/core/cms/components/HttpRequest.php (66)
 in /var/www/icook.vn/gxc-cms-2-master/core/cms/components/HttpRequest.php (13)
 in /var/www/icook.vn/gxc-cms-2-master/core/cms/extensions/yii-debug-toolbar/YiiDebugToolbarRoute.php (112)
-2018/03/30 17:51:31 [trace] [system.CModule] Loading "messages" application component
-in /var/www/icook.vn/gxc-cms-2-master/core/cms/globals.php (83)
-in /var/www/icook.vn/icook/backend/protected/controllers/BlockController.php (17)
-in /var/www/icook.vn/icook/backend/index.php (20)
-2018/03/30 17:51:31 [trace] [system.web.filters.CFilterChain] Running filter BlockController.filterrights()
-in /var/www/icook.vn/icook/backend/index.php (20)
-2018/03/30 17:51:31 [trace] [system.CModule] Loading "user" application component
-in /var/www/icook.vn/gxc-cms-2-master/core/cms/modules/rights/components/RightsFilter.php (24)
-in /var/www/icook.vn/gxc-cms-2-master/core/cms/modules/rights/components/RController.php (39)
-in /var/www/icook.vn/icook/backend/index.php (20)
-2018/03/30 17:51:31 [trace] [system.CModule] Loading "session" application component
-in /var/www/icook.vn/gxc-cms-2-master/core/cms/modules/rights/components/RightsFilter.php (24)
-in /var/www/icook.vn/gxc-cms-2-master/core/cms/modules/rights/components/RController.php (39)
-in /var/www/icook.vn/icook/backend/index.php (20)
-2018/03/30 17:51:31 [trace] [system.CModule] Loading "db" application component
-in /var/www/icook.vn/gxc-cms-2-master/core/cms/modules/rights/components/RightsFilter.php (24)
-in /var/www/icook.vn/gxc-cms-2-master/core/cms/modules/rights/components/RController.php (39)
-in /var/www/icook.vn/icook/backend/index.php (20)
-2018/03/30 17:51:31 [trace] [system.db.CDbConnection] Opening DB connection
-in /var/www/icook.vn/gxc-cms-2-master/core/cms/modules/rights/components/RightsFilter.php (24)
-in /var/www/icook.vn/gxc-cms-2-master/core/cms/modules/rights/components/RController.php (39)
-in /var/www/icook.vn/icook/backend/index.php (20)
-2018/03/30 17:51:31 [trace] [system.db.CDbCommand] Querying SQL: SELECT `data`
-FROM `gxc_session`
-WHERE expire>:expire AND id=:id. Bound with :expire=1522407091, :id='5p6mbtlme1tuk3bqgdmd4otrh4'
-in /var/www/icook.vn/gxc-cms-2-master/core/cms/modules/rights/components/RightsFilter.php (24)
-in /var/www/icook.vn/gxc-cms-2-master/core/cms/modules/rights/components/RController.php (39)
-in /var/www/icook.vn/icook/backend/index.php (20)
-2018/03/30 17:51:31 [trace] [system.CModule] Loading "securityManager" application component
-in /var/www/icook.vn/gxc-cms-2-master/core/cms/modules/rights/components/RightsFilter.php (24)
-in /var/www/icook.vn/gxc-cms-2-master/core/cms/modules/rights/components/RController.php (39)
-in /var/www/icook.vn/icook/backend/index.php (20)
-2018/03/30 17:51:31 [trace] [system.CModule] Loading "statePersister" application component
-in /var/www/icook.vn/gxc-cms-2-master/core/cms/modules/rights/components/RightsFilter.php (24)
-in /var/www/icook.vn/gxc-cms-2-master/core/cms/modules/rights/components/RController.php (39)
-in /var/www/icook.vn/icook/backend/index.php (20)
-2018/03/30 17:51:31 [trace] [system.CModule] Loading "cache" application component
-in /var/www/icook.vn/gxc-cms-2-master/core/cms/modules/rights/components/RightsFilter.php (24)
-in /var/www/icook.vn/gxc-cms-2-master/core/cms/modules/rights/components/RController.php (39)
-in /var/www/icook.vn/icook/backend/index.php (20)
-2018/03/30 17:51:31 [trace] [system.caching.CFileCache] Serving "Yii.CStatePersister./var/www/icook.vn/icook/backend/protected/runtime/state.bin" from cache
-in /var/www/icook.vn/gxc-cms-2-master/core/cms/modules/rights/components/RightsFilter.php (24)
-in /var/www/icook.vn/gxc-cms-2-master/core/cms/modules/rights/components/RController.php (39)
-in /var/www/icook.vn/icook/backend/index.php (20)
-2018/03/30 17:51:31 [trace] [system.CModule] Loading "widgetFactory" application component
-in /var/www/icook.vn/icook/backend/protected/views/block/block_create.php (5)
-in /var/www/icook.vn/icook/backend/protected/controllers/BlockController.php (29)
-in /var/www/icook.vn/gxc-cms-2-master/core/cms/modules/rights/components/RController.php (39)
-2018/03/30 17:51:31 [trace] [system.caching.CFileCache] Serving "yii:dbschemamysql:host=localhost;dbname=icook:root:{{block}}" from cache
-in /var/www/icook.vn/gxc-cms-2-master/core/cms/widgets/page/BlockCreateWidget.php (34)
-in /var/www/icook.vn/gxc-cms-2-master/core/cms/widgets/page/BlockCreateWidget.php (28)
-in /var/www/icook.vn/icook/backend/protected/views/block/block_create.php (5)
-2018/03/30 17:51:31 [trace] [system.CModule] Loading "coreMessages" application component
-in /var/www/icook.vn/gxc-cms-2-master/core/cms/widgets/views/block/block_form_widget.php (16)
-in /var/www/icook.vn/gxc-cms-2-master/core/cms/widgets/page/BlockCreateWidget.php (94)
-in /var/www/icook.vn/gxc-cms-2-master/core/cms/widgets/page/BlockCreateWidget.php (28)
-2018/03/30 17:51:31 [trace] [system.CModule] Loading "clientScript" application component
-in /var/www/icook.vn/gxc-cms-2-master/core/cms/widgets/views/block/block_form_widget.php (49)
-in /var/www/icook.vn/gxc-cms-2-master/core/cms/widgets/page/BlockCreateWidget.php (94)
-in /var/www/icook.vn/gxc-cms-2-master/core/cms/widgets/page/BlockCreateWidget.php (28)
-2018/03/30 17:51:31 [trace] [system.CModule] Loading "assetManager" application component
-in /var/www/icook.vn/icook/backend/protected/views/layouts/header.php (6)
-in /var/www/icook.vn/icook/backend/protected/views/layouts/main.php (5)
-in /var/www/icook.vn/icook/backend/protected/controllers/BlockController.php (29)
-2018/03/30 17:51:31 [trace] [system.CModule] Loading "log" application component
-in /var/www/icook.vn/icook/backend/index.php (20)
-2018/03/30 17:51:31 [trace] [system.CModule] Loading "request" application component
-in /var/www/icook.vn/gxc-cms-2-master/core/cms/extensions/yii-debug-toolbar/YiiDebugToolbarRoute.php (112)
-in /var/www/icook.vn/icook/backend/index.php (20)
-2018/03/30 17:51:31 [trace] [system.CModule] Loading "urlManager" application component
-in /var/www/icook.vn/gxc-cms-2-master/core/cms/components/HttpRequest.php (66)
-in /var/www/icook.vn/gxc-cms-2-master/core/cms/components/HttpRequest.php (13)
-in /var/www/icook.vn/gxc-cms-2-master/core/cms/extensions/yii-debug-toolbar/YiiDebugToolbarRoute.php (112)
-2018/03/30 17:51:31 [trace] [system.CModule] Loading "messages" application component
+2018/03/31 09:20:10 [trace] [system.CModule] Loading "messages" application component
 in /var/www/icook.vn/gxc-cms-2-master/core/cms/globals.php (83)
 in /var/www/icook.vn/icook/backend/protected/controllers/ContentlistController.php (17)
 in /var/www/icook.vn/icook/backend/index.php (20)
-2018/03/30 17:51:31 [trace] [system.web.filters.CFilterChain] Running filter ContentlistController.filterrights()
+2018/03/31 09:20:10 [trace] [system.web.filters.CFilterChain] Running filter ContentlistController.filterrights()
 in /var/www/icook.vn/icook/backend/index.php (20)
-2018/03/30 17:51:31 [trace] [system.CModule] Loading "user" application component
+2018/03/31 09:20:10 [trace] [system.CModule] Loading "user" application component
 in /var/www/icook.vn/gxc-cms-2-master/core/cms/modules/rights/components/RightsFilter.php (24)
 in /var/www/icook.vn/gxc-cms-2-master/core/cms/modules/rights/components/RController.php (39)
 in /var/www/icook.vn/icook/backend/index.php (20)
-2018/03/30 17:51:31 [trace] [system.CModule] Loading "session" application component
+2018/03/31 09:20:10 [trace] [system.CModule] Loading "session" application component
 in /var/www/icook.vn/gxc-cms-2-master/core/cms/modules/rights/components/RightsFilter.php (24)
 in /var/www/icook.vn/gxc-cms-2-master/core/cms/modules/rights/components/RController.php (39)
 in /var/www/icook.vn/icook/backend/index.php (20)
-2018/03/30 17:51:31 [trace] [system.CModule] Loading "db" application component
+2018/03/31 09:20:10 [trace] [system.CModule] Loading "db" application component
 in /var/www/icook.vn/gxc-cms-2-master/core/cms/modules/rights/components/RightsFilter.php (24)
 in /var/www/icook.vn/gxc-cms-2-master/core/cms/modules/rights/components/RController.php (39)
 in /var/www/icook.vn/icook/backend/index.php (20)
-2018/03/30 17:51:31 [trace] [system.db.CDbConnection] Opening DB connection
+2018/03/31 09:20:10 [trace] [system.db.CDbConnection] Opening DB connection
 in /var/www/icook.vn/gxc-cms-2-master/core/cms/modules/rights/components/RightsFilter.php (24)
 in /var/www/icook.vn/gxc-cms-2-master/core/cms/modules/rights/components/RController.php (39)
 in /var/www/icook.vn/icook/backend/index.php (20)
-2018/03/30 17:51:31 [trace] [system.db.CDbCommand] Querying SQL: SELECT `data`
+2018/03/31 09:20:10 [trace] [system.db.CDbCommand] Querying SQL: SELECT `data`
 FROM `gxc_session`
-WHERE expire>:expire AND id=:id. Bound with :expire=1522407091, :id='5p6mbtlme1tuk3bqgdmd4otrh4'
+WHERE expire>:expire AND id=:id. Bound with :expire=1522462810, :id='q5kohbm28kviciqngil21icpu6'
 in /var/www/icook.vn/gxc-cms-2-master/core/cms/modules/rights/components/RightsFilter.php (24)
 in /var/www/icook.vn/gxc-cms-2-master/core/cms/modules/rights/components/RController.php (39)
 in /var/www/icook.vn/icook/backend/index.php (20)
-2018/03/30 17:51:31 [trace] [system.CModule] Loading "securityManager" application component
+2018/03/31 09:20:10 [trace] [system.CModule] Loading "securityManager" application component
 in /var/www/icook.vn/gxc-cms-2-master/core/cms/modules/rights/components/RightsFilter.php (24)
 in /var/www/icook.vn/gxc-cms-2-master/core/cms/modules/rights/components/RController.php (39)
 in /var/www/icook.vn/icook/backend/index.php (20)
-2018/03/30 17:51:31 [trace] [system.CModule] Loading "statePersister" application component
+2018/03/31 09:20:10 [trace] [system.CModule] Loading "statePersister" application component
 in /var/www/icook.vn/gxc-cms-2-master/core/cms/modules/rights/components/RightsFilter.php (24)
 in /var/www/icook.vn/gxc-cms-2-master/core/cms/modules/rights/components/RController.php (39)
 in /var/www/icook.vn/icook/backend/index.php (20)
-2018/03/30 17:51:31 [trace] [system.CModule] Loading "cache" application component
+2018/03/31 09:20:10 [trace] [system.CModule] Loading "cache" application component
 in /var/www/icook.vn/gxc-cms-2-master/core/cms/modules/rights/components/RightsFilter.php (24)
 in /var/www/icook.vn/gxc-cms-2-master/core/cms/modules/rights/components/RController.php (39)
 in /var/www/icook.vn/icook/backend/index.php (20)
-2018/03/30 17:51:31 [trace] [system.caching.CFileCache] Serving "Yii.CStatePersister./var/www/icook.vn/icook/backend/protected/runtime/state.bin" from cache
+2018/03/31 09:20:10 [trace] [system.caching.CFileCache] Serving "Yii.CStatePersister./var/www/icook.vn/icook/backend/protected/runtime/state.bin" from cache
 in /var/www/icook.vn/gxc-cms-2-master/core/cms/modules/rights/components/RightsFilter.php (24)
 in /var/www/icook.vn/gxc-cms-2-master/core/cms/modules/rights/components/RController.php (39)
 in /var/www/icook.vn/icook/backend/index.php (20)
-2018/03/30 17:51:31 [trace] [system.CModule] Loading "widgetFactory" application component
-in /var/www/icook.vn/icook/backend/protected/views/contentlist/content_list_create.php (5)
-in /var/www/icook.vn/icook/backend/protected/controllers/ContentlistController.php (29)
+2018/03/31 09:20:10 [trace] [system.CModule] Loading "widgetFactory" application component
+in /var/www/icook.vn/icook/backend/protected/views/contentlist/content_list_admin.php (5)
+in /var/www/icook.vn/icook/backend/protected/controllers/ContentlistController.php (40)
 in /var/www/icook.vn/gxc-cms-2-master/core/cms/modules/rights/components/RController.php (39)
-2018/03/30 17:51:31 [trace] [system.db.CDbCommand] Querying SQL: SHOW FULL COLUMNS FROM `gxc_content_list`
-in /var/www/icook.vn/gxc-cms-2-master/core/cms/widgets/page/ContentListCreateWidget.php (34)
-in /var/www/icook.vn/gxc-cms-2-master/core/cms/widgets/page/ContentListCreateWidget.php (28)
-in /var/www/icook.vn/icook/backend/protected/views/contentlist/content_list_create.php (5)
-2018/03/30 17:51:31 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `gxc_content_list`
-in /var/www/icook.vn/gxc-cms-2-master/core/cms/widgets/page/ContentListCreateWidget.php (34)
-in /var/www/icook.vn/gxc-cms-2-master/core/cms/widgets/page/ContentListCreateWidget.php (28)
-in /var/www/icook.vn/icook/backend/protected/views/contentlist/content_list_create.php (5)
-2018/03/30 17:51:31 [trace] [system.caching.CFileCache] Saving "yii:dbschemamysql:host=localhost;dbname=icook:root:{{content_list}}" to cache
-in /var/www/icook.vn/gxc-cms-2-master/core/cms/widgets/page/ContentListCreateWidget.php (34)
-in /var/www/icook.vn/gxc-cms-2-master/core/cms/widgets/page/ContentListCreateWidget.php (28)
-in /var/www/icook.vn/icook/backend/protected/views/contentlist/content_list_create.php (5)
-2018/03/30 17:51:31 [trace] [system.CModule] Loading "coreMessages" application component
-in /var/www/icook.vn/gxc-cms-2-master/core/cms/widgets/views/contentlist/contentlist_form_widget.php (17)
-in /var/www/icook.vn/gxc-cms-2-master/core/cms/widgets/page/ContentListCreateWidget.php (75)
-in /var/www/icook.vn/gxc-cms-2-master/core/cms/widgets/page/ContentListCreateWidget.php (28)
-2018/03/30 17:51:31 [trace] [system.CModule] Loading "clientScript" application component
-in /var/www/icook.vn/gxc-cms-2-master/core/cms/widgets/views/contentlist/contentlist_form_widget.php (44)
-in /var/www/icook.vn/gxc-cms-2-master/core/cms/widgets/page/ContentListCreateWidget.php (75)
-in /var/www/icook.vn/gxc-cms-2-master/core/cms/widgets/page/ContentListCreateWidget.php (28)
-2018/03/30 17:51:31 [trace] [system.CModule] Loading "assetManager" application component
-in /var/www/icook.vn/gxc-cms-2-master/core/cms/widgets/views/contentlist/contentlist_form_widget.php (44)
-in /var/www/icook.vn/gxc-cms-2-master/core/cms/widgets/page/ContentListCreateWidget.php (75)
-in /var/www/icook.vn/gxc-cms-2-master/core/cms/widgets/page/ContentListCreateWidget.php (28)
-2018/03/30 17:51:31 [trace] [system.caching.CFileCache] Saving "gxchelpers-available-languages-false" to cache
-in /var/www/icook.vn/gxc-cms-2-master/core/cms/components/GxcHelpers.php (449)
-in /var/www/icook.vn/gxc-cms-2-master/core/cms/components/GxcHelpers.php (495)
-in /var/www/icook.vn/gxc-cms-2-master/core/cms/models/page/ContentList.php (198)
-2018/03/30 17:51:31 [trace] [system.caching.CFileCache] Serving "gxchelpers-content-types-false" from cache
+2018/03/31 09:20:10 [trace] [system.caching.CFileCache] Serving "yii:dbschemamysql:host=localhost;dbname=icook:root:{{content_list}}" from cache
+in /var/www/icook.vn/gxc-cms-2-master/core/cms/widgets/ModelManageWidget.php (35)
+in /var/www/icook.vn/gxc-cms-2-master/core/cms/widgets/ModelManageWidget.php (26)
+in /var/www/icook.vn/icook/backend/protected/views/contentlist/content_list_admin.php (5)
+2018/03/31 09:20:10 [trace] [system.CModule] Loading "settings" application component
+in /var/www/icook.vn/gxc-cms-2-master/core/cms/widgets/views/contentlist/contentlist_manage_widget.php (12)
+in /var/www/icook.vn/gxc-cms-2-master/core/cms/widgets/ModelManageWidget.php (39)
+in /var/www/icook.vn/gxc-cms-2-master/core/cms/widgets/ModelManageWidget.php (26)
+2018/03/31 09:20:10 [trace] [system.caching.CFileCache] Serving "__cache_registry_global_website_settings" from cache
+in /var/www/icook.vn/gxc-cms-2-master/core/cms/extensions/settings/CmsSettings.php (170)
+in /var/www/icook.vn/gxc-cms-2-master/core/cms/extensions/settings/CmsSettings.php (189)
+in /var/www/icook.vn/gxc-cms-2-master/core/cms/extensions/settings/CmsSettings.php (245)
+2018/03/31 09:20:10 [trace] [system.db.CDbCommand] Querying SQL: SELECT `key`, `value` FROM gxc_settings WHERE category=:cat. Bound with :cat='cms'
+in /var/www/icook.vn/gxc-cms-2-master/core/cms/extensions/settings/CmsSettings.php (252)
+in /var/www/icook.vn/gxc-cms-2-master/core/cms/extensions/settings/CmsSettings.php (96)
+in /var/www/icook.vn/gxc-cms-2-master/core/cms/widgets/views/contentlist/contentlist_manage_widget.php (12)
+2018/03/31 09:20:10 [trace] [system.db.ar.CActiveRecord] ContentList.count()
+in /var/www/icook.vn/gxc-cms-2-master/core/cms/widgets/views/contentlist/contentlist_manage_widget.php (2)
+in /var/www/icook.vn/gxc-cms-2-master/core/cms/widgets/ModelManageWidget.php (39)
+in /var/www/icook.vn/gxc-cms-2-master/core/cms/widgets/ModelManageWidget.php (26)
+2018/03/31 09:20:10 [trace] [system.db.CDbCommand] Querying SQL: SELECT COUNT(*) FROM `gxc_content_list` `t`
+in /var/www/icook.vn/gxc-cms-2-master/core/cms/widgets/views/contentlist/contentlist_manage_widget.php (2)
+in /var/www/icook.vn/gxc-cms-2-master/core/cms/widgets/ModelManageWidget.php (39)
+in /var/www/icook.vn/gxc-cms-2-master/core/cms/widgets/ModelManageWidget.php (26)
+2018/03/31 09:20:10 [trace] [system.db.ar.CActiveRecord] ContentList.findAll()
+in /var/www/icook.vn/gxc-cms-2-master/core/cms/widgets/views/contentlist/contentlist_manage_widget.php (2)
+in /var/www/icook.vn/gxc-cms-2-master/core/cms/widgets/ModelManageWidget.php (39)
+in /var/www/icook.vn/gxc-cms-2-master/core/cms/widgets/ModelManageWidget.php (26)
+2018/03/31 09:20:10 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `gxc_content_list` `t` ORDER BY content_list_id DESC LIMIT 10
+in /var/www/icook.vn/gxc-cms-2-master/core/cms/widgets/views/contentlist/contentlist_manage_widget.php (2)
+in /var/www/icook.vn/gxc-cms-2-master/core/cms/widgets/ModelManageWidget.php (39)
+in /var/www/icook.vn/gxc-cms-2-master/core/cms/widgets/ModelManageWidget.php (26)
+2018/03/31 09:20:10 [trace] [system.CModule] Loading "assetManager" application component
+in /var/www/icook.vn/gxc-cms-2-master/core/cms/widgets/views/contentlist/contentlist_manage_widget.php (2)
+in /var/www/icook.vn/gxc-cms-2-master/core/cms/widgets/ModelManageWidget.php (39)
+in /var/www/icook.vn/gxc-cms-2-master/core/cms/widgets/ModelManageWidget.php (26)
+2018/03/31 09:20:10 [trace] [system.CModule] Loading "clientScript" application component
+in /var/www/icook.vn/gxc-cms-2-master/core/cms/widgets/views/contentlist/contentlist_manage_widget.php (2)
+in /var/www/icook.vn/gxc-cms-2-master/core/cms/widgets/ModelManageWidget.php (39)
+in /var/www/icook.vn/gxc-cms-2-master/core/cms/widgets/ModelManageWidget.php (26)
+2018/03/31 09:20:10 [trace] [system.CModule] Loading "coreMessages" application component
+in /var/www/icook.vn/gxc-cms-2-master/core/cms/widgets/views/contentlist/contentlist_manage_widget.php (2)
+in /var/www/icook.vn/gxc-cms-2-master/core/cms/widgets/ModelManageWidget.php (39)
+in /var/www/icook.vn/gxc-cms-2-master/core/cms/widgets/ModelManageWidget.php (26)
+2018/03/31 09:20:10 [trace] [system.CModule] Loading "format" application component
+in /var/www/icook.vn/gxc-cms-2-master/core/cms/widgets/views/contentlist/contentlist_manage_widget.php (2)
+in /var/www/icook.vn/gxc-cms-2-master/core/cms/widgets/ModelManageWidget.php (39)
+in /var/www/icook.vn/gxc-cms-2-master/core/cms/widgets/ModelManageWidget.php (26)
+2018/03/31 09:20:14 [trace] [system.CModule] Loading "log" application component
+in /var/www/icook.vn/icook/backend/index.php (20)
+2018/03/31 09:20:14 [trace] [system.CModule] Loading "request" application component
+in /var/www/icook.vn/gxc-cms-2-master/core/cms/extensions/yii-debug-toolbar/YiiDebugToolbarRoute.php (112)
+in /var/www/icook.vn/icook/backend/index.php (20)
+2018/03/31 09:20:14 [trace] [system.CModule] Loading "urlManager" application component
+in /var/www/icook.vn/gxc-cms-2-master/core/cms/components/HttpRequest.php (66)
+in /var/www/icook.vn/gxc-cms-2-master/core/cms/components/HttpRequest.php (13)
+in /var/www/icook.vn/gxc-cms-2-master/core/cms/extensions/yii-debug-toolbar/YiiDebugToolbarRoute.php (112)
+2018/03/31 09:20:14 [trace] [system.CModule] Loading "messages" application component
+in /var/www/icook.vn/gxc-cms-2-master/core/cms/globals.php (83)
+in /var/www/icook.vn/icook/backend/protected/controllers/CommentController.php (9)
+in /var/www/icook.vn/icook/backend/index.php (20)
+2018/03/31 09:20:14 [trace] [system.web.filters.CFilterChain] Running filter CommentController.filterrights()
+in /var/www/icook.vn/icook/backend/index.php (20)
+2018/03/31 09:20:14 [trace] [system.CModule] Loading "user" application component
+in /var/www/icook.vn/gxc-cms-2-master/core/cms/modules/rights/components/RightsFilter.php (24)
+in /var/www/icook.vn/gxc-cms-2-master/core/cms/modules/rights/components/RController.php (39)
+in /var/www/icook.vn/icook/backend/index.php (20)
+2018/03/31 09:20:14 [trace] [system.CModule] Loading "session" application component
+in /var/www/icook.vn/gxc-cms-2-master/core/cms/modules/rights/components/RightsFilter.php (24)
+in /var/www/icook.vn/gxc-cms-2-master/core/cms/modules/rights/components/RController.php (39)
+in /var/www/icook.vn/icook/backend/index.php (20)
+2018/03/31 09:20:14 [trace] [system.CModule] Loading "db" application component
+in /var/www/icook.vn/gxc-cms-2-master/core/cms/modules/rights/components/RightsFilter.php (24)
+in /var/www/icook.vn/gxc-cms-2-master/core/cms/modules/rights/components/RController.php (39)
+in /var/www/icook.vn/icook/backend/index.php (20)
+2018/03/31 09:20:14 [trace] [system.db.CDbConnection] Opening DB connection
+in /var/www/icook.vn/gxc-cms-2-master/core/cms/modules/rights/components/RightsFilter.php (24)
+in /var/www/icook.vn/gxc-cms-2-master/core/cms/modules/rights/components/RController.php (39)
+in /var/www/icook.vn/icook/backend/index.php (20)
+2018/03/31 09:20:14 [trace] [system.db.CDbCommand] Querying SQL: SELECT `data`
+FROM `gxc_session`
+WHERE expire>:expire AND id=:id. Bound with :expire=1522462814, :id='q5kohbm28kviciqngil21icpu6'
+in /var/www/icook.vn/gxc-cms-2-master/core/cms/modules/rights/components/RightsFilter.php (24)
+in /var/www/icook.vn/gxc-cms-2-master/core/cms/modules/rights/components/RController.php (39)
+in /var/www/icook.vn/icook/backend/index.php (20)
+2018/03/31 09:20:14 [trace] [system.CModule] Loading "securityManager" application component
+in /var/www/icook.vn/gxc-cms-2-master/core/cms/modules/rights/components/RightsFilter.php (24)
+in /var/www/icook.vn/gxc-cms-2-master/core/cms/modules/rights/components/RController.php (39)
+in /var/www/icook.vn/icook/backend/index.php (20)
+2018/03/31 09:20:14 [trace] [system.CModule] Loading "statePersister" application component
+in /var/www/icook.vn/gxc-cms-2-master/core/cms/modules/rights/components/RightsFilter.php (24)
+in /var/www/icook.vn/gxc-cms-2-master/core/cms/modules/rights/components/RController.php (39)
+in /var/www/icook.vn/icook/backend/index.php (20)
+2018/03/31 09:20:14 [trace] [system.CModule] Loading "cache" application component
+in /var/www/icook.vn/gxc-cms-2-master/core/cms/modules/rights/components/RightsFilter.php (24)
+in /var/www/icook.vn/gxc-cms-2-master/core/cms/modules/rights/components/RController.php (39)
+in /var/www/icook.vn/icook/backend/index.php (20)
+2018/03/31 09:20:14 [trace] [system.caching.CFileCache] Serving "Yii.CStatePersister./var/www/icook.vn/icook/backend/protected/runtime/state.bin" from cache
+in /var/www/icook.vn/gxc-cms-2-master/core/cms/modules/rights/components/RightsFilter.php (24)
+in /var/www/icook.vn/gxc-cms-2-master/core/cms/modules/rights/components/RController.php (39)
+in /var/www/icook.vn/icook/backend/index.php (20)
+2018/03/31 09:20:14 [trace] [system.db.CDbCommand] Querying SQL: SHOW FULL COLUMNS FROM `gxc_comment`
+in /var/www/icook.vn/icook/backend/protected/controllers/CommentController.php (33)
+in /var/www/icook.vn/gxc-cms-2-master/core/cms/modules/rights/components/RController.php (39)
+in /var/www/icook.vn/icook/backend/index.php (20)
+2018/03/31 09:20:14 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `gxc_comment`
+in /var/www/icook.vn/icook/backend/protected/controllers/CommentController.php (33)
+in /var/www/icook.vn/gxc-cms-2-master/core/cms/modules/rights/components/RController.php (39)
+in /var/www/icook.vn/icook/backend/index.php (20)
+2018/03/31 09:20:14 [trace] [system.caching.CFileCache] Saving "yii:dbschemamysql:host=localhost;dbname=icook:root:gxc_comment" to cache
+in /var/www/icook.vn/icook/backend/protected/controllers/CommentController.php (33)
+in /var/www/icook.vn/gxc-cms-2-master/core/cms/modules/rights/components/RController.php (39)
+in /var/www/icook.vn/icook/backend/index.php (20)
+2018/03/31 09:20:14 [trace] [system.CModule] Loading "widgetFactory" application component
+in /var/www/icook.vn/icook/backend/protected/views/comment/comment_admin.php (6)
+in /var/www/icook.vn/icook/backend/protected/controllers/CommentController.php (41)
+in /var/www/icook.vn/gxc-cms-2-master/core/cms/modules/rights/components/RController.php (39)
+2018/03/31 09:20:14 [trace] [system.db.ar.CActiveRecord] Comment.count()
+in /var/www/icook.vn/gxc-cms-2-master/core/cms/widgets/views/comment/comment_manage_widget.php (110)
+in /var/www/icook.vn/gxc-cms-2-master/core/cms/widgets/ModelManageWidget.php (39)
+in /var/www/icook.vn/gxc-cms-2-master/core/cms/widgets/ModelManageWidget.php (26)
+2018/03/31 09:20:14 [trace] [system.caching.CFileCache] Serving "yii:dbschemamysql:host=localhost;dbname=icook:root:{{object}}" from cache
+in /var/www/icook.vn/gxc-cms-2-master/core/cms/widgets/views/comment/comment_manage_widget.php (110)
+in /var/www/icook.vn/gxc-cms-2-master/core/cms/widgets/ModelManageWidget.php (39)
+in /var/www/icook.vn/gxc-cms-2-master/core/cms/widgets/ModelManageWidget.php (26)
+2018/03/31 09:20:14 [trace] [system.db.ar.CActiveRecord] Comment.count() eagerly
+in /var/www/icook.vn/gxc-cms-2-master/core/cms/widgets/views/comment/comment_manage_widget.php (110)
+in /var/www/icook.vn/gxc-cms-2-master/core/cms/widgets/ModelManageWidget.php (39)
+in /var/www/icook.vn/gxc-cms-2-master/core/cms/widgets/ModelManageWidget.php (26)
+2018/03/31 09:20:14 [trace] [system.db.CDbCommand] Querying SQL: SELECT COUNT(DISTINCT `t`.`comment_id`) FROM `gxc_comment` `t`  LEFT OUTER JOIN `gxc_object` `object` ON (`t`.`object_id`=`object`.`object_id`) 
+in /var/www/icook.vn/gxc-cms-2-master/core/cms/widgets/views/comment/comment_manage_widget.php (110)
+in /var/www/icook.vn/gxc-cms-2-master/core/cms/widgets/ModelManageWidget.php (39)
+in /var/www/icook.vn/gxc-cms-2-master/core/cms/widgets/ModelManageWidget.php (26)
+2018/03/31 09:20:14 [trace] [system.db.ar.CActiveRecord] Comment.findAll()
+in /var/www/icook.vn/gxc-cms-2-master/core/cms/widgets/views/comment/comment_manage_widget.php (110)
+in /var/www/icook.vn/gxc-cms-2-master/core/cms/widgets/ModelManageWidget.php (39)
+in /var/www/icook.vn/gxc-cms-2-master/core/cms/widgets/ModelManageWidget.php (26)
+2018/03/31 09:20:14 [trace] [system.db.CDbCommand] Querying SQL: SELECT `t`.`comment_id` AS `t0_c0`, `t`.`object_id` AS `t0_c1`, `t`.`comment_author` AS `t0_c2`, `t`.`comment_author_email` AS `t0_c3`, `t`.`comment_author_url` AS `t0_c4`, `t`.`comment_author_IP` AS `t0_c5`, `t`.`comment_date` AS `t0_c6`, `t`.`comment_date_gmt` AS `t0_c7`, `t`.`comment_content` AS `t0_c8`, `t`.`comment_karma` AS `t0_c9`, `t`.`comment_approved` AS `t0_c10`, `t`.`comment_agent` AS `t0_c11`, `t`.`comment_type` AS `t0_c12`, `t`.`comment_parent` AS `t0_c13`, `t`.`userid` AS `t0_c14`, `t`.`comment_title` AS `t0_c15`, `t`.`comment_modified_content` AS `t0_c16`, `object`.`object_id` AS `t1_c0`, `object`.`object_author` AS `t1_c1`, `object`.`object_date` AS `t1_c2`, `object`.`object_date_gmt` AS `t1_c3`, `object`.`object_content` AS `t1_c4`, `object`.`object_title` AS `t1_c5`, `object`.`object_excerpt` AS `t1_c6`, `object`.`object_status` AS `t1_c7`, `object`.`comment_status` AS `t1_c8`, `object`.`object_password` AS `t1_c9`, `object`.`object_name` AS `t1_c10`, `object`.`object_modified` AS `t1_c11`, `object`.`object_modified_gmt` AS `t1_c12`, `object`.`object_content_filtered` AS `t1_c13`, `object`.`object_parent` AS `t1_c14`, `object`.`guid` AS `t1_c15`, `object`.`object_type` AS `t1_c16`, `object`.`comment_count` AS `t1_c17`, `object`.`object_slug` AS `t1_c18`, `object`.`object_description` AS `t1_c19`, `object`.`object_keywords` AS `t1_c20`, `object`.`lang` AS `t1_c21`, `object`.`object_author_name` AS `t1_c22`, `object`.`total_number_meta` AS `t1_c23`, `object`.`total_number_resource` AS `t1_c24`, `object`.`tags` AS `t1_c25`, `object`.`object_view` AS `t1_c26`, `object`.`like` AS `t1_c27`, `object`.`dislike` AS `t1_c28`, `object`.`rating_scores` AS `t1_c29`, `object`.`rating_average` AS `t1_c30`, `object`.`layout` AS `t1_c31` FROM `gxc_comment` `t`  LEFT OUTER JOIN `gxc_object` `object` ON (`t`.`object_id`=`object`.`object_id`)  ORDER BY comment_date DESC LIMIT 10
+in /var/www/icook.vn/gxc-cms-2-master/core/cms/widgets/views/comment/comment_manage_widget.php (110)
+in /var/www/icook.vn/gxc-cms-2-master/core/cms/widgets/ModelManageWidget.php (39)
+in /var/www/icook.vn/gxc-cms-2-master/core/cms/widgets/ModelManageWidget.php (26)
+2018/03/31 09:20:14 [trace] [system.CModule] Loading "assetManager" application component
+in /var/www/icook.vn/gxc-cms-2-master/core/cms/widgets/views/comment/comment_manage_widget.php (110)
+in /var/www/icook.vn/gxc-cms-2-master/core/cms/widgets/ModelManageWidget.php (39)
+in /var/www/icook.vn/gxc-cms-2-master/core/cms/widgets/ModelManageWidget.php (26)
+2018/03/31 09:20:14 [trace] [system.CModule] Loading "clientScript" application component
+in /var/www/icook.vn/gxc-cms-2-master/core/cms/widgets/views/comment/comment_manage_widget.php (110)
+in /var/www/icook.vn/gxc-cms-2-master/core/cms/widgets/ModelManageWidget.php (39)
+in /var/www/icook.vn/gxc-cms-2-master/core/cms/widgets/ModelManageWidget.php (26)
+2018/03/31 09:20:14 [trace] [system.CModule] Loading "coreMessages" application component
+in /var/www/icook.vn/gxc-cms-2-master/core/cms/widgets/views/comment/comment_manage_widget.php (110)
+in /var/www/icook.vn/gxc-cms-2-master/core/cms/widgets/ModelManageWidget.php (39)
+in /var/www/icook.vn/gxc-cms-2-master/core/cms/widgets/ModelManageWidget.php (26)
+2018/03/31 09:20:27 [trace] [system.CModule] Loading "log" application component
+in /var/www/icook.vn/icook/backend/index.php (20)
+2018/03/31 09:20:27 [trace] [system.CModule] Loading "request" application component
+in /var/www/icook.vn/gxc-cms-2-master/core/cms/extensions/yii-debug-toolbar/YiiDebugToolbarRoute.php (112)
+in /var/www/icook.vn/icook/backend/index.php (20)
+2018/03/31 09:20:27 [trace] [system.CModule] Loading "urlManager" application component
+in /var/www/icook.vn/gxc-cms-2-master/core/cms/components/HttpRequest.php (66)
+in /var/www/icook.vn/gxc-cms-2-master/core/cms/components/HttpRequest.php (13)
+in /var/www/icook.vn/gxc-cms-2-master/core/cms/extensions/yii-debug-toolbar/YiiDebugToolbarRoute.php (112)
+2018/03/31 09:20:27 [trace] [system.CModule] Loading "messages" application component
+in /var/www/icook.vn/gxc-cms-2-master/core/cms/globals.php (83)
+in /var/www/icook.vn/icook/backend/protected/controllers/PageController.php (17)
+in /var/www/icook.vn/icook/backend/index.php (20)
+2018/03/31 09:20:27 [trace] [system.web.filters.CFilterChain] Running filter PageController.filterrights()
+in /var/www/icook.vn/icook/backend/index.php (20)
+2018/03/31 09:20:27 [trace] [system.CModule] Loading "user" application component
+in /var/www/icook.vn/gxc-cms-2-master/core/cms/modules/rights/components/RightsFilter.php (24)
+in /var/www/icook.vn/gxc-cms-2-master/core/cms/modules/rights/components/RController.php (39)
+in /var/www/icook.vn/icook/backend/index.php (20)
+2018/03/31 09:20:27 [trace] [system.CModule] Loading "session" application component
+in /var/www/icook.vn/gxc-cms-2-master/core/cms/modules/rights/components/RightsFilter.php (24)
+in /var/www/icook.vn/gxc-cms-2-master/core/cms/modules/rights/components/RController.php (39)
+in /var/www/icook.vn/icook/backend/index.php (20)
+2018/03/31 09:20:27 [trace] [system.CModule] Loading "db" application component
+in /var/www/icook.vn/gxc-cms-2-master/core/cms/modules/rights/components/RightsFilter.php (24)
+in /var/www/icook.vn/gxc-cms-2-master/core/cms/modules/rights/components/RController.php (39)
+in /var/www/icook.vn/icook/backend/index.php (20)
+2018/03/31 09:20:27 [trace] [system.db.CDbConnection] Opening DB connection
+in /var/www/icook.vn/gxc-cms-2-master/core/cms/modules/rights/components/RightsFilter.php (24)
+in /var/www/icook.vn/gxc-cms-2-master/core/cms/modules/rights/components/RController.php (39)
+in /var/www/icook.vn/icook/backend/index.php (20)
+2018/03/31 09:20:27 [trace] [system.db.CDbCommand] Querying SQL: SELECT `data`
+FROM `gxc_session`
+WHERE expire>:expire AND id=:id. Bound with :expire=1522462827, :id='q5kohbm28kviciqngil21icpu6'
+in /var/www/icook.vn/gxc-cms-2-master/core/cms/modules/rights/components/RightsFilter.php (24)
+in /var/www/icook.vn/gxc-cms-2-master/core/cms/modules/rights/components/RController.php (39)
+in /var/www/icook.vn/icook/backend/index.php (20)
+2018/03/31 09:20:27 [trace] [system.CModule] Loading "securityManager" application component
+in /var/www/icook.vn/gxc-cms-2-master/core/cms/modules/rights/components/RightsFilter.php (24)
+in /var/www/icook.vn/gxc-cms-2-master/core/cms/modules/rights/components/RController.php (39)
+in /var/www/icook.vn/icook/backend/index.php (20)
+2018/03/31 09:20:27 [trace] [system.CModule] Loading "statePersister" application component
+in /var/www/icook.vn/gxc-cms-2-master/core/cms/modules/rights/components/RightsFilter.php (24)
+in /var/www/icook.vn/gxc-cms-2-master/core/cms/modules/rights/components/RController.php (39)
+in /var/www/icook.vn/icook/backend/index.php (20)
+2018/03/31 09:20:27 [trace] [system.CModule] Loading "cache" application component
+in /var/www/icook.vn/gxc-cms-2-master/core/cms/modules/rights/components/RightsFilter.php (24)
+in /var/www/icook.vn/gxc-cms-2-master/core/cms/modules/rights/components/RController.php (39)
+in /var/www/icook.vn/icook/backend/index.php (20)
+2018/03/31 09:20:27 [trace] [system.caching.CFileCache] Serving "Yii.CStatePersister./var/www/icook.vn/icook/backend/protected/runtime/state.bin" from cache
+in /var/www/icook.vn/gxc-cms-2-master/core/cms/modules/rights/components/RightsFilter.php (24)
+in /var/www/icook.vn/gxc-cms-2-master/core/cms/modules/rights/components/RController.php (39)
+in /var/www/icook.vn/icook/backend/index.php (20)
+2018/03/31 09:20:27 [trace] [system.CModule] Loading "widgetFactory" application component
+in /var/www/icook.vn/icook/backend/protected/views/page/page_admin.php (5)
+in /var/www/icook.vn/icook/backend/protected/controllers/PageController.php (40)
+in /var/www/icook.vn/gxc-cms-2-master/core/cms/modules/rights/components/RController.php (39)
+2018/03/31 09:20:27 [trace] [system.caching.CFileCache] Serving "yii:dbschemamysql:host=localhost;dbname=icook:root:{{page}}" from cache
+in /var/www/icook.vn/gxc-cms-2-master/core/cms/widgets/ModelManageWidget.php (35)
+in /var/www/icook.vn/gxc-cms-2-master/core/cms/widgets/ModelManageWidget.php (26)
+in /var/www/icook.vn/icook/backend/protected/views/page/page_admin.php (5)
+2018/03/31 09:20:27 [trace] [system.CModule] Loading "settings" application component
+in /var/www/icook.vn/gxc-cms-2-master/core/cms/widgets/views/page/page_manage_widget.php (12)
+in /var/www/icook.vn/gxc-cms-2-master/core/cms/widgets/ModelManageWidget.php (39)
+in /var/www/icook.vn/gxc-cms-2-master/core/cms/widgets/ModelManageWidget.php (26)
+2018/03/31 09:20:27 [trace] [system.caching.CFileCache] Serving "system_global_website_settings" from cache
+in /var/www/icook.vn/gxc-cms-2-master/core/cms/extensions/settings/CmsSettings.php (243)
+in /var/www/icook.vn/gxc-cms-2-master/core/cms/extensions/settings/CmsSettings.php (96)
+in /var/www/icook.vn/gxc-cms-2-master/core/cms/widgets/views/page/page_manage_widget.php (12)
+2018/03/31 09:20:27 [trace] [system.caching.CFileCache] Serving "__cache_registry_global_website_settings" from cache
+in /var/www/icook.vn/gxc-cms-2-master/core/cms/extensions/settings/CmsSettings.php (170)
+in /var/www/icook.vn/gxc-cms-2-master/core/cms/extensions/settings/CmsSettings.php (189)
+in /var/www/icook.vn/gxc-cms-2-master/core/cms/extensions/settings/CmsSettings.php (245)
+2018/03/31 09:20:27 [trace] [system.caching.CFileCache] Serving "gxchelpers-available-languages-false" from cache
+in /var/www/icook.vn/gxc-cms-2-master/core/cms/components/GxcHelpers.php (436)
+in /var/www/icook.vn/gxc-cms-2-master/core/cms/widgets/views/page/page_manage_widget.php (36)
+in /var/www/icook.vn/gxc-cms-2-master/core/cms/widgets/ModelManageWidget.php (39)
+2018/03/31 09:20:27 [trace] [system.db.ar.CActiveRecord] Page.count()
+in /var/www/icook.vn/gxc-cms-2-master/core/cms/widgets/views/page/page_manage_widget.php (2)
+in /var/www/icook.vn/gxc-cms-2-master/core/cms/widgets/ModelManageWidget.php (39)
+in /var/www/icook.vn/gxc-cms-2-master/core/cms/widgets/ModelManageWidget.php (26)
+2018/03/31 09:20:27 [trace] [system.db.CDbCommand] Querying SQL: SELECT COUNT(*) FROM `gxc_page` `t`
+in /var/www/icook.vn/gxc-cms-2-master/core/cms/widgets/views/page/page_manage_widget.php (2)
+in /var/www/icook.vn/gxc-cms-2-master/core/cms/widgets/ModelManageWidget.php (39)
+in /var/www/icook.vn/gxc-cms-2-master/core/cms/widgets/ModelManageWidget.php (26)
+2018/03/31 09:20:27 [trace] [system.db.ar.CActiveRecord] Page.findAll()
+in /var/www/icook.vn/gxc-cms-2-master/core/cms/widgets/views/page/page_manage_widget.php (2)
+in /var/www/icook.vn/gxc-cms-2-master/core/cms/widgets/ModelManageWidget.php (39)
+in /var/www/icook.vn/gxc-cms-2-master/core/cms/widgets/ModelManageWidget.php (26)
+2018/03/31 09:20:27 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `gxc_page` `t` ORDER BY page_id DESC LIMIT 10
+in /var/www/icook.vn/gxc-cms-2-master/core/cms/widgets/views/page/page_manage_widget.php (2)
+in /var/www/icook.vn/gxc-cms-2-master/core/cms/widgets/ModelManageWidget.php (39)
+in /var/www/icook.vn/gxc-cms-2-master/core/cms/widgets/ModelManageWidget.php (26)
+2018/03/31 09:20:27 [trace] [system.CModule] Loading "assetManager" application component
+in /var/www/icook.vn/gxc-cms-2-master/core/cms/widgets/views/page/page_manage_widget.php (2)
+in /var/www/icook.vn/gxc-cms-2-master/core/cms/widgets/ModelManageWidget.php (39)
+in /var/www/icook.vn/gxc-cms-2-master/core/cms/widgets/ModelManageWidget.php (26)
+2018/03/31 09:20:27 [trace] [system.CModule] Loading "clientScript" application component
+in /var/www/icook.vn/gxc-cms-2-master/core/cms/widgets/views/page/page_manage_widget.php (2)
+in /var/www/icook.vn/gxc-cms-2-master/core/cms/widgets/ModelManageWidget.php (39)
+in /var/www/icook.vn/gxc-cms-2-master/core/cms/widgets/ModelManageWidget.php (26)
+2018/03/31 09:20:27 [trace] [system.CModule] Loading "coreMessages" application component
+in /var/www/icook.vn/gxc-cms-2-master/core/cms/widgets/views/page/page_manage_widget.php (2)
+in /var/www/icook.vn/gxc-cms-2-master/core/cms/widgets/ModelManageWidget.php (39)
+in /var/www/icook.vn/gxc-cms-2-master/core/cms/widgets/ModelManageWidget.php (26)
+2018/03/31 09:20:27 [trace] [system.CModule] Loading "format" application component
+in /var/www/icook.vn/gxc-cms-2-master/core/cms/widgets/views/page/page_manage_widget.php (2)
+in /var/www/icook.vn/gxc-cms-2-master/core/cms/widgets/ModelManageWidget.php (39)
+in /var/www/icook.vn/gxc-cms-2-master/core/cms/widgets/ModelManageWidget.php (26)
+2018/03/31 09:20:27 [trace] [system.caching.CFileCache] Serving "gxchelpers-available-languages-false" from cache
+in /var/www/icook.vn/gxc-cms-2-master/core/cms/components/GxcHelpers.php (436)
+in /var/www/icook.vn/gxc-cms-2-master/core/cms/components/GxcHelpers.php (525)
+in /var/www/icook.vn/gxc-cms-2-master/core/cms/widgets/views/page/page_manage_widget.php (2)
+2018/03/31 09:20:27 [trace] [system.caching.CFileCache] Serving "gxchelpers-available-languages-false" from cache
+in /var/www/icook.vn/gxc-cms-2-master/core/cms/components/GxcHelpers.php (436)
+in /var/www/icook.vn/gxc-cms-2-master/core/cms/components/GxcHelpers.php (525)
+in /var/www/icook.vn/gxc-cms-2-master/core/cms/widgets/views/page/page_manage_widget.php (2)
+2018/03/31 09:20:27 [trace] [system.caching.CFileCache] Serving "gxchelpers-available-languages-false" from cache
+in /var/www/icook.vn/gxc-cms-2-master/core/cms/components/GxcHelpers.php (436)
+in /var/www/icook.vn/gxc-cms-2-master/core/cms/components/GxcHelpers.php (525)
+in /var/www/icook.vn/gxc-cms-2-master/core/cms/widgets/views/page/page_manage_widget.php (2)
+2018/03/31 09:20:27 [trace] [system.caching.CFileCache] Serving "gxchelpers-available-languages-false" from cache
+in /var/www/icook.vn/gxc-cms-2-master/core/cms/components/GxcHelpers.php (436)
+in /var/www/icook.vn/gxc-cms-2-master/core/cms/components/GxcHelpers.php (525)
+in /var/www/icook.vn/gxc-cms-2-master/core/cms/widgets/views/page/page_manage_widget.php (2)
+2018/03/31 09:20:30 [trace] [system.CModule] Loading "log" application component
+in /var/www/icook.vn/icook/backend/index.php (20)
+2018/03/31 09:20:30 [trace] [system.CModule] Loading "request" application component
+in /var/www/icook.vn/gxc-cms-2-master/core/cms/extensions/yii-debug-toolbar/YiiDebugToolbarRoute.php (112)
+in /var/www/icook.vn/icook/backend/index.php (20)
+2018/03/31 09:20:30 [trace] [system.CModule] Loading "urlManager" application component
+in /var/www/icook.vn/gxc-cms-2-master/core/cms/components/HttpRequest.php (66)
+in /var/www/icook.vn/gxc-cms-2-master/core/cms/components/HttpRequest.php (13)
+in /var/www/icook.vn/gxc-cms-2-master/core/cms/extensions/yii-debug-toolbar/YiiDebugToolbarRoute.php (112)
+2018/03/31 09:20:30 [trace] [system.CModule] Loading "messages" application component
+in /var/www/icook.vn/gxc-cms-2-master/core/cms/globals.php (83)
+in /var/www/icook.vn/icook/backend/protected/controllers/PageController.php (17)
+in /var/www/icook.vn/icook/backend/index.php (20)
+2018/03/31 09:20:30 [trace] [system.web.filters.CFilterChain] Running filter PageController.filterrights()
+in /var/www/icook.vn/icook/backend/index.php (20)
+2018/03/31 09:20:30 [trace] [system.CModule] Loading "user" application component
+in /var/www/icook.vn/gxc-cms-2-master/core/cms/modules/rights/components/RightsFilter.php (24)
+in /var/www/icook.vn/gxc-cms-2-master/core/cms/modules/rights/components/RController.php (39)
+in /var/www/icook.vn/icook/backend/index.php (20)
+2018/03/31 09:20:30 [trace] [system.CModule] Loading "session" application component
+in /var/www/icook.vn/gxc-cms-2-master/core/cms/modules/rights/components/RightsFilter.php (24)
+in /var/www/icook.vn/gxc-cms-2-master/core/cms/modules/rights/components/RController.php (39)
+in /var/www/icook.vn/icook/backend/index.php (20)
+2018/03/31 09:20:30 [trace] [system.CModule] Loading "db" application component
+in /var/www/icook.vn/gxc-cms-2-master/core/cms/modules/rights/components/RightsFilter.php (24)
+in /var/www/icook.vn/gxc-cms-2-master/core/cms/modules/rights/components/RController.php (39)
+in /var/www/icook.vn/icook/backend/index.php (20)
+2018/03/31 09:20:30 [trace] [system.db.CDbConnection] Opening DB connection
+in /var/www/icook.vn/gxc-cms-2-master/core/cms/modules/rights/components/RightsFilter.php (24)
+in /var/www/icook.vn/gxc-cms-2-master/core/cms/modules/rights/components/RController.php (39)
+in /var/www/icook.vn/icook/backend/index.php (20)
+2018/03/31 09:20:30 [trace] [system.db.CDbCommand] Querying SQL: SELECT `data`
+FROM `gxc_session`
+WHERE expire>:expire AND id=:id. Bound with :expire=1522462830, :id='q5kohbm28kviciqngil21icpu6'
+in /var/www/icook.vn/gxc-cms-2-master/core/cms/modules/rights/components/RightsFilter.php (24)
+in /var/www/icook.vn/gxc-cms-2-master/core/cms/modules/rights/components/RController.php (39)
+in /var/www/icook.vn/icook/backend/index.php (20)
+2018/03/31 09:20:30 [trace] [system.CModule] Loading "securityManager" application component
+in /var/www/icook.vn/gxc-cms-2-master/core/cms/modules/rights/components/RightsFilter.php (24)
+in /var/www/icook.vn/gxc-cms-2-master/core/cms/modules/rights/components/RController.php (39)
+in /var/www/icook.vn/icook/backend/index.php (20)
+2018/03/31 09:20:30 [trace] [system.CModule] Loading "statePersister" application component
+in /var/www/icook.vn/gxc-cms-2-master/core/cms/modules/rights/components/RightsFilter.php (24)
+in /var/www/icook.vn/gxc-cms-2-master/core/cms/modules/rights/components/RController.php (39)
+in /var/www/icook.vn/icook/backend/index.php (20)
+2018/03/31 09:20:30 [trace] [system.CModule] Loading "cache" application component
+in /var/www/icook.vn/gxc-cms-2-master/core/cms/modules/rights/components/RightsFilter.php (24)
+in /var/www/icook.vn/gxc-cms-2-master/core/cms/modules/rights/components/RController.php (39)
+in /var/www/icook.vn/icook/backend/index.php (20)
+2018/03/31 09:20:30 [trace] [system.caching.CFileCache] Serving "Yii.CStatePersister./var/www/icook.vn/icook/backend/protected/runtime/state.bin" from cache
+in /var/www/icook.vn/gxc-cms-2-master/core/cms/modules/rights/components/RightsFilter.php (24)
+in /var/www/icook.vn/gxc-cms-2-master/core/cms/modules/rights/components/RController.php (39)
+in /var/www/icook.vn/icook/backend/index.php (20)
+2018/03/31 09:20:30 [trace] [system.CModule] Loading "widgetFactory" application component
+in /var/www/icook.vn/icook/backend/protected/views/page/page_view.php (3)
+in /var/www/icook.vn/icook/backend/protected/controllers/PageController.php (56)
+in /var/www/icook.vn/gxc-cms-2-master/core/cms/modules/rights/components/RController.php (39)
+2018/03/31 09:20:30 [trace] [system.caching.CFileCache] Serving "yii:dbschemamysql:host=localhost;dbname=icook:root:{{page}}" from cache
+in /var/www/icook.vn/gxc-cms-2-master/core/cms/models/page/Page.php (24)
+in /var/www/icook.vn/gxc-cms-2-master/core/cms/components/GxcHelpers.php (16)
+in /var/www/icook.vn/gxc-cms-2-master/core/cms/widgets/ModelViewWidget.php (35)
+2018/03/31 09:20:30 [trace] [system.db.ar.CActiveRecord] Page.findByPk()
+in /var/www/icook.vn/gxc-cms-2-master/core/cms/components/GxcHelpers.php (16)
+in /var/www/icook.vn/gxc-cms-2-master/core/cms/widgets/ModelViewWidget.php (35)
+in /var/www/icook.vn/gxc-cms-2-master/core/cms/widgets/ModelViewWidget.php (26)
+2018/03/31 09:20:30 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `gxc_page` `t` WHERE `t`.`page_id`='5' LIMIT 1
+in /var/www/icook.vn/gxc-cms-2-master/core/cms/components/GxcHelpers.php (16)
+in /var/www/icook.vn/gxc-cms-2-master/core/cms/widgets/ModelViewWidget.php (35)
+in /var/www/icook.vn/gxc-cms-2-master/core/cms/widgets/ModelViewWidget.php (26)
+2018/03/31 09:20:30 [trace] [system.caching.CFileCache] Serving "gxchelpers-available-languages-false" from cache
+in /var/www/icook.vn/gxc-cms-2-master/core/cms/components/GxcHelpers.php (436)
+in /var/www/icook.vn/gxc-cms-2-master/core/cms/components/GxcHelpers.php (525)
+in /var/www/icook.vn/gxc-cms-2-master/core/cms/widgets/views/page/page_view_widget.php (19)
+2018/03/31 09:20:30 [trace] [system.CModule] Loading "coreMessages" application component
+in /var/www/icook.vn/gxc-cms-2-master/core/cms/widgets/views/page/page_view_widget.php (19)
+in /var/www/icook.vn/gxc-cms-2-master/core/cms/widgets/ModelViewWidget.php (36)
+in /var/www/icook.vn/gxc-cms-2-master/core/cms/widgets/ModelViewWidget.php (26)
+2018/03/31 09:20:30 [trace] [system.CModule] Loading "assetManager" application component
+in /var/www/icook.vn/gxc-cms-2-master/core/cms/widgets/views/page/page_view_widget.php (19)
+in /var/www/icook.vn/gxc-cms-2-master/core/cms/widgets/ModelViewWidget.php (36)
+in /var/www/icook.vn/gxc-cms-2-master/core/cms/widgets/ModelViewWidget.php (26)
+2018/03/31 09:20:30 [trace] [system.CModule] Loading "clientScript" application component
+in /var/www/icook.vn/gxc-cms-2-master/core/cms/widgets/views/page/page_view_widget.php (19)
+in /var/www/icook.vn/gxc-cms-2-master/core/cms/widgets/ModelViewWidget.php (36)
+in /var/www/icook.vn/gxc-cms-2-master/core/cms/widgets/ModelViewWidget.php (26)
+2018/03/31 09:20:30 [trace] [system.CModule] Loading "format" application component
+in /var/www/icook.vn/gxc-cms-2-master/core/cms/widgets/views/page/page_view_widget.php (19)
+in /var/www/icook.vn/gxc-cms-2-master/core/cms/widgets/ModelViewWidget.php (36)
+in /var/www/icook.vn/gxc-cms-2-master/core/cms/widgets/ModelViewWidget.php (26)
+2018/03/31 09:20:32 [trace] [system.CModule] Loading "log" application component
+in /var/www/icook.vn/icook/backend/index.php (20)
+2018/03/31 09:20:32 [trace] [system.CModule] Loading "request" application component
+in /var/www/icook.vn/gxc-cms-2-master/core/cms/extensions/yii-debug-toolbar/YiiDebugToolbarRoute.php (112)
+in /var/www/icook.vn/icook/backend/index.php (20)
+2018/03/31 09:20:32 [trace] [system.CModule] Loading "urlManager" application component
+in /var/www/icook.vn/gxc-cms-2-master/core/cms/components/HttpRequest.php (66)
+in /var/www/icook.vn/gxc-cms-2-master/core/cms/components/HttpRequest.php (13)
+in /var/www/icook.vn/gxc-cms-2-master/core/cms/extensions/yii-debug-toolbar/YiiDebugToolbarRoute.php (112)
+2018/03/31 09:20:32 [trace] [system.CModule] Loading "messages" application component
+in /var/www/icook.vn/gxc-cms-2-master/core/cms/globals.php (83)
+in /var/www/icook.vn/icook/backend/protected/controllers/PageController.php (17)
+in /var/www/icook.vn/icook/backend/index.php (20)
+2018/03/31 09:20:32 [trace] [system.web.filters.CFilterChain] Running filter PageController.filterrights()
+in /var/www/icook.vn/icook/backend/index.php (20)
+2018/03/31 09:20:32 [trace] [system.CModule] Loading "user" application component
+in /var/www/icook.vn/gxc-cms-2-master/core/cms/modules/rights/components/RightsFilter.php (24)
+in /var/www/icook.vn/gxc-cms-2-master/core/cms/modules/rights/components/RController.php (39)
+in /var/www/icook.vn/icook/backend/index.php (20)
+2018/03/31 09:20:32 [trace] [system.CModule] Loading "session" application component
+in /var/www/icook.vn/gxc-cms-2-master/core/cms/modules/rights/components/RightsFilter.php (24)
+in /var/www/icook.vn/gxc-cms-2-master/core/cms/modules/rights/components/RController.php (39)
+in /var/www/icook.vn/icook/backend/index.php (20)
+2018/03/31 09:20:32 [trace] [system.CModule] Loading "db" application component
+in /var/www/icook.vn/gxc-cms-2-master/core/cms/modules/rights/components/RightsFilter.php (24)
+in /var/www/icook.vn/gxc-cms-2-master/core/cms/modules/rights/components/RController.php (39)
+in /var/www/icook.vn/icook/backend/index.php (20)
+2018/03/31 09:20:32 [trace] [system.db.CDbConnection] Opening DB connection
+in /var/www/icook.vn/gxc-cms-2-master/core/cms/modules/rights/components/RightsFilter.php (24)
+in /var/www/icook.vn/gxc-cms-2-master/core/cms/modules/rights/components/RController.php (39)
+in /var/www/icook.vn/icook/backend/index.php (20)
+2018/03/31 09:20:32 [trace] [system.db.CDbCommand] Querying SQL: SELECT `data`
+FROM `gxc_session`
+WHERE expire>:expire AND id=:id. Bound with :expire=1522462832, :id='q5kohbm28kviciqngil21icpu6'
+in /var/www/icook.vn/gxc-cms-2-master/core/cms/modules/rights/components/RightsFilter.php (24)
+in /var/www/icook.vn/gxc-cms-2-master/core/cms/modules/rights/components/RController.php (39)
+in /var/www/icook.vn/icook/backend/index.php (20)
+2018/03/31 09:20:32 [trace] [system.CModule] Loading "securityManager" application component
+in /var/www/icook.vn/gxc-cms-2-master/core/cms/modules/rights/components/RightsFilter.php (24)
+in /var/www/icook.vn/gxc-cms-2-master/core/cms/modules/rights/components/RController.php (39)
+in /var/www/icook.vn/icook/backend/index.php (20)
+2018/03/31 09:20:32 [trace] [system.CModule] Loading "statePersister" application component
+in /var/www/icook.vn/gxc-cms-2-master/core/cms/modules/rights/components/RightsFilter.php (24)
+in /var/www/icook.vn/gxc-cms-2-master/core/cms/modules/rights/components/RController.php (39)
+in /var/www/icook.vn/icook/backend/index.php (20)
+2018/03/31 09:20:32 [trace] [system.CModule] Loading "cache" application component
+in /var/www/icook.vn/gxc-cms-2-master/core/cms/modules/rights/components/RightsFilter.php (24)
+in /var/www/icook.vn/gxc-cms-2-master/core/cms/modules/rights/components/RController.php (39)
+in /var/www/icook.vn/icook/backend/index.php (20)
+2018/03/31 09:20:32 [trace] [system.caching.CFileCache] Serving "Yii.CStatePersister./var/www/icook.vn/icook/backend/protected/runtime/state.bin" from cache
+in /var/www/icook.vn/gxc-cms-2-master/core/cms/modules/rights/components/RightsFilter.php (24)
+in /var/www/icook.vn/gxc-cms-2-master/core/cms/modules/rights/components/RController.php (39)
+in /var/www/icook.vn/icook/backend/index.php (20)
+2018/03/31 09:20:32 [trace] [system.CModule] Loading "widgetFactory" application component
+in /var/www/icook.vn/icook/backend/protected/views/page/page_update.php (12)
+in /var/www/icook.vn/icook/backend/protected/controllers/PageController.php (72)
+in /var/www/icook.vn/gxc-cms-2-master/core/cms/modules/rights/components/RController.php (39)
+2018/03/31 09:20:32 [trace] [system.caching.CFileCache] Serving "yii:dbschemamysql:host=localhost;dbname=icook:root:{{page}}" from cache
+in /var/www/icook.vn/gxc-cms-2-master/core/cms/models/page/Page.php (24)
+in /var/www/icook.vn/gxc-cms-2-master/core/cms/components/GxcHelpers.php (16)
+in /var/www/icook.vn/gxc-cms-2-master/core/cms/widgets/page/PageUpdateWidget.php (37)
+2018/03/31 09:20:32 [trace] [system.db.ar.CActiveRecord] Page.findByPk()
+in /var/www/icook.vn/gxc-cms-2-master/core/cms/components/GxcHelpers.php (16)
+in /var/www/icook.vn/gxc-cms-2-master/core/cms/widgets/page/PageUpdateWidget.php (37)
+in /var/www/icook.vn/gxc-cms-2-master/core/cms/widgets/page/PageUpdateWidget.php (30)
+2018/03/31 09:20:32 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `gxc_page` `t` WHERE `t`.`page_id`='5' LIMIT 1
+in /var/www/icook.vn/gxc-cms-2-master/core/cms/components/GxcHelpers.php (16)
+in /var/www/icook.vn/gxc-cms-2-master/core/cms/widgets/page/PageUpdateWidget.php (37)
+in /var/www/icook.vn/gxc-cms-2-master/core/cms/widgets/page/PageUpdateWidget.php (30)
+2018/03/31 09:20:32 [trace] [system.caching.CFileCache] Serving "yii:dbschemamysql:host=localhost;dbname=icook:root:{{page_block}}" from cache
+in /var/www/icook.vn/gxc-cms-2-master/core/cms/models/page/PageBlock.php (20)
+in /var/www/icook.vn/gxc-cms-2-master/core/cms/widgets/page/PageUpdateWidget.php (61)
+in /var/www/icook.vn/gxc-cms-2-master/core/cms/widgets/page/PageUpdateWidget.php (30)
+2018/03/31 09:20:32 [trace] [system.db.ar.CActiveRecord] PageBlock.findAll()
+in /var/www/icook.vn/gxc-cms-2-master/core/cms/widgets/page/PageUpdateWidget.php (65)
+in /var/www/icook.vn/gxc-cms-2-master/core/cms/widgets/page/PageUpdateWidget.php (30)
+in /var/www/icook.vn/icook/backend/protected/views/page/page_update.php (12)
+2018/03/31 09:20:32 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `gxc_page_block` `t` WHERE page_id = :pid ORDER BY region ASC, block_order ASC. Bound with :pid='5'
+in /var/www/icook.vn/gxc-cms-2-master/core/cms/widgets/page/PageUpdateWidget.php (65)
+in /var/www/icook.vn/gxc-cms-2-master/core/cms/widgets/page/PageUpdateWidget.php (30)
+in /var/www/icook.vn/icook/backend/protected/views/page/page_update.php (12)
+2018/03/31 09:20:32 [trace] [system.CModule] Loading "coreMessages" application component
+in /var/www/icook.vn/gxc-cms-2-master/core/cms/widgets/views/page/page_form_widget.php (10)
+in /var/www/icook.vn/gxc-cms-2-master/core/cms/widgets/page/PageUpdateWidget.php (108)
+in /var/www/icook.vn/gxc-cms-2-master/core/cms/widgets/page/PageUpdateWidget.php (30)
+2018/03/31 09:20:32 [trace] [system.db.ar.CActiveRecord] Page.findAll()
+in /var/www/icook.vn/gxc-cms-2-master/core/cms/models/page/Page.php (150)
+in /var/www/icook.vn/gxc-cms-2-master/core/cms/widgets/views/page/page_form_widget.php (102)
+in /var/www/icook.vn/gxc-cms-2-master/core/cms/widgets/page/PageUpdateWidget.php (108)
+2018/03/31 09:20:32 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `gxc_page` `t` WHERE status = :status and page_id <> :pid. Bound with :status=1, :pid='5'
+in /var/www/icook.vn/gxc-cms-2-master/core/cms/models/page/Page.php (150)
+in /var/www/icook.vn/gxc-cms-2-master/core/cms/widgets/views/page/page_form_widget.php (102)
+in /var/www/icook.vn/gxc-cms-2-master/core/cms/widgets/page/PageUpdateWidget.php (108)
+2018/03/31 09:20:32 [trace] [system.db.ar.CActiveRecord] Page.findByPk()
+in /var/www/icook.vn/gxc-cms-2-master/core/cms/models/page/Page.php (305)
+in /var/www/icook.vn/gxc-cms-2-master/core/cms/widgets/views/page/page_form_widget.php (109)
+in /var/www/icook.vn/gxc-cms-2-master/core/cms/widgets/page/PageUpdateWidget.php (108)
+2018/03/31 09:20:32 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `gxc_page` `t` WHERE `t`.`page_id`='1' LIMIT 1
+in /var/www/icook.vn/gxc-cms-2-master/core/cms/models/page/Page.php (305)
+in /var/www/icook.vn/gxc-cms-2-master/core/cms/widgets/views/page/page_form_widget.php (109)
+in /var/www/icook.vn/gxc-cms-2-master/core/cms/widgets/page/PageUpdateWidget.php (108)
+2018/03/31 09:20:32 [trace] [system.CModule] Loading "clientScript" application component
+in /var/www/icook.vn/gxc-cms-2-master/core/cms/widgets/views/page/page_form_widget.php (113)
+in /var/www/icook.vn/gxc-cms-2-master/core/cms/widgets/page/PageUpdateWidget.php (108)
+in /var/www/icook.vn/gxc-cms-2-master/core/cms/widgets/page/PageUpdateWidget.php (30)
+2018/03/31 09:20:32 [trace] [system.CModule] Loading "assetManager" application component
+in /var/www/icook.vn/gxc-cms-2-master/core/cms/widgets/views/page/page_form_widget.php (113)
+in /var/www/icook.vn/gxc-cms-2-master/core/cms/widgets/page/PageUpdateWidget.php (108)
+in /var/www/icook.vn/gxc-cms-2-master/core/cms/widgets/page/PageUpdateWidget.php (30)
+2018/03/31 09:20:32 [trace] [system.caching.CFileCache] Serving "gxchelpers-available-layouts" from cache
+in /var/www/icook.vn/gxc-cms-2-master/core/cms/components/GxcHelpers.php (72)
+in /var/www/icook.vn/gxc-cms-2-master/core/cms/widgets/views/page/page_form_widget.php (130)
+in /var/www/icook.vn/gxc-cms-2-master/core/cms/widgets/page/PageUpdateWidget.php (108)
+2018/03/31 09:20:32 [trace] [system.caching.CFileCache] Serving "gxchelpers-apps" from cache
+in /var/www/icook.vn/gxc-cms-2-master/core/cms/components/GxcHelpers.php (181)
+in /var/www/icook.vn/gxc-cms-2-master/core/cms/widgets/views/page/page_form_widget.php (154)
+in /var/www/icook.vn/gxc-cms-2-master/core/cms/widgets/page/PageUpdateWidget.php (108)
+2018/03/31 09:20:32 [trace] [system.caching.CFileCache] Serving "yii:dbschemamysql:host=localhost;dbname=icook:root:{{block}}" from cache
+in /var/www/icook.vn/gxc-cms-2-master/core/cms/models/page/Block.php (24)
+in /var/www/icook.vn/gxc-cms-2-master/core/cms/widgets/views/page/page_form_widget.php (509)
+in /var/www/icook.vn/gxc-cms-2-master/core/cms/widgets/page/PageUpdateWidget.php (108)
+2018/03/31 09:20:32 [trace] [system.db.ar.CActiveRecord] Block.findByPk()
+in /var/www/icook.vn/gxc-cms-2-master/core/cms/widgets/views/page/page_form_widget.php (509)
+in /var/www/icook.vn/gxc-cms-2-master/core/cms/widgets/page/PageUpdateWidget.php (108)
+in /var/www/icook.vn/gxc-cms-2-master/core/cms/widgets/page/PageUpdateWidget.php (30)
+2018/03/31 09:20:32 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `gxc_block` `t` WHERE `t`.`block_id`=39 LIMIT 1
+in /var/www/icook.vn/gxc-cms-2-master/core/cms/widgets/views/page/page_form_widget.php (509)
+in /var/www/icook.vn/gxc-cms-2-master/core/cms/widgets/page/PageUpdateWidget.php (108)
+in /var/www/icook.vn/gxc-cms-2-master/core/cms/widgets/page/PageUpdateWidget.php (30)
+2018/03/31 09:20:32 [trace] [system.db.ar.CActiveRecord] Block.findByPk()
+in /var/www/icook.vn/gxc-cms-2-master/core/cms/widgets/views/page/page_form_widget.php (509)
+in /var/www/icook.vn/gxc-cms-2-master/core/cms/widgets/page/PageUpdateWidget.php (108)
+in /var/www/icook.vn/gxc-cms-2-master/core/cms/widgets/page/PageUpdateWidget.php (30)
+2018/03/31 09:20:32 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `gxc_block` `t` WHERE `t`.`block_id`=71 LIMIT 1
+in /var/www/icook.vn/gxc-cms-2-master/core/cms/widgets/views/page/page_form_widget.php (509)
+in /var/www/icook.vn/gxc-cms-2-master/core/cms/widgets/page/PageUpdateWidget.php (108)
+in /var/www/icook.vn/gxc-cms-2-master/core/cms/widgets/page/PageUpdateWidget.php (30)
+2018/03/31 09:20:32 [trace] [system.db.ar.CActiveRecord] Block.findByPk()
+in /var/www/icook.vn/gxc-cms-2-master/core/cms/widgets/views/page/page_form_widget.php (509)
+in /var/www/icook.vn/gxc-cms-2-master/core/cms/widgets/page/PageUpdateWidget.php (108)
+in /var/www/icook.vn/gxc-cms-2-master/core/cms/widgets/page/PageUpdateWidget.php (30)
+2018/03/31 09:20:32 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `gxc_block` `t` WHERE `t`.`block_id`=70 LIMIT 1
+in /var/www/icook.vn/gxc-cms-2-master/core/cms/widgets/views/page/page_form_widget.php (509)
+in /var/www/icook.vn/gxc-cms-2-master/core/cms/widgets/page/PageUpdateWidget.php (108)
+in /var/www/icook.vn/gxc-cms-2-master/core/cms/widgets/page/PageUpdateWidget.php (30)
+2018/03/31 09:20:32 [trace] [system.CModule] Loading "log" application component
+in /var/www/icook.vn/icook/backend/index.php (20)
+2018/03/31 09:20:32 [trace] [system.CModule] Loading "request" application component
+in /var/www/icook.vn/gxc-cms-2-master/core/cms/extensions/yii-debug-toolbar/YiiDebugToolbarRoute.php (112)
+in /var/www/icook.vn/icook/backend/index.php (20)
+2018/03/31 09:20:32 [trace] [system.CModule] Loading "urlManager" application component
+in /var/www/icook.vn/gxc-cms-2-master/core/cms/components/HttpRequest.php (66)
+in /var/www/icook.vn/gxc-cms-2-master/core/cms/components/HttpRequest.php (13)
+in /var/www/icook.vn/gxc-cms-2-master/core/cms/extensions/yii-debug-toolbar/YiiDebugToolbarRoute.php (112)
+2018/03/31 09:20:32 [trace] [system.CModule] Loading "session" application component
+in /var/www/icook.vn/gxc-cms-2-master/core/cms/components/HttpRequest.php (47)
+in /var/www/icook.vn/icook/backend/index.php (20)
+2018/03/31 09:20:32 [trace] [system.CModule] Loading "db" application component
+in /var/www/icook.vn/gxc-cms-2-master/core/cms/components/HttpRequest.php (47)
+in /var/www/icook.vn/icook/backend/index.php (20)
+2018/03/31 09:20:32 [trace] [system.db.CDbConnection] Opening DB connection
+in /var/www/icook.vn/gxc-cms-2-master/core/cms/components/HttpRequest.php (47)
+in /var/www/icook.vn/icook/backend/index.php (20)
+2018/03/31 09:20:32 [trace] [system.db.CDbCommand] Querying SQL: SELECT `data`
+FROM `gxc_session`
+WHERE expire>:expire AND id=:id. Bound with :expire=1522462832, :id='q5kohbm28kviciqngil21icpu6'
+in /var/www/icook.vn/gxc-cms-2-master/core/cms/components/HttpRequest.php (47)
+in /var/www/icook.vn/icook/backend/index.php (20)
+2018/03/31 09:20:32 [trace] [system.CModule] Loading "messages" application component
+in /var/www/icook.vn/gxc-cms-2-master/core/cms/globals.php (83)
+in /var/www/icook.vn/icook/backend/protected/controllers/PageController.php (17)
+in /var/www/icook.vn/icook/backend/index.php (20)
+2018/03/31 09:20:32 [trace] [system.web.filters.CFilterChain] Running filter PageController.filterrights()
+in /var/www/icook.vn/icook/backend/index.php (20)
+2018/03/31 09:20:32 [trace] [system.CModule] Loading "user" application component
+in /var/www/icook.vn/gxc-cms-2-master/core/cms/modules/rights/components/RightsFilter.php (24)
+in /var/www/icook.vn/gxc-cms-2-master/core/cms/modules/rights/components/RController.php (39)
+in /var/www/icook.vn/icook/backend/index.php (20)
+2018/03/31 09:20:32 [trace] [system.CModule] Loading "securityManager" application component
+in /var/www/icook.vn/gxc-cms-2-master/core/cms/modules/rights/components/RightsFilter.php (24)
+in /var/www/icook.vn/gxc-cms-2-master/core/cms/modules/rights/components/RController.php (39)
+in /var/www/icook.vn/icook/backend/index.php (20)
+2018/03/31 09:20:32 [trace] [system.CModule] Loading "statePersister" application component
+in /var/www/icook.vn/gxc-cms-2-master/core/cms/modules/rights/components/RightsFilter.php (24)
+in /var/www/icook.vn/gxc-cms-2-master/core/cms/modules/rights/components/RController.php (39)
+in /var/www/icook.vn/icook/backend/index.php (20)
+2018/03/31 09:20:32 [trace] [system.CModule] Loading "cache" application component
+in /var/www/icook.vn/gxc-cms-2-master/core/cms/modules/rights/components/RightsFilter.php (24)
+in /var/www/icook.vn/gxc-cms-2-master/core/cms/modules/rights/components/RController.php (39)
+in /var/www/icook.vn/icook/backend/index.php (20)
+2018/03/31 09:20:32 [trace] [system.caching.CFileCache] Serving "Yii.CStatePersister./var/www/icook.vn/icook/backend/protected/runtime/state.bin" from cache
+in /var/www/icook.vn/gxc-cms-2-master/core/cms/modules/rights/components/RightsFilter.php (24)
+in /var/www/icook.vn/gxc-cms-2-master/core/cms/modules/rights/components/RController.php (39)
+in /var/www/icook.vn/icook/backend/index.php (20)
+2018/03/31 09:20:32 [trace] [system.caching.CFileCache] Serving "gxchelpers-available-layouts-false" from cache
+in /var/www/icook.vn/gxc-cms-2-master/core/cms/components/GxcHelpers.php (72)
+in /var/www/icook.vn/gxc-cms-2-master/core/cms/models/page/Page.php (183)
+in /var/www/icook.vn/icook/backend/protected/controllers/PageController.php (88)
+2018/03/31 09:20:32 [trace] [system.CModule] Loading "log" application component
+in /var/www/icook.vn/icook/backend/index.php (20)
+2018/03/31 09:20:32 [trace] [system.CModule] Loading "request" application component
+in /var/www/icook.vn/gxc-cms-2-master/core/cms/extensions/yii-debug-toolbar/YiiDebugToolbarRoute.php (112)
+in /var/www/icook.vn/icook/backend/index.php (20)
+2018/03/31 09:20:32 [trace] [system.CModule] Loading "urlManager" application component
+in /var/www/icook.vn/gxc-cms-2-master/core/cms/components/HttpRequest.php (66)
+in /var/www/icook.vn/gxc-cms-2-master/core/cms/components/HttpRequest.php (13)
+in /var/www/icook.vn/gxc-cms-2-master/core/cms/extensions/yii-debug-toolbar/YiiDebugToolbarRoute.php (112)
+2018/03/31 09:20:32 [trace] [system.CModule] Loading "messages" application component
+in /var/www/icook.vn/gxc-cms-2-master/core/cms/globals.php (83)
+in /var/www/icook.vn/icook/backend/protected/controllers/BlockController.php (17)
+in /var/www/icook.vn/icook/backend/index.php (20)
+2018/03/31 09:20:32 [trace] [system.web.filters.CFilterChain] Running filter BlockController.filterrights()
+in /var/www/icook.vn/icook/backend/index.php (20)
+2018/03/31 09:20:32 [trace] [system.CModule] Loading "user" application component
+in /var/www/icook.vn/gxc-cms-2-master/core/cms/modules/rights/components/RightsFilter.php (24)
+in /var/www/icook.vn/gxc-cms-2-master/core/cms/modules/rights/components/RController.php (39)
+in /var/www/icook.vn/icook/backend/index.php (20)
+2018/03/31 09:20:32 [trace] [system.CModule] Loading "session" application component
+in /var/www/icook.vn/gxc-cms-2-master/core/cms/modules/rights/components/RightsFilter.php (24)
+in /var/www/icook.vn/gxc-cms-2-master/core/cms/modules/rights/components/RController.php (39)
+in /var/www/icook.vn/icook/backend/index.php (20)
+2018/03/31 09:20:32 [trace] [system.CModule] Loading "db" application component
+in /var/www/icook.vn/gxc-cms-2-master/core/cms/modules/rights/components/RightsFilter.php (24)
+in /var/www/icook.vn/gxc-cms-2-master/core/cms/modules/rights/components/RController.php (39)
+in /var/www/icook.vn/icook/backend/index.php (20)
+2018/03/31 09:20:32 [trace] [system.db.CDbConnection] Opening DB connection
+in /var/www/icook.vn/gxc-cms-2-master/core/cms/modules/rights/components/RightsFilter.php (24)
+in /var/www/icook.vn/gxc-cms-2-master/core/cms/modules/rights/components/RController.php (39)
+in /var/www/icook.vn/icook/backend/index.php (20)
+2018/03/31 09:20:32 [trace] [system.db.CDbCommand] Querying SQL: SELECT `data`
+FROM `gxc_session`
+WHERE expire>:expire AND id=:id. Bound with :expire=1522462832, :id='q5kohbm28kviciqngil21icpu6'
+in /var/www/icook.vn/gxc-cms-2-master/core/cms/modules/rights/components/RightsFilter.php (24)
+in /var/www/icook.vn/gxc-cms-2-master/core/cms/modules/rights/components/RController.php (39)
+in /var/www/icook.vn/icook/backend/index.php (20)
+2018/03/31 09:20:32 [trace] [system.CModule] Loading "securityManager" application component
+in /var/www/icook.vn/gxc-cms-2-master/core/cms/modules/rights/components/RightsFilter.php (24)
+in /var/www/icook.vn/gxc-cms-2-master/core/cms/modules/rights/components/RController.php (39)
+in /var/www/icook.vn/icook/backend/index.php (20)
+2018/03/31 09:20:32 [trace] [system.CModule] Loading "statePersister" application component
+in /var/www/icook.vn/gxc-cms-2-master/core/cms/modules/rights/components/RightsFilter.php (24)
+in /var/www/icook.vn/gxc-cms-2-master/core/cms/modules/rights/components/RController.php (39)
+in /var/www/icook.vn/icook/backend/index.php (20)
+2018/03/31 09:20:32 [trace] [system.CModule] Loading "cache" application component
+in /var/www/icook.vn/gxc-cms-2-master/core/cms/modules/rights/components/RightsFilter.php (24)
+in /var/www/icook.vn/gxc-cms-2-master/core/cms/modules/rights/components/RController.php (39)
+in /var/www/icook.vn/icook/backend/index.php (20)
+2018/03/31 09:20:32 [trace] [system.caching.CFileCache] Serving "Yii.CStatePersister./var/www/icook.vn/icook/backend/protected/runtime/state.bin" from cache
+in /var/www/icook.vn/gxc-cms-2-master/core/cms/modules/rights/components/RightsFilter.php (24)
+in /var/www/icook.vn/gxc-cms-2-master/core/cms/modules/rights/components/RController.php (39)
+in /var/www/icook.vn/icook/backend/index.php (20)
+2018/03/31 09:20:32 [trace] [system.CModule] Loading "widgetFactory" application component
+in /var/www/icook.vn/icook/backend/protected/views/block/block_suggest.php (1)
+in /var/www/icook.vn/icook/backend/protected/controllers/BlockController.php (88)
+in /var/www/icook.vn/gxc-cms-2-master/core/cms/modules/rights/components/RController.php (39)
+2018/03/31 09:20:32 [trace] [system.CModule] Loading "clientScript" application component
+in /var/www/icook.vn/gxc-cms-2-master/core/cms/widgets/views/block/block_suggest_widget.php (6)
+in /var/www/icook.vn/gxc-cms-2-master/core/cms/widgets/page/BlockSuggestWidget.php (34)
+in /var/www/icook.vn/gxc-cms-2-master/core/cms/widgets/page/BlockSuggestWidget.php (26)
+2018/03/31 09:20:32 [trace] [system.CModule] Loading "assetManager" application component
+in /var/www/icook.vn/gxc-cms-2-master/core/cms/widgets/views/block/block_suggest_widget.php (6)
+in /var/www/icook.vn/gxc-cms-2-master/core/cms/widgets/page/BlockSuggestWidget.php (34)
+in /var/www/icook.vn/gxc-cms-2-master/core/cms/widgets/page/BlockSuggestWidget.php (26)
+2018/03/31 09:20:32 [trace] [system.CModule] Loading "log" application component
+in /var/www/icook.vn/icook/backend/index.php (20)
+2018/03/31 09:20:32 [trace] [system.CModule] Loading "request" application component
+in /var/www/icook.vn/gxc-cms-2-master/core/cms/extensions/yii-debug-toolbar/YiiDebugToolbarRoute.php (112)
+in /var/www/icook.vn/icook/backend/index.php (20)
+2018/03/31 09:20:32 [trace] [system.CModule] Loading "urlManager" application component
+in /var/www/icook.vn/gxc-cms-2-master/core/cms/components/HttpRequest.php (66)
+in /var/www/icook.vn/gxc-cms-2-master/core/cms/components/HttpRequest.php (13)
+in /var/www/icook.vn/gxc-cms-2-master/core/cms/extensions/yii-debug-toolbar/YiiDebugToolbarRoute.php (112)
+2018/03/31 09:20:32 [trace] [system.CModule] Loading "messages" application component
+in /var/www/icook.vn/gxc-cms-2-master/core/cms/globals.php (83)
+in /var/www/icook.vn/icook/backend/protected/controllers/BlockController.php (17)
+in /var/www/icook.vn/icook/backend/index.php (20)
+2018/03/31 09:20:32 [trace] [system.web.filters.CFilterChain] Running filter BlockController.filterrights()
+in /var/www/icook.vn/icook/backend/index.php (20)
+2018/03/31 09:20:32 [trace] [system.CModule] Loading "user" application component
+in /var/www/icook.vn/gxc-cms-2-master/core/cms/modules/rights/components/RightsFilter.php (24)
+in /var/www/icook.vn/gxc-cms-2-master/core/cms/modules/rights/components/RController.php (39)
+in /var/www/icook.vn/icook/backend/index.php (20)
+2018/03/31 09:20:32 [trace] [system.CModule] Loading "session" application component
+in /var/www/icook.vn/gxc-cms-2-master/core/cms/modules/rights/components/RightsFilter.php (24)
+in /var/www/icook.vn/gxc-cms-2-master/core/cms/modules/rights/components/RController.php (39)
+in /var/www/icook.vn/icook/backend/index.php (20)
+2018/03/31 09:20:32 [trace] [system.CModule] Loading "db" application component
+in /var/www/icook.vn/gxc-cms-2-master/core/cms/modules/rights/components/RightsFilter.php (24)
+in /var/www/icook.vn/gxc-cms-2-master/core/cms/modules/rights/components/RController.php (39)
+in /var/www/icook.vn/icook/backend/index.php (20)
+2018/03/31 09:20:32 [trace] [system.db.CDbConnection] Opening DB connection
+in /var/www/icook.vn/gxc-cms-2-master/core/cms/modules/rights/components/RightsFilter.php (24)
+in /var/www/icook.vn/gxc-cms-2-master/core/cms/modules/rights/components/RController.php (39)
+in /var/www/icook.vn/icook/backend/index.php (20)
+2018/03/31 09:20:32 [trace] [system.db.CDbCommand] Querying SQL: SELECT `data`
+FROM `gxc_session`
+WHERE expire>:expire AND id=:id. Bound with :expire=1522462832, :id='q5kohbm28kviciqngil21icpu6'
+in /var/www/icook.vn/gxc-cms-2-master/core/cms/modules/rights/components/RightsFilter.php (24)
+in /var/www/icook.vn/gxc-cms-2-master/core/cms/modules/rights/components/RController.php (39)
+in /var/www/icook.vn/icook/backend/index.php (20)
+2018/03/31 09:20:32 [trace] [system.CModule] Loading "securityManager" application component
+in /var/www/icook.vn/gxc-cms-2-master/core/cms/modules/rights/components/RightsFilter.php (24)
+in /var/www/icook.vn/gxc-cms-2-master/core/cms/modules/rights/components/RController.php (39)
+in /var/www/icook.vn/icook/backend/index.php (20)
+2018/03/31 09:20:32 [trace] [system.CModule] Loading "statePersister" application component
+in /var/www/icook.vn/gxc-cms-2-master/core/cms/modules/rights/components/RightsFilter.php (24)
+in /var/www/icook.vn/gxc-cms-2-master/core/cms/modules/rights/components/RController.php (39)
+in /var/www/icook.vn/icook/backend/index.php (20)
+2018/03/31 09:20:32 [trace] [system.CModule] Loading "cache" application component
+in /var/www/icook.vn/gxc-cms-2-master/core/cms/modules/rights/components/RightsFilter.php (24)
+in /var/www/icook.vn/gxc-cms-2-master/core/cms/modules/rights/components/RController.php (39)
+in /var/www/icook.vn/icook/backend/index.php (20)
+2018/03/31 09:20:32 [trace] [system.caching.CFileCache] Serving "Yii.CStatePersister./var/www/icook.vn/icook/backend/protected/runtime/state.bin" from cache
+in /var/www/icook.vn/gxc-cms-2-master/core/cms/modules/rights/components/RightsFilter.php (24)
+in /var/www/icook.vn/gxc-cms-2-master/core/cms/modules/rights/components/RController.php (39)
+in /var/www/icook.vn/icook/backend/index.php (20)
+2018/03/31 09:20:32 [trace] [system.CModule] Loading "widgetFactory" application component
+in /var/www/icook.vn/icook/backend/protected/views/block/block_suggest.php (1)
+in /var/www/icook.vn/icook/backend/protected/controllers/BlockController.php (88)
+in /var/www/icook.vn/gxc-cms-2-master/core/cms/modules/rights/components/RController.php (39)
+2018/03/31 09:20:32 [trace] [system.CModule] Loading "clientScript" application component
+in /var/www/icook.vn/gxc-cms-2-master/core/cms/widgets/views/block/block_suggest_widget.php (6)
+in /var/www/icook.vn/gxc-cms-2-master/core/cms/widgets/page/BlockSuggestWidget.php (34)
+in /var/www/icook.vn/gxc-cms-2-master/core/cms/widgets/page/BlockSuggestWidget.php (26)
+2018/03/31 09:20:32 [trace] [system.CModule] Loading "assetManager" application component
+in /var/www/icook.vn/gxc-cms-2-master/core/cms/widgets/views/block/block_suggest_widget.php (6)
+in /var/www/icook.vn/gxc-cms-2-master/core/cms/widgets/page/BlockSuggestWidget.php (34)
+in /var/www/icook.vn/gxc-cms-2-master/core/cms/widgets/page/BlockSuggestWidget.php (26)
+2018/03/31 09:20:32 [trace] [system.CModule] Loading "log" application component
+in /var/www/icook.vn/icook/backend/index.php (20)
+2018/03/31 09:20:32 [trace] [system.CModule] Loading "request" application component
+in /var/www/icook.vn/gxc-cms-2-master/core/cms/extensions/yii-debug-toolbar/YiiDebugToolbarRoute.php (112)
+in /var/www/icook.vn/icook/backend/index.php (20)
+2018/03/31 09:20:32 [trace] [system.CModule] Loading "urlManager" application component
+in /var/www/icook.vn/gxc-cms-2-master/core/cms/components/HttpRequest.php (66)
+in /var/www/icook.vn/gxc-cms-2-master/core/cms/components/HttpRequest.php (13)
+in /var/www/icook.vn/gxc-cms-2-master/core/cms/extensions/yii-debug-toolbar/YiiDebugToolbarRoute.php (112)
+2018/03/31 09:20:32 [trace] [system.CModule] Loading "messages" application component
+in /var/www/icook.vn/gxc-cms-2-master/core/cms/globals.php (83)
+in /var/www/icook.vn/icook/backend/protected/controllers/BlockController.php (17)
+in /var/www/icook.vn/icook/backend/index.php (20)
+2018/03/31 09:20:32 [trace] [system.web.filters.CFilterChain] Running filter BlockController.filterrights()
+in /var/www/icook.vn/icook/backend/index.php (20)
+2018/03/31 09:20:32 [trace] [system.CModule] Loading "user" application component
+in /var/www/icook.vn/gxc-cms-2-master/core/cms/modules/rights/components/RightsFilter.php (24)
+in /var/www/icook.vn/gxc-cms-2-master/core/cms/modules/rights/components/RController.php (39)
+in /var/www/icook.vn/icook/backend/index.php (20)
+2018/03/31 09:20:32 [trace] [system.CModule] Loading "session" application component
+in /var/www/icook.vn/gxc-cms-2-master/core/cms/modules/rights/components/RightsFilter.php (24)
+in /var/www/icook.vn/gxc-cms-2-master/core/cms/modules/rights/components/RController.php (39)
+in /var/www/icook.vn/icook/backend/index.php (20)
+2018/03/31 09:20:32 [trace] [system.CModule] Loading "db" application component
+in /var/www/icook.vn/gxc-cms-2-master/core/cms/modules/rights/components/RightsFilter.php (24)
+in /var/www/icook.vn/gxc-cms-2-master/core/cms/modules/rights/components/RController.php (39)
+in /var/www/icook.vn/icook/backend/index.php (20)
+2018/03/31 09:20:32 [trace] [system.db.CDbConnection] Opening DB connection
+in /var/www/icook.vn/gxc-cms-2-master/core/cms/modules/rights/components/RightsFilter.php (24)
+in /var/www/icook.vn/gxc-cms-2-master/core/cms/modules/rights/components/RController.php (39)
+in /var/www/icook.vn/icook/backend/index.php (20)
+2018/03/31 09:20:32 [trace] [system.db.CDbCommand] Querying SQL: SELECT `data`
+FROM `gxc_session`
+WHERE expire>:expire AND id=:id. Bound with :expire=1522462832, :id='q5kohbm28kviciqngil21icpu6'
+in /var/www/icook.vn/gxc-cms-2-master/core/cms/modules/rights/components/RightsFilter.php (24)
+in /var/www/icook.vn/gxc-cms-2-master/core/cms/modules/rights/components/RController.php (39)
+in /var/www/icook.vn/icook/backend/index.php (20)
+2018/03/31 09:20:32 [trace] [system.CModule] Loading "securityManager" application component
+in /var/www/icook.vn/gxc-cms-2-master/core/cms/modules/rights/components/RightsFilter.php (24)
+in /var/www/icook.vn/gxc-cms-2-master/core/cms/modules/rights/components/RController.php (39)
+in /var/www/icook.vn/icook/backend/index.php (20)
+2018/03/31 09:20:32 [trace] [system.CModule] Loading "statePersister" application component
+in /var/www/icook.vn/gxc-cms-2-master/core/cms/modules/rights/components/RightsFilter.php (24)
+in /var/www/icook.vn/gxc-cms-2-master/core/cms/modules/rights/components/RController.php (39)
+in /var/www/icook.vn/icook/backend/index.php (20)
+2018/03/31 09:20:32 [trace] [system.CModule] Loading "cache" application component
+in /var/www/icook.vn/gxc-cms-2-master/core/cms/modules/rights/components/RightsFilter.php (24)
+in /var/www/icook.vn/gxc-cms-2-master/core/cms/modules/rights/components/RController.php (39)
+in /var/www/icook.vn/icook/backend/index.php (20)
+2018/03/31 09:20:32 [trace] [system.caching.CFileCache] Serving "Yii.CStatePersister./var/www/icook.vn/icook/backend/protected/runtime/state.bin" from cache
+in /var/www/icook.vn/gxc-cms-2-master/core/cms/modules/rights/components/RightsFilter.php (24)
+in /var/www/icook.vn/gxc-cms-2-master/core/cms/modules/rights/components/RController.php (39)
+in /var/www/icook.vn/icook/backend/index.php (20)
+2018/03/31 09:20:32 [trace] [system.CModule] Loading "widgetFactory" application component
+in /var/www/icook.vn/icook/backend/protected/views/block/block_suggest.php (1)
+in /var/www/icook.vn/icook/backend/protected/controllers/BlockController.php (88)
+in /var/www/icook.vn/gxc-cms-2-master/core/cms/modules/rights/components/RController.php (39)
+2018/03/31 09:20:32 [trace] [system.CModule] Loading "clientScript" application component
+in /var/www/icook.vn/gxc-cms-2-master/core/cms/widgets/views/block/block_suggest_widget.php (6)
+in /var/www/icook.vn/gxc-cms-2-master/core/cms/widgets/page/BlockSuggestWidget.php (34)
+in /var/www/icook.vn/gxc-cms-2-master/core/cms/widgets/page/BlockSuggestWidget.php (26)
+2018/03/31 09:20:32 [trace] [system.CModule] Loading "assetManager" application component
+in /var/www/icook.vn/gxc-cms-2-master/core/cms/widgets/views/block/block_suggest_widget.php (6)
+in /var/www/icook.vn/gxc-cms-2-master/core/cms/widgets/page/BlockSuggestWidget.php (34)
+in /var/www/icook.vn/gxc-cms-2-master/core/cms/widgets/page/BlockSuggestWidget.php (26)
+2018/03/31 09:21:01 [trace] [system.CModule] Loading "log" application component
+in /var/www/icook.vn/icook/backend/index.php (20)
+2018/03/31 09:21:01 [trace] [system.CModule] Loading "request" application component
+in /var/www/icook.vn/gxc-cms-2-master/core/cms/extensions/yii-debug-toolbar/YiiDebugToolbarRoute.php (112)
+in /var/www/icook.vn/icook/backend/index.php (20)
+2018/03/31 09:21:01 [trace] [system.CModule] Loading "urlManager" application component
+in /var/www/icook.vn/gxc-cms-2-master/core/cms/components/HttpRequest.php (66)
+in /var/www/icook.vn/gxc-cms-2-master/core/cms/components/HttpRequest.php (13)
+in /var/www/icook.vn/gxc-cms-2-master/core/cms/extensions/yii-debug-toolbar/YiiDebugToolbarRoute.php (112)
+2018/03/31 09:21:01 [trace] [system.web.filters.CFilterChain] Running filter SiteController.filterrights()
+in /var/www/icook.vn/icook/backend/index.php (20)
+2018/03/31 09:21:01 [trace] [system.CModule] Loading "user" application component
+in /var/www/icook.vn/gxc-cms-2-master/core/cms/modules/rights/components/RightsFilter.php (24)
+in /var/www/icook.vn/gxc-cms-2-master/core/cms/modules/rights/components/RController.php (39)
+in /var/www/icook.vn/icook/backend/index.php (20)
+2018/03/31 09:21:01 [trace] [system.CModule] Loading "session" application component
+in /var/www/icook.vn/gxc-cms-2-master/core/cms/modules/rights/components/RightsFilter.php (24)
+in /var/www/icook.vn/gxc-cms-2-master/core/cms/modules/rights/components/RController.php (39)
+in /var/www/icook.vn/icook/backend/index.php (20)
+2018/03/31 09:21:01 [trace] [system.CModule] Loading "db" application component
+in /var/www/icook.vn/gxc-cms-2-master/core/cms/modules/rights/components/RightsFilter.php (24)
+in /var/www/icook.vn/gxc-cms-2-master/core/cms/modules/rights/components/RController.php (39)
+in /var/www/icook.vn/icook/backend/index.php (20)
+2018/03/31 09:21:01 [trace] [system.db.CDbConnection] Opening DB connection
+in /var/www/icook.vn/gxc-cms-2-master/core/cms/modules/rights/components/RightsFilter.php (24)
+in /var/www/icook.vn/gxc-cms-2-master/core/cms/modules/rights/components/RController.php (39)
+in /var/www/icook.vn/icook/backend/index.php (20)
+2018/03/31 09:21:01 [trace] [system.db.CDbCommand] Querying SQL: SELECT `data`
+FROM `gxc_session`
+WHERE expire>:expire AND id=:id. Bound with :expire=1522462861, :id='q5kohbm28kviciqngil21icpu6'
+in /var/www/icook.vn/gxc-cms-2-master/core/cms/modules/rights/components/RightsFilter.php (24)
+in /var/www/icook.vn/gxc-cms-2-master/core/cms/modules/rights/components/RController.php (39)
+in /var/www/icook.vn/icook/backend/index.php (20)
+2018/03/31 09:21:01 [trace] [system.CModule] Loading "securityManager" application component
+in /var/www/icook.vn/gxc-cms-2-master/core/cms/modules/rights/components/RightsFilter.php (24)
+in /var/www/icook.vn/gxc-cms-2-master/core/cms/modules/rights/components/RController.php (39)
+in /var/www/icook.vn/icook/backend/index.php (20)
+2018/03/31 09:21:01 [trace] [system.CModule] Loading "statePersister" application component
+in /var/www/icook.vn/gxc-cms-2-master/core/cms/modules/rights/components/RightsFilter.php (24)
+in /var/www/icook.vn/gxc-cms-2-master/core/cms/modules/rights/components/RController.php (39)
+in /var/www/icook.vn/icook/backend/index.php (20)
+2018/03/31 09:21:01 [trace] [system.CModule] Loading "cache" application component
+in /var/www/icook.vn/gxc-cms-2-master/core/cms/modules/rights/components/RightsFilter.php (24)
+in /var/www/icook.vn/gxc-cms-2-master/core/cms/modules/rights/components/RController.php (39)
+in /var/www/icook.vn/icook/backend/index.php (20)
+2018/03/31 09:21:01 [trace] [system.caching.CFileCache] Serving "Yii.CStatePersister./var/www/icook.vn/icook/backend/protected/runtime/state.bin" from cache
+in /var/www/icook.vn/gxc-cms-2-master/core/cms/modules/rights/components/RightsFilter.php (24)
+in /var/www/icook.vn/gxc-cms-2-master/core/cms/modules/rights/components/RController.php (39)
+in /var/www/icook.vn/icook/backend/index.php (20)
+2018/03/31 09:21:01 [trace] [system.CModule] Loading "messages" application component
+in /var/www/icook.vn/gxc-cms-2-master/core/cms/globals.php (83)
+in /var/www/icook.vn/icook/backend/protected/views/site/index.php (4)
+in /var/www/icook.vn/icook/backend/protected/controllers/SiteController.php (7)
+2018/03/31 09:21:01 [trace] [system.caching.CFileCache] Serving "gxchelpers-content-types-false" from cache
 in /var/www/icook.vn/gxc-cms-2-master/core/cms/components/GxcHelpers.php (229)
-in /var/www/icook.vn/gxc-cms-2-master/core/cms/models/page/ContentList.php (187)
-in /var/www/icook.vn/gxc-cms-2-master/core/cms/widgets/views/contentlist/contentlist_form_widget.php (143)
-2018/03/30 17:51:31 [trace] [system.db.CDbCommand] Querying SQL: SHOW FULL COLUMNS FROM `gxc_term`
-in /var/www/icook.vn/gxc-cms-2-master/core/cms/models/object/Term.php (24)
-in /var/www/icook.vn/gxc-cms-2-master/core/cms/models/page/ContentList.php (260)
-in /var/www/icook.vn/gxc-cms-2-master/core/cms/widgets/views/contentlist/contentlist_form_widget.php (187)
-2018/03/30 17:51:31 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `gxc_term`
-in /var/www/icook.vn/gxc-cms-2-master/core/cms/models/object/Term.php (24)
-in /var/www/icook.vn/gxc-cms-2-master/core/cms/models/page/ContentList.php (260)
-in /var/www/icook.vn/gxc-cms-2-master/core/cms/widgets/views/contentlist/contentlist_form_widget.php (187)
-2018/03/30 17:51:31 [trace] [system.caching.CFileCache] Saving "yii:dbschemamysql:host=localhost;dbname=icook:root:{{term}}" to cache
-in /var/www/icook.vn/gxc-cms-2-master/core/cms/models/object/Term.php (24)
-in /var/www/icook.vn/gxc-cms-2-master/core/cms/models/page/ContentList.php (260)
-in /var/www/icook.vn/gxc-cms-2-master/core/cms/widgets/views/contentlist/contentlist_form_widget.php (187)
-2018/03/30 17:51:31 [trace] [system.db.ar.CActiveRecord] Term.findAll()
-in /var/www/icook.vn/gxc-cms-2-master/core/cms/models/page/ContentList.php (260)
-in /var/www/icook.vn/gxc-cms-2-master/core/cms/widgets/views/contentlist/contentlist_form_widget.php (187)
-in /var/www/icook.vn/gxc-cms-2-master/core/cms/widgets/page/ContentListCreateWidget.php (75)
-2018/03/30 17:51:31 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `gxc_term` `t`
-in /var/www/icook.vn/gxc-cms-2-master/core/cms/models/page/ContentList.php (260)
-in /var/www/icook.vn/gxc-cms-2-master/core/cms/widgets/views/contentlist/contentlist_form_widget.php (187)
-in /var/www/icook.vn/gxc-cms-2-master/core/cms/widgets/page/ContentListCreateWidget.php (75)
+in /var/www/icook.vn/icook/backend/protected/views/site/index.php (6)
+in /var/www/icook.vn/icook/backend/protected/controllers/SiteController.php (7)
+2018/03/31 09:21:01 [trace] [system.CModule] Loading "assetManager" application component
+in /var/www/icook.vn/icook/backend/protected/views/site/index.php (13)
+in /var/www/icook.vn/icook/backend/protected/controllers/SiteController.php (7)
+in /var/www/icook.vn/gxc-cms-2-master/core/cms/modules/rights/components/RController.php (39)
+2018/03/31 09:21:01 [trace] [system.CModule] Loading "clientScript" application component
+in /var/www/icook.vn/icook/backend/protected/views/layouts/header.php (5)
+in /var/www/icook.vn/icook/backend/protected/views/layouts/main.php (5)
+in /var/www/icook.vn/icook/backend/protected/controllers/SiteController.php (7)
+2018/03/31 09:21:01 [trace] [system.CModule] Loading "widgetFactory" application component
+in /var/www/icook.vn/icook/backend/protected/views/layouts/menu.php (221)
+in /var/www/icook.vn/icook/backend/protected/views/layouts/main.php (35)
+in /var/www/icook.vn/icook/backend/protected/controllers/SiteController.php (7)
