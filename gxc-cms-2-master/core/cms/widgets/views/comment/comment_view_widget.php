@@ -1,8 +1,8 @@
 <?php $this->widget('zii.widgets.CDetailView',array(
-		
+
 			'data'=>$model,
 			'attributes'=> array(
-					
+
 					'comment_id',
 					array(
 							'name'=>'object_id',
@@ -21,10 +21,10 @@
 					'comment_author_email',
 					'comment_author_url',
 					'comment_author_IP',
-					'comment_agent',					
+					'comment_agent',
 			),
-		) 
-		
+		)
+
 );
 
 ?>

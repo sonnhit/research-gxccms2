@@ -8,3 +8,26 @@
 		</div>
 	</p>
 </div>
+
+<div class="comments-area">
+    <h3><?php echo $count;?> Comments</h3>
+    <ul class="commentlist">
+			<?php foreach ($comment as $row) { ?>
+				<li>
+            <div class="comment">
+                <p><?php echo $row->comment_content;?></p>
+                <span class="comment-info">
+                    <i>by</i> <?php echo $row->comment_author?> <i>on</i> <span><?php echo $row->comment_date;?> </span>
+                </span>
+            </div>
+        </li>
+		 <?php } ?>
+    </ul>
+
+    <div id="respond" class="comment-respond">
+    <h3>Add a comment</h3>
+		<?php
+			$this->widget('cmswidgets.comment.CommentCreateWidget',array());
+		?>
+    </div>
+</div>

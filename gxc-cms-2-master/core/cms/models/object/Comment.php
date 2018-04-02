@@ -52,10 +52,10 @@ class Comment extends CActiveRecord
 		// NOTE: you should only define rules for those attributes that
 		// will receive user inputs.
 		return array(
-			array('comment_author, comment_author_email , comment_title ', 'required',
+			array('comment_author, comment_author_email', 'required',
              ),
 			array('comment_karma', 'numerical', 'integerOnly'=>true),
-			array('object_id, comment_author_IP, comment_approved, comment_type, comment_parent, userid comment_date, comment_date_gmt, comment_agent , comment_modified_content', 'safe'),
+			array('object_id,comment_approved, comment_type, comment_parent, userid comment_date, comment_date_gmt, comment_agent , comment_modified_content', 'safe'),
 			array('comment_author_url', 'url'),
 			// The following rule is used by search().
 			// Please remove those attributes that should not be searched.
@@ -83,13 +83,13 @@ class Comment extends CActiveRecord
 		return array(
 			'comment_id' => 'ID',
 			'object_id' => t('cms','Content'),
-			'comment_author' => t('cms','Full name'),
+			'comment_author' => t('cms','Name'),
 			'comment_author_email' => t('cms','Email'),
 			'comment_author_url' => t('cms','Author website'),
 			'comment_author_IP' => t('cms','IP'),
 			'comment_date' => t('cms','Date'),
 			'comment_date_gmt' => t('cms','Date GMT'),
-			'comment_content' => t('cms','Content'),
+			'comment_content' => t('cms','Comment'),
 			'comment_karma' => t('cms','Comment Karma'),
 			'comment_approved' => t('cms','Approve'),
 			'comment_agent' => t('cms','Comment Agent'),
@@ -181,7 +181,6 @@ class Comment extends CActiveRecord
 		} else {
 			return bu().'/images/disabled.png';
 		}
-
 	}
 
 }

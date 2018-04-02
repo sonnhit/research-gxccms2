@@ -533,7 +533,6 @@ class GxcHelpers {
 	**/
 	public static function getContentList($cl_id, $max=null, $paging=null, $return_type=ConstantDefine::CONTENT_LIST_RETURN_ACTIVE_RECORD) {
           $model=ContentList::model()->findByPk($cl_id);
-
 			//Find the content list model first
         	$condition = 't.object_status = :status and t.object_date < :time';
 
@@ -653,7 +652,7 @@ class GxcHelpers {
 								$condition = 'object_id IN ('.$condition_string.')';
 
 								if ($return_type == ConstantDefine::CONTENT_LIST_RETURN_DATA_PROVIDER && count($manual_list)>=1) {
-                  
+
 																			return new CActiveDataProvider('Object',array('criteria'=>array('condition'=>$condition,
                                                                        				  					'params'=>$params,
                                                                        				  					'order'=>'FIELD(t.object_id, '.$condition_string.')'
@@ -675,7 +674,5 @@ class GxcHelpers {
 				}
 				return null;
 		}
-
-
 
 }

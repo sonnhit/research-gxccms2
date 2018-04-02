@@ -78,9 +78,7 @@ class About_usBlock extends CWidget
 
 	public static function getContentList($content_list_id, $max=null, $pagination=null, $return_type=ConstantDefine::CONTENT_LIST_RETURN_ACTIVE_RECORD) {
       return GxcHelpers::getContentList($content_list_id, $max, $pagination, $return_type);
-    }
-
-
+  }
 }
 
 ?>
