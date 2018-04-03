@@ -43,9 +43,12 @@ class ContentDetailViewBlock extends CWidget
                         Yii::app()->controller->keywords=CHtml::encode($post->object_keywords);
                         Yii::app()->controller->change_title=true;
 
+                        $post_next = Object::model()->findByPk($post_id + 1);
+                        $post_pre  = Object::model()->findByPk($post_id - 1);
+
                         $count = Comment::model()->count('object_id = :id',array(':id'=>$post_id));
                         $comment = Comment::model()->findAll('object_id = :id',array(':id'=>$post_id));
-                        $this->render(BlockRenderWidget::setRenderOutput($this),array('post'=>$post,'comment'=>$comment,'count'=>$count));
+                        $this->render(BlockRenderWidget::setRenderOutput($this),array('post'=>$post,'comment'=>$comment,'count'=>$count,'post_next'=>$post_next,'post_pre'=>$post_pre));
                     } else {
                         throw new CHttpException('404',t('site','Page not found'));
                     }
