@@ -1,4 +1,4 @@
-a:2:{i:0;a:2:{i:0;s:1157:"<div id="header-menu" class="menu">
+a:2:{i:0;a:2:{i:0;s:1201:"<div id="header-menu" class="menu">
   <div class="responsive-menu">Menu</div>
 <!--<div class="container"> -->
 <ul>
@@ -11,7 +11,7 @@ a:2:{i:0;a:2:{i:0;s:1157:"<div id="header-menu" class="menu">
                   </a>
                 </li>
                             <li>
-                  <a href="a" title="RECIPE GALLERY" >
+                  <a href="http://icook.vn/page?slug=gallery" title="RECIPE GALLERY" >
                     <span>
                       <span>RECIPE GALLERY</span>
                     </span>
@@ -19,7 +19,7 @@ a:2:{i:0;a:2:{i:0;s:1157:"<div id="header-menu" class="menu">
                   </a>
                 </li>
                             <li>
-                  <a href="http://icook.vn/page?slug=about-us" title="About" >
+                  <a href="http://icook.vn/page?slug=about-us&id=14" title="About" >
                     <span>
                       <span>About</span>
                     </span>
@@ -27,7 +27,7 @@ a:2:{i:0;a:2:{i:0;s:1157:"<div id="header-menu" class="menu">
                   </a>
                 </li>
                             <li>
-                  <a href="http://icook.vn/page?slug=contact-us" title="Contact" >
+                  <a href="http://icook.vn/page?slug=contact-us&id=16" title="Contact" >
                     <span>
                       <span>Contact</span>
                     </span>

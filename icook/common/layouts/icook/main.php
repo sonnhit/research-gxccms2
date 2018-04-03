@@ -36,15 +36,13 @@
 							<!-- BLOG ENTRY REPEAT -->
 								<?php $this->widget('BlockRenderWidget',array('page'=>$page,'region'=>'1','layout_asset'=>$layout_asset)); ?>
 							<!-- BLOG ENTRY REPEAT -->
-						</div>
-
+							</div>
 							<!--Sidebar -->
-							<?php $this->renderPartial('common.layouts.icook.sidebar',array('page'=>$page,'layout_asset'=>$layout_asset)); ?>
+							<?php $this->widget('BlockRenderWidget',array('page'=>$page,'region'=>'2','layout_asset'=>$layout_asset)); ?>
 							<!--End Sidebar-->
 					</div>
-
 			</div>
 	</div>
 	<!-- ===============================================
 	END CONTENT =================================== -->
-<?php $this->renderPartial('common.layouts.icook.footer',array('page'=>$page,'layout_asset'=>$layout_asset)); ?>
+	<?php $this->widget('BlockRenderWidget',array('page'=>$page,'region'=>'4','layout_asset'=>$layout_asset)); ?>

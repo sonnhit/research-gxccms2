@@ -17,19 +17,4 @@
 			$this->widget('cmswidgets.comment.CommentCreateWidget',array());
 		?>
 		</div>
-	    <h3><?php echo $count;?> Comments</h3>
-	    <ul class="commentlist">
-				<?php
-					foreach ($comment as $row) {
-				?>
-					<li>
-	            <div class="comment">
-	                <p><?php echo $row->comment_content;?></p>
-	                <span class="comment-info">
-	                    <i>by</i> <?php echo $row->comment_author?> <i>on</i> <span><?php echo date("m/d/Y H:i",$row->comment_date);?> </span>
-	                </span>
-	            </div>
-	        </li>
-			 <?php } ?>
-	    </ul>
 	</div>

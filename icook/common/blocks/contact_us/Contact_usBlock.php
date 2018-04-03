@@ -1,21 +1,22 @@
 <?php
 
 /**
- * Class for render about_us *
+ * Class for render contact_us *
  *
  * @author Tuan Nguyen <nganhtuan63@gmail.com>
  * @version 1.0
- * @package common.blocks.about_us */
+ * @package common.blocks.contact_us */
 
-class About_usBlock extends CWidget
+class Contact_usBlock extends CWidget
 {
 
     //Do not delete these attr block, page and errors
-    public $id='about_us';
+    public $id='contact_us';
     public $block=null;
     public $errors=array();
     public $page=null;
     public $layout_asset='';
+
 
     public function setParams($params){
           return;
@@ -33,7 +34,7 @@ class About_usBlock extends CWidget
                 $params=b64_unserialize($this->block['params']);
                 $this->setParams($params);
                 $post_id=(int)$_GET['id'];
-                
+
                 if($post_id){
                     $post=Object::model()->findByPk($post_id);
                     if($post){
@@ -42,18 +43,13 @@ class About_usBlock extends CWidget
                         Yii::app()->controller->keywords=CHtml::encode($post->object_keywords);
                         Yii::app()->controller->change_title=true;
 
-                        $count = Comment::model()->count('object_id = :id',array(':id'=>$post_id));
-                        $comment = Comment::model()->findAll('object_id = :id',array(':id'=>$post_id));
-                        $this->render(BlockRenderWidget::setRenderOutput($this),array('post'=>$post,'comment'=>$comment,'count'=>$count));
+                        $this->render(BlockRenderWidget::setRenderOutput($this),array('post'=>$post));
                     } else {
                         throw new CHttpException('404',t('site','Page not found'));
                     }
                 } else {
                     throw new CHttpException('404',t('site','Page not found'));
                 }
-
-
-
         } else {
             echo '';
         }
@@ -77,6 +73,8 @@ class About_usBlock extends CWidget
     public function afterBlockSave(){
 	return true;
     }
+
+
 }
 
 ?>

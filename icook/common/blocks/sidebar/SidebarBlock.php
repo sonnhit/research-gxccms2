@@ -1,21 +1,22 @@
 <?php
 
 /**
- * Class for render lvpopular *
+ * Class for render sidebar *
  *
  * @author Tuan Nguyen <nganhtuan63@gmail.com>
  * @version 1.0
- * @package common.blocks.lvpopular */
+ * @package common.blocks.sidebar */
 
-class LvpopularBlock extends CWidget
+class SidebarBlock extends CWidget
 {
 
     //Do not delete these attr block, page and errors
-    public $id='lvpopular';
+    public $id='sidebar';
     public $block=null;
     public $errors=array();
     public $page=null;
     public $layout_asset='';
+
 
     //Content list attribute
     public $content_list;

@@ -32,7 +32,6 @@ class MenuItemCreateWidget extends CWidget
     protected function renderContent()
     {
         $model = new MenuItem;
-
         // if it is ajax validation request
         if(isset($_POST['ajax']) && $_POST['ajax']==='menuitem-form')
         {
@@ -43,7 +42,7 @@ class MenuItemCreateWidget extends CWidget
         // collect user input data
         if(isset($_POST['MenuItem']))
         {
-                $model->attributes=$_POST['MenuItem'];                   
+                $model->attributes=$_POST['MenuItem'];
                 if($model->save()){
                     user()->setFlash('success',t('cms','Create new Item Successfully!'));
                     if(!isset($_GET['embed'])) {

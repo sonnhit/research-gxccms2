@@ -26,6 +26,7 @@ class CommentCreateWidget extends CWidget
 			$model->setAttributes(['object_id'=>$_GET['id']],false);
 			if ($model->save()){
 				user()->setFlash('success',t('cms','Post Successfully!'));
+				header("Refresh:0");
 			}
 			else {
 				user()->setFlash('fail',t('cms','Post Fail!'));

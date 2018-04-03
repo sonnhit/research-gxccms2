@@ -349,7 +349,8 @@ class Object extends CActiveRecord
 			'rating_scores' =>  t('cms','Rating Scores'),
 			'rating_average' =>  t('cms','Rating Average'),
 			'layout' =>  t('cms','Layout'),
-                        'person' =>  t('cms','Person')
+      'person' =>  t('cms','Person'),
+      'css_class' =>t('cms','css Class')
 		);
         }
 
